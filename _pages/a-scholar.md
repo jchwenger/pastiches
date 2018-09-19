@@ -1,0 +1,112 @@
+---
+layout: single
+title: A Scholar
+permalink: /a-scholar/
+---
+
+> for A. T., without whose unwavering (and wholly unbesmirched) support much of the subsequent disgrace could have been avoided...
+
+
+We all like college stories. It’s entertaining. It’s vain. It has sex and drugs in them. Bargain. Buy one get one free.   
+  
+I don’t of course. And this one does not contain any of the above. David Lodge (that’s the one, isn’t it? Never opened I’m afraid...) could burn at the stake I wouldn’t give half a hoot. Quite the contrary, I’d be inclined to say, quite the contrary, but I know myself too well not to. I bet if it really happened I would be horrified. As you do. Besides, if he were to be burnt what would be my ordeal? For it is certain I would then be next in line. How about shot? Quartered? (By SUVs ideally, please, or tractors. And no horses, if that’s possible, thanks.) More realistically: condemned to sit in coffee shops and type for all eternity. Right. Be that as it may, how I long for the quick, old-fashioned end! Dumped in the Thames the throat stuffed with secondhand paperback [insert favourite sacred text here]? Who knows, who knows... The imagination of their Lord is beyond the likes of me. In any case. A great many things to be looking forward to, it is to be feared, if it were so.   
+  
+Why was I even talking about that in the first place? My thoughts are getting me concerned of late. Ah, yes, college stories. One more. One fucking more. Don’t ask me why I’m even considering spending time and effort on this. It’s going to be so boring. It is so boring, in fact. Already, I mean. Yes, maybe boredom was the cause. The cause of it all. And no oasis of horror in sight, that I can promise you. Nothing but the sand, yes, nothing but that. The old, banal sand no one wants, no one knows of, no one fails to forget.  
+  
+So. Back to it, back to it. A college story. I’m thinking, maybe if things don’t go too badly it could be some sort of fairy tale. Yes, a fairy tale, a fairy tale, why not, that could be something. I didn’t use to have fairy tales when I was a kid. I would probably have loathed them, oh yeah, loathed, the word isn’t too strong. Personally I’m glad they have all been wiped out by video game culture. Good riddance. But amonst you lot, perhaps? There might be someone. A traditionalist. A sentimentalist. A Propp scholar! Who knows... Anyway, that could work as well, and might come in handy later. Let’s keep that in mind. And continue. As in start. Muse over starting. You get the gist.  
+  
+Goodness, how did I even come that far without making a single step? Careful here. You are saying that, but you might have ended up starting. Unawares, that is. Devilish thoughts, always the same, creeping behind you like some [insert creepy organism]. Or it is this *Finnegans Wake* article in the Guardian. Yes, that rubbish they give us about degrees of fractality, how inner monologues, like women, Italians or beards, do it better. Blah blah blah. All that fuss around full stops. No one even mentions it’s only about them! They must feel snug at the moment, I can tell you. Worst is, I know myself, I must have thought, ‘Yes, sure, I knew it all along, fractals are the shit, let’s do this, path to glory, feel the power, the Masterpiece is upon me’, etc. I know it. No need even to try and remember. I did think that. All the symptoms are here, they’ve always been here, they will dump me into my grave. Indirect proof is enough. Case closed.   
+  
+I guess this bit is one more brilliant example of how I did it. Come this far. If you can call it far. Without. You know. Haha. Moving.   
+  
+<p align='center'>§</p>
+  
+I am here to tell a story. Yes. To win a competition. Yes. What else. Readers are such a vile commodity. Not them! Not the cunts! Anything but them, please! Buy them cars, fridges, SKY’s Fluid Viewing subscriptions, anything to drive them away! One hope remains: more and more of them are robots these days. There’s the money of course. A baser goal, if that’s possible. Or maybe lamer, rather than baser. Discuss. Nah, you do it. As for me, lame or base, both are up my lane. Keep that in mind as well for the future. A motto perhaps.   
+  
+Imagine what it would be. A truly *literary* world. The headlines we wouldn’t get. Beijing to evict 1.5 millions for 2022 Poetic Games[^1]. Richer than Virgil: Ashbery’s offshore accounts revealed. Carson and the Kremlin: What the poet’s Moscow speech means for Russia – and for the West. 70 years after Pound, US Jihadi fighter and poet Najibullah al-Awlaki gets Bollingen amidst controversy. Too big to fail: HarperCollins files for bankruptcy as global nonfiction meltdown worsens. Kālidāsa’s memory honoured: India’s major crackdown on slave stagecraft. This isn’t Holbein: Why Trump and McCarthy are not the Ambassadors, even if Terry Richardson would like them to be. The National Poetry Agency files: Whistleblower still hiding at airport. Poetophilia in  England after Geoffrey Hill: The Independent’s exclusive survey.  
+  
+I could go on and on. Why don’t I write for the Sun?  
+  
+The thing is, it works quite well. No question Baudelaire’s virile remains would jerk off in his grave in the Père Lachaise. Honestly, take a minute to picture it all for a bit. Last time I tried I started jittering in public. It might have been at Ace Hotel Shoreditch, but I’m not sure. Why on earth would I set foot in such place?   
+  
+Back to it, back to it, gosh, always drifting! A story, quick, yes, a story, the deadline is anear. They won’t take it if there’s no story. For a story is time, and time is money. Business, business, business, that’s all there is to it! Get us that story, and make it quick!   
+  
+So, what was it about? Yes, a story about a scholar. Or two, yes, that’s what it will be. Not that I like it, oh no, I’m sure you’ve got it by now, no, only what I have in store, really. Do with what you’ve got, my grandma used to say, especially at the beginning. My grandma did not say that?! I know, I know, it sounds good, that’s all. But does it? Oh, come on, shut up and go on. So, a scholar, a bit similar to me, actually, yes, who gave me big fucking anxieties, yeah, that’s the point. Big anxieties. He was just frustrated, yeah. He was. And I was, still is, yeah, even more the point. He had a girlfriend who was a bit like him, and he was with her because he was frustrated, and he had a crush on a girl he really wanted, but it didn’t work, and he ended up back with the first one. All frustrated and lame. Ready for the long, cosy march to adultery and occasional prostitution. Remember Chris Wilton’s last look in *Match Point*? Just way lamer, and not even murderous. Ah, I almost forgot, there is a small twist at the very end, but I don’t want to spoil the surprise, no, that wouldn’t be nice. Nothing really good, rest assured, you will have your fair share of boredom, haha, yeah, trust me, yeah, trust me on that.   
+  
+This is all trivial I should shut the fuck up. More precisely, I should already have done so. A page or so ago. Yeah. Just shut the fuck up. As so many did before me. As even more shall do thereafter. When I will. For I will, that is for sure, I will. Eventually. We all do, etc. An extremely, enragingly normal eventuality, as you know. Why did this even come up? I am really doing that all the time, am I not? I don’t know where it comes from. Is it even me thinking all this? It sure does not feel like it. Is this a symptom? More divergence. More triviality. Then back to it. Then off again. Etc.   
+  
+I can see you ready to jump, all fangs dripping, arguing that triviality, like falsity, proliferates from one single ill-chosen thought[^2]. Imagine that. The first triviality. Whence all the rest flows. Mother of all bores. The first great sewage pipe. Origin of the world. One gash to drip it all. One gash to blurt them. You know the rest.  
+  
+<p align='center'>§</p>
+  
+Here we are then. At long last. Let’s do it the traditional way. To my dismay of course, but I fear that’s the only way you will get it. If you get it.   
+  
+The scholar itself is rather goold-looking, despite a typical academic tendency for sloppy shirts and trousers, and an overall air of drowsiness and *ennui* which, as will be repeated, most certainly stems from long-standing frustrations, if not at a professional most certainly at a sexual level.  
+  
+After a DPhil (PhD) at Oxford University, the scholar starts jumping through the hoops of an academic career. He meets said girlfriend during that exciting and depressing time. He first breaks up with her during the first years of his Postdoc back in his home country, even if for a while they might be together on an on and off basis (this point remains unsure).   
+  
+He is a medievalist, studies chivalric romances, Spenser, Chaucer[^3], [add fat-arsed Medieval canonical bastard of your choosing here].  
+  
+How do I even know all this. Let me see. Let’s find a good reason. People like good reasons. Do I stalk his academia.edu account? Unlikely. I need something simpler. Maybe I know them? Yes, that’s it, I know them just a little bit, that is the most plausible case. A pint or two at the Bear, illustrious Oxonian establishment, dating back to 1242, ideal place for gossips. All in order. No one will suspect anything. Eyelid, thou shalt know no batting.  
+  
+<p align='center'>§</p>
+  
+The scholar’s girlfriend is also frustrated, just like her companion, it seems to me, and also probably more on private rather than public issues, but my bet is that it is for other reasons. Brace yourself, we are throat-deep in clichés. At least, only consolation, her main problem has the merit of being just as uninteresteing as his: a lack of attention from the man she elects to have under her thumb. It probably does not present itself as sexual in nature, and is closer to the more emetic ‘Does he really love me?’, but ultimately it is just the same low need for existence and recognition that most of you thrive under. She too, if our times keep on with their inexorable jog in Modernity’s Meadow, and if men start realising how huge the market is they are overlooking, might end up paying for love.   
+  
+Her physical appearance displays a well-known mixture of ‘goodness’ (the repulsive kind found in ‘good girls’) and a tendency toward the angular and the hard. Her stark and high brow suggest a destiny as a natural born castratrix. She is just too serious to be really sexy, and, therefore, not sexy enough to get the love she needs.  
+  
+Given the above, it is also conceivable that she could go the other way and become a fulfilled whipswoman, were she to dare giving up on the lame boy she has in her dispirited possession and just topple down into some dungeon. One door, at least, to none ever closed.  
+  
+The scholar’s girlfriend, you must have picked it up by now, is a scholar. I should have mentioned it earlier, but things become much clearer when you know she is a Kant specialist. Yes, I said Kant[^4]. See? As a glass of moonshine. He, too, after all, was a pervert. A sadistic, anal pervert, to be more precise[^5]. The perfect mentor, if you ask me, but these things should not be said out loud.  
+  
+<p align='center'>§</p>
+  
+How childish this all is. How plain ugly. Life according to me. I haven’t seen worse. Hell I hate stories. How on earth can this be stopped? It feels like shitting and puking at the very same time. On an empty white background. Am I ill? Am I mad? Am I constipated, diarrhœic? Is it me or is it it? Maybe it’s the brick. Permeating the filibustered fibre of my being. Nah, stop bragging. Rather the air. The times!, I hear the grumpy growl. The ways of the Turd are inscrutable. Oh well, worst case scenario, it might just make me, what is the word, artsy-fartsy. Haha. Yeah. Quite literally so. And as for the artsy, as you are perhaps less considerate than peevish in pointing out, it does indeed boil down to a passing reference to this Caledonian fellow, yes, this one of the *real* peevish sort, who, were he stuck wasting time reading this, would have the courtesy of asking what is the point of it (I know, I could have mentioned his name, but it was simply too tempting to remind you, mere reader, that one does *never* speak the name of the Scottish Player).  
+  
+<p align='center'>§</p>
+  
+However, and unsurprisingly so (but what in the City of Dis is surprising about any of this??), the scholar’s crush is the exact opposite of his girlfriend. First of all, she is ten years younger, and at the time of the events is still ruthless and hot, enough to receive as much attention from men as is possible on the campus. Her mind of course is not yet mature enough to go full monty on the libertine front, so after a few rounds of standard DFMOs, dancing-with-two-guys-at-the-same-time, and other forms of mild ego boosting, she opts for a middle-term relationship with a Master’s student with both charisma and emotional conflict, one of these men whose near-slavish respect and civility toward women, combined with fear, well-hidden shyness, and a few other middle-class ingredients, is only ever interrupted by sharp outbursts of cruelty. All in all, she too is in for her truckload of business-as-usual life-is-a-bitch slapping.  
+  
+He is one of my close friends, that’s how I know about this. Yes, that’s a good one! It works perfectly, same as earlier: I know him, so I know her a little bit, I get the gossips from all the parties. Who knows, maybe I can also be in those same classes, and that is how I collect the relevant information. Brilliant, that will do. Not as if I had the choice. It’s all roll or rot, in these matters, really. And so I roll, I roll. Hopefully not for too long now.  
+  
+<p align='center'>§</p>
+  
+Last on my list: the crush. She is a fresher (what else?). For a course or two she is even among the scholar’s students. Not unlike most of her hot-when-eighteen-then-less-and-less-and-less cospecimens she is soon to leave the academic puddle. At the end of her undergraduate she chooses not to enroll in a drama school. She does not want, in her own words, to ‘immolate herself on the altar of theatre’. Yes, like many a female literature student of that age she has a special inclination toward the stage, the masks, read: the rush of stardom. I remember her boasting having shagged a hot RSC actor picked up at the Dirty Duck in Stratford-upon-Avon during a Shakespeare study trip. O, how I envy such brashness. Were he aware of it, and maybe not so enthralled neither by his Kantian nor his concupiscence, the scholar, too, would envy it, unable as he most conspicuously is to get into any decently attractive girl’s pants.   
+  
+But back to the crush: it is not clear, however, another crux for millenials, how she  combines her addiction to the Bard with her lesser proclivities for Tolkien and video games. A problem that remains unsolved to this day. So her degree in her pocket she goes on to work for a while in the private sector. She even dates a typical guy from that biotope. A man, one close source reveals, with a grounded, earthy temperament. It is to be hoped a fat wallet and a respectable organ are thereby implied, but this belongs to the realm of the hypothetical. A few years later the same source declares the relationship is over, and that this man could not understand her sensitive, artistic nature. The crush, in the meantime, if I’m correct, embarks on a Master’s in the same subject as before, and pursues her theatrical interests locally.  
+  
+<p align='center'>§</p>
+  
+As if this wasn’t already so boring, here’s the predictable core of this altogether appalling andecdote. The scholar declares his passion after a seminar. Just like that. Or so I am told, I am no direct witness.  
+  
+I can’t but assume it is very lamely done. Unfortunately. To a point it probably pains me even to think about the scene. Let alone describe it. Not that I could picture it even middlingly were I inclined to do so, but the very idea is unpleasant. To the utmost. Plus I know it all. I have been lame enough times to know how it goes.   
+  
+Where were we. Ah, yes. The scholar declares. The crush freaks out.   
+  
+He is her teacher. (I mean, why the fuck does he not wait after her graduation? Manners, man, manners! I can see you haven’t read your Coetzee...) He is not her type. She is with another guy, the friend I mentioned. But, most of all, he is lame. For the few of you who feel anything at this moment, and that I can’t guide for lack of any, remember your teen ethics: no quarter for losers. No pity for weirdoes. From this standpoint, what she does is rigorous, implacable, and, ultimately, virtuous.  
+  
+Since I’m supposed to be the crush’s boyfriend’s friend, I can remember the parties (possibly where the boyfriend in question was absent, she might not have mentioned this episode otherwise) where the crush freaks out, again, and tells all the other students of the section about the scholar’s disturbing behaviour, how it was all wrong, how she was feeling all weirded out, no, frankly disgusted, verging on shocked, etc. Everyone is appalled. The girls hold their cheeks in their hands, making wide shameless Os with their mouths. The guys don’t listen. Conclusion: he is definitely not much short of a freak.   
+  
+Nothing else happens. Whether she validates the course or not, I do not know, but she certainly does not stay in touch. He forgets her or not, still wanks on her on, I do not know either. To be frank, I don’t really care.  
+  
+<p align='center'>§</p>
+  
+In the end, [insert the L word] always prevails. I don’t have any information on the scholar’s love life after this failed attempt. And I must admit this account is far from accurate. But I do know he and his girlfriend get back together a few years after the facts. His postdoc is over, and for a while he returns to Oxford on some postpostdoctoral scholarship. His girlfriend has also left and come back. All is well.   
+  
+They both live off their respective governments’ research funds, and hope to be professors one day. In the meantime I’m hearing they keep busy spending time in Paris, dining in nice restaurants, probably discussing scholarly worries.   
+  
+And the promised twist: a few months after this triumphant reunion, the scholar’s girlfriend soon gets pregnant. To seal the deal, I can hear my inner banker say, to seal the deal.  
+  
+I must confess, I’ve always been fond of shoving a final bun or two into the oven. It just gives the right *bump* to it all (or stench, if you prefer), right when we are finally about to be released, you from the bore, me from you, the lovebirds from our wicked eyes. One thing for sure. I am certain they are, and will be, living happily ever after.  
+  
+---
+
+[^1]: They would be called Olympics, in a truer sense of the term, but the present denomination aims at creating the desired effect on our target audience.
+
+[^2]: Johannes Duns Scotus, *Opera Omnia*, Hildesheim, Georg Olms Verlag, 1968, vol. I, p. 288. Yes, I know, I know, it’s Pseudo-Scotus now, give me a break...
+
+[^3]: Not the Chaucer of the *Canterbury Tales*. Rather, the lesser known, Plato-inspired author of the *Legend of Good Women*, the *Parliament of Foules*, the *House of Fame*. (Does that even make sense? Sloppy, sloppy me!) The connections with the French masterpiece the *Roman de la Rose* offer a great many interesting topics for research, which he is busy with at the time of my last data swabs.
+
+[^4]: Interesting fact: her philophical libido resonates with the later Kant, allegedly no longer as immune as the central, Critique-building one to cracks and doubts of various kinds, perhaps in *Anthropologie in pragmatischer Hinsicht or Der Streit der Fakultäten* (both 1798), lest it be in the *Opus Postumum* (1804).
+
+[^5]: Need I remind you of Lacan’s adequate intertwining of Sade and Kant as defining symptoms of the end of the 18<sup>th</sup> century’s disintegrating enlightenment?
