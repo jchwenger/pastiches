@@ -18,6 +18,8 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
+          {% if f.img_url %}
+            <a href="{{ f.img_url }}"> 
             <img src=
               {% if f.image_path contains "://" %}
                 "{{ f.image_path }}"
@@ -25,6 +27,16 @@
                 "{{ f.image_path | relative_url }}"
               {% endif %}
             alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            </a>
+          {% else %}
+            <img src=
+              {% if f.image_path contains "://" %}
+                "{{ f.image_path }}"
+              {% else %}
+                "{{ f.image_path | relative_url }}"
+              {% endif %}
+            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+          {% endif %}
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
