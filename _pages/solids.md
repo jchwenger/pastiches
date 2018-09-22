@@ -36,12 +36,12 @@ feature_row:
 
 ### Texts
 
-      [spheres ](/assets/texts/spheres.pdf)  
-      [tetrahedra ](/assets/texts/tetrahedra.pdf)  
-      [hexahedra ](/assets/texts/hexahedra.pdf)  
-      [octahedra ](/assets/texts/octahedra.pdf)  
-      [dodecahedra ](/assets/texts/dodecahedra.pdf)  
-      [icosahedra ](/assets/texts/icosahedra.pdf)
+      [spheres ](/assets/solids/texts/spheres.pdf)  
+      [tetrahedra ](/assets/solids/texts/tetrahedra.pdf)  
+      [hexahedra ](/assets/solids/texts/hexahedra.pdf)  
+      [octahedra ](/assets/solids/texts/octahedra.pdf)  
+      [dodecahedra ](/assets/solids/texts/dodecahedra.pdf)  
+      [icosahedra ](/assets/solids/texts/icosahedra.pdf)
 
 <p align='center'>§</p>
 
@@ -52,29 +52,6 @@ feature_row:
 Having as its starting point an axiomatic conflagration of Plato’s cosmological philosophy (in the *Timaeus*) and the array and extremes of human desire (the most easily accessible forms of which being internet shock videos involving extreme sexuality and violence, which were one of the source of inspiration for the piece), *Solids* is an attempt to draw a bridge between the apparent chaos of human perversion and on of the most fundamental philosophical texts from the tradition aiming at finding a method for deciphering the world through the lens of mathematical structures.
 
 {% include feature_row %}
-
-<div grid-row="" grid-pad="2" grid-gutter="4" grid-responsive="">
-<div grid-col="x8" grid-pad="2">
-<a href="https://en.wikipedia.org/wiki/File:Tetrahedron.gif" class="image-link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tetrahedron.gif/140px-Tetrahedron.gif" width="125" height="125" style="width: 104.28px; height: 104.28px;"></a><br>
-<small><a href="https://en.wikipedia.org/wiki/Tetrahedron" target="_blank">Tetrahedron</a> <br>(Fire)</small>
-</div>
-<div grid-col="x8" grid-pad="2">
-<a href="https://en.wikipedia.org/wiki/File:Hexahedron.gif" class="image-link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Hexahedron.gif/125px-Hexahedron.gif" width="125" height="125" style="width: 105.28px; height: 105.28px;"></a><br>
-<small><a href="https://en.wikipedia.org/wiki/Cube" target="_blank">Hexahedron / Cube</a> <br>(Earth)</small>
-</div>
-<div grid-col="x8" grid-pad="2">
-<a href="https://en.wikipedia.org/wiki/File:Octahedron.gif" class="image-link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Octahedron.gif/150px-Octahedron.gif" width="125" height="125" style="width: 104.28px; height: 104.28px;"></a><br>
-<small><a href="https://en.wikipedia.org/wiki/Octahedron" target="_blank">Octahedron</a> <br>(Air)</small>
-</div>
-<div grid-col="x8" grid-pad="2">
-<small><a href="https://en.wikipedia.org/wiki/File:Dodecahedron.gif" class="image-link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Dodecahedron.gif/120px-Dodecahedron.gif" width="125" height="125" style="width: 104.28px; height: 104.28px;"></a><br>
-<a href="https://en.wikipedia.org/wiki/Dodecahedron">Dodecahedron</a> <br>(<a href="https://en.wikipedia.org/wiki/Aether_(classical_element)" target="_blank">Aether</a>)</small>
-</div>
-<div grid-col="x8" grid-pad="2">
-<a href="https://en.wikipedia.org/wiki/File:Icosahedron.gif" class="image-link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Icosahedron.gif/150px-Icosahedron.gif" width="125" height="125" style="width: 104.28px; height: 104.28px;"></a><br>
-<small><a href="https://en.wikipedia.org/wiki/Icosahedron" target="_blank">Icosahedron</a> <br>(Water)</small>
-</div>
-</div>
 
 Plato’s method of classifying the fundamental elements of the world (fire, air, water, earth and aether, which he inherits from earlier Presocratic figures) using mathematical solids (tetrahedron or pyramid, hexahedron or cube, octahedron, dodecahedron, icosahedron) is used in the same manner, as a structural prism through which it is possible not only to apprehend various sexual perversions (sex addiction, scatophilia, zoophilia, rape, sometimes leading to mutilation or murder, etc.) as material, but also providing a formal framework out of which it is possible to ultimately turn them into literary texts. The last element, [aether](https://en.wikipedia.org/wiki/Aether_(classical_element)), is only fleetingly mentioned in Plato, and becomes more prominent in Aristotle as the supreme element containing the fixed heavenly/divine stars. We take it here as the element associated with this peculiar figure which is no solid but nevertheless plays a defining role in Plato’s cosmology: the sphere.
 
@@ -118,7 +95,7 @@ The presence of the model in the mind of researchers acts retroactively on obser
 
 We started with four filthy videos (2 girl 1 cup; 1 guy 1 jar; 1 guy 1 horse; 3 guys 1 hammer). We need to extract *something* from them, a system, categories. Make those strong enough so they can guide our gaze toward finding what we did’t see, and didn’t even realise was missing.
 
-<p align='center'>§</p>
+<p align='center'>&#9753;</p>
 
 In Plato’s *Timaeus* the Demiurge creates the soul of the world, and then devolves creative powers to the gods he brough into existence, which in turn create mortals. As the soul of the world is itself a copy of something more eternal and uncreated, it is probably arguable that humans are then at least copies of copies, if not worse (the copies of the copies (gods) of the copy (soul of the world?) of the prime essence). In short, worse than works of art.
 
@@ -176,10 +153,10 @@ Although the company responsible has stopped selling the videos, it is still doi
 
 ### Additional web material
 
-      [Brutal Gangrape In the Van Japanese Rape Fantasy](http://www.hurtsex.com/video/brutal-gangrape-in-the-van-japanese-rape-fantasy)  (NSFW link)  
-      [Japanese zoophiliac pornography](http://www.intporn.com/forums/kinky-fetish-videos/3306564-sex-octopuses-worms-maggots-eels-sea-cucumbers.html)  (NSFW link)  
+      [Brutal Gangrape In the Van Japanese Rape Fantasy](http://www.hurtsex.com/video/brutal-gangrape-in-the-van-japanese-rape-fantasy)  (NSFW)  
+      [Japanese zoophiliac pornography](http://www.intporn.com/forums/kinky-fetish-videos/3306564-sex-octopuses-worms-maggots-eels-sea-cucumbers.html)  (NSFW)  
       [Vice documentary on the above](http://www.dailymotion.com/video/x6yec3) (and [article](https://www.vice.com/en_us/article/7bke3x/genki-and-the-art-of-eel-porn), both NSFW)  
-      [Other article on Japanese zoophiliac pornography](http://www.tokyokinky.com/the-weirdest-strangest-japanese-hentai-porn/) (NSFW link)
+      [Other article on Japanese zoophiliac pornography](http://www.tokyokinky.com/the-weirdest-strangest-japanese-hentai-porn/) (NSFW)
 
 <p align='center'>§</p>
 
