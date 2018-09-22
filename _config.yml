@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "jérémie c. wenger"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/jcw_b&w_cut.jpg"
   bio              : "mostly text"
   location         : "London"
   email            : "jeremie[dot]wenger[at]gmail[dot]com"
@@ -285,3 +285,13 @@ defaults:
       comments: # true
       share: true
       related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
