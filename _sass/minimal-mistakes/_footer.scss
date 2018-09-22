@@ -5,6 +5,7 @@
 .page__footer {
   @include clearfix;
   float: left;
+  border-top: 1px solid $border-color;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
