@@ -5,11 +5,11 @@
 // Blockquote-like lists
 li.plain {
   list-style-type: none;
-  line-height: 1;
   margin-bottom: 0.2;
 
-  > span {
+  & .small {
     font-size: $type-size-6;
+    line-height: 1;
   }
 }
 
