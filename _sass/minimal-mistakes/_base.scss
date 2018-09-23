@@ -95,15 +95,6 @@ fieldset {
   widows: 3;
 }
 
-// Blockquote-like lists
-li.plain {
-  list-style-type: none;
-  margin-bottom: 0.2;
-
-  > span {
-    font-size: $type-size-6;
-  }
-}
 
 /* abbreviations */
 

@@ -2,6 +2,18 @@
 //   ADD-ONS
 // ========================
 
+// Blockquote-like lists
+li.plain {
+  list-style-type: none;
+  line-height: 1;
+  margin-bottom: 0.2;
+
+  > span {
+    font-size: $type-size-6;
+  }
+}
+
+// Separators
 .separator-outer {
   margin: 1em 0 0 1em;
   text-align: center;
