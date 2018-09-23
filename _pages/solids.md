@@ -206,19 +206,19 @@ You! You read about my “many kisses”
 and doubt I’m fully a man?  
 I’ll push your shit in and stuff your face.
 
-{% include separators.html type='blank' %}
+{% include separators.html type='inner' %}
 
 **[Hokusai](https://en.wikipedia.org/wiki/Hokusai), [*The Dream of the Fisherman’s Wife, 1814*](https://en.wikipedia.org/wiki/The_Dream_of_the_Fisherman's_Wife)**
 
 ![Hokusai](/assets/solids/images/Hokusai.jpg)
 
-{% include separators.html type='blank' %}
+{% include separators.html type='inner' %}
 
 **[Kunisada](https://en.wikipedia.org/wiki/Kunisada), [*Woman and Dog, 日本春宫册页《女人和狗》, 1837*](https://zh.wikipedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%98%A5%E5%AE%AB%E5%86%8C%E9%A1%B5%E3%80%8A%E5%A5%B3%E4%BA%BA%E5%92%8C%E7%8B%97%E3%80%8B.jpg)**
 
 ![Kunisada](/assets/solids/images/Kunisada.jpg)
 
-{% include separators.html type='blank' %}
+{% include separators.html type='inner' %}
 
 **[W. B. Yeats](https://en.wikipedia.org/wiki/W._B._Yeats), ‘[Leda and the Swan](https://en.wikipedia.org/wiki/Leda_and_the_Swan)’**
 
@@ -240,19 +240,19 @@ So mastered by the brute blood of the air,
 Did she put on his knowledge with his power  
 Before the indifferent beak could let her drop?
 
-{% include separators.html type='blank' %}
+{% include separators.html type='inner' %}
 
 **[*Leda and the Swan*, 16th-century copy after a lost painting by Michelangelo](http://www.nationalgalleryimages.co.uk/Imagedetails.aspx?q=NG1868&ng=NG1868&frm=1)**
 
 ![Leda](/assets/solids/images/Leda-swan.jpg)
 
-{% include separators.html type='blank' %}
+{% include separators.html type='inner' %}
 
 **[Maurizio Cattelan, ‘untitled’, 2007](https://www.perrotin.com/artists/Maurizio_Cattelan/2/untitled/12880)**
 
 ![Cattelan](/assets/solids/images/Cattelan.jpg)
 
-{% include separators.html type='blank' %}
+{% include separators.html type='inner' %}
 
 **[Makoto Aida, b. 1965, retrospective at the Mori Art Museum, 2012](http://www.mori.art.museum/english/contents/aidamakoto_main/)**
 
