@@ -1,0 +1,43 @@
+// ========================
+//   ADD-ONS
+// ========================
+
+// Solution found here: https://stackoverflow.com/a/36401995
+
+@mixin flex-wrap-fix($flex-basis, $max-viewport-width: 2000px) {
+  flex-grow: 1;
+  flex-basis: $flex-basis;
+  max-width: 100%;
+
+  $multiplier: 1;
+  $current-width: 0px;
+
+  @while $current-width < $max-viewport-width {
+    $current-width: $current-width + $flex-basis;
+    $multiplier: $multiplier + 1;
+
+    @media(min-width: $flex-basis * $multiplier) {
+      max-width: percentage(1/$multiplier);
+    }
+  }
+}
+
+.wiki {
+  display: flex;
+  flex-flow: row  wrap; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  > div {
+      @include flex-wrap-fix(100px);
+      // flex: 1 1 0;
+      // max-width: 20%;
+      // flex-basis: 20%;
+      // flex-grow: 1;
+    }
+
+  p {
+    margin-bottom: 0; 
+  }
+}
+
