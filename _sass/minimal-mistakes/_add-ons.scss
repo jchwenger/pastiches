@@ -2,6 +2,21 @@
 //   ADD-ONS
 // ========================
 
+.separator-outer {
+  margin: 1em 0 0 1em;
+  text-align: center;
+}
+
+.separator-inner {
+  margin: 1em 0 0 1em;
+  text-align: center;
+}
+
+.separator-blank {
+  margin: 1em 0 0 1em;
+}
+
+// Flexbox for solid page
 // Solution found here: https://stackoverflow.com/a/36401995
 
 @mixin flex-wrap-fix($flex-basis, $max-viewport-width: 2000px) {
@@ -29,14 +44,13 @@
   padding-bottom: 20px;
 
   > div {
+      min-width:20%;
       @include flex-wrap-fix(100px);
-      // flex: 1 1 0;
-      // max-width: 20%;
-      // flex-basis: 20%;
-      // flex-grow: 1;
     }
 
   p {
+    font-size: $type-size-7;
+    text-align: center;
     margin-bottom: 0; 
   }
 }

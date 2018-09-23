@@ -1,0 +1,8 @@
+{% if include.type == 'outer' %}
+<p class='separator-outer'>§</p>
+{% elsif include.type == 'inner' %}
+<p class='separator-inner'>&#9753;</p>
+{% elsif include.type == 'blank' %}
+<p class='separator-inner'>&nbsp;</p>
+{% endif %}
+
