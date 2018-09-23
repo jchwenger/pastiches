@@ -32,7 +32,7 @@ therefore
 buy (£200k (or so)) share  
 second-hand
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### OTO
 
@@ -71,13 +71,13 @@ lady: annoying twat
 bus: 67, 243 or 149  
 miscellany: buy dumplings, pay rent
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Wealth Watchers
 
 That dream world where the wealthy are the trashy, the obese. An excess in wealth is an excess in fat. The remnants of the underclass keep stashing as much as they can on savings accounts. They are free to do that, but it is frowned upon. A new middle is never poor and never saves more than they need. Not that they are better, less greedy, less stingy, less petty or mean as here, as now. All these traits simply migrated from money to other fields. Is your life cooler, more balanced, more active. New distinctions appeared. That is all understandable: since no one is poor any more, money has lost quite a bit of its aura. The fetish left it and found new victims. Odd new phenomena are being observed: many are too rich, don’t know what to do with their cash. They overspend, they squander, and still have too much. They fail at finding proper investments, their accounts are full despite their best efforts. Consumption can’t keep up. They go to bed sensing their dreams already tinted with shame. They are still fat, despite their best efforts. A new discipline has arisen. Craft the perfect life. Most active, most creative. Away from greed, from hoarding. Restraint is good again because excess is rampant. For the first time in history quantity has been sorted. Balance is the new hurdle.
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### WC
 
@@ -90,10 +90,9 @@ clit, crotch
 clout  
 clot
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
-### from faces  
-### to faeces
+### from faces <br>to faeces
 
 
 the old ones &  
@@ -108,7 +107,7 @@ you in turn
 will get to,  
 will stuff
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### LA MERDE, LA MERDE, TOUJOURS RECOMMENCÉE
 
@@ -117,25 +116,25 @@ shit don’t
 
 kill thyself
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 spissid astriction
 
 aestive costiveness
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 excreation ex nihilo
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 coprorate lifestyle
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 caco ergo sum
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 LATRINES DE LA BEAUTÉ
 
@@ -143,23 +142,23 @@ LATRINES DE LA BEAUTÉ
 
 (‘l’ai trouvée *chieuse*’)
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 SelbstSHITTINGverwirklichung
 
 (infinite digestion)
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 CONTRACREATION
 
 CONTRAPAGANDA
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 excremental progress
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 when in doubt
 

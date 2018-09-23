@@ -2,48 +2,49 @@
 layout: single  
 title: Solids  
 permalink: /solids/  
-feature_row:
-  - image_path: "/assets/solids/wiki/Tetrahedron.gif" 
+wiki:
+  - img_path: "/assets/solids/wiki/Tetrahedron.gif" 
     alt: "Tetrahedron"
-    excerpt: "Tetrahedron <br> (Fire)"
+    title: "Tetrahedron"
+    excerpt: "(Fire)"
     img_url: "https://en.wikipedia.org/wiki/Tetrahedron" 
-    img_class: wiki
-  - image_path: "/assets/solids/wiki/Hexahedron.gif" 
+  - img_path: "/assets/solids/wiki/Hexahedron.gif" 
     alt: "Hexahedron"
-    excerpt: "Hexahedron <br> (Earth)"
+    title: "Hexahedron"
+    excerpt: "(Earth)"
     img_url: "https://en.wikipedia.org/wiki/Cube" 
-    img_class: wiki
-  - image_path: "/assets/solids/wiki/Octahedron.gif" 
+  - img_path: "/assets/solids/wiki/Octahedron.gif" 
     alt: "Octahedron"
-    excerpt: "Octahedron <br> (Air)" 
+    title: "Octahedron"
+    excerpt: "(Air)" 
     img_url: "https://en.wikipedia.org/wiki/Octahedron" 
-    img_class: wiki
-  - image_path: "/assets/solids/wiki/Dodecahedron.gif"  
+  - img_path: "/assets/solids/wiki/Dodecahedron.gif"  
     alt: "Dodecahedron"
-    excerpt: "Dodecahedron <br> ([Aether](https://en.wikipedia.org/wiki/Aether_(classical_element)))"
+    title: "Dodecahedron"
+    excerpt: "Aether"
+    txt_url: "https://en.wikipedia.org/wiki/Aether_classical_element"
     img_url: "https://en.wikipedia.org/wiki/Dodecahedron"
-    img_class: wiki
-  - image_path: "/assets/solids/wiki/Icosahedron.gif" 
+  - img_path: "/assets/solids/wiki/Icosahedron.gif" 
     alt: "Icosahedron"
-    excerpt: "Icosahedron <br> (Water)"
+    title: "Icosahedron"
+    excerpt: "(Water)"
     img_url: "https://en.wikipedia.org/wiki/Icosahedron" 
-    img_class: wiki
 ---
 
 *Solids* is a project developed in collaboration with composer [Remmy Canedo](https://vimeo.com/remmycanedo). This page is dedicated to retracing my thought process and keeping record of the various stages of production.
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Texts
 
-      [spheres ](/assets/solids/texts/spheres.pdf)  
-      [tetrahedra ](/assets/solids/texts/tetrahedra.pdf)  
-      [hexahedra ](/assets/solids/texts/hexahedra.pdf)  
-      [octahedra ](/assets/solids/texts/octahedra.pdf)  
-      [dodecahedra ](/assets/solids/texts/dodecahedra.pdf)  
-      [icosahedra ](/assets/solids/texts/icosahedra.pdf)
+      [spheres](/assets/solids/texts/spheres.pdf)  
+      [tetrahedra](/assets/solids/texts/tetrahedra.pdf)  
+      [hexahedra](/assets/solids/texts/hexahedra.pdf)  
+      [octahedra](/assets/solids/texts/octahedra.pdf)  
+      [dodecahedra](/assets/solids/texts/dodecahedra.pdf)  
+      [icosahedra](/assets/solids/texts/icosahedra.pdf)
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Summary for submissions
 
@@ -51,7 +52,25 @@ feature_row:
 
 Having as its starting point an axiomatic conflagration of Plato’s cosmological philosophy (in the *Timaeus*) and the array and extremes of human desire (the most easily accessible forms of which being internet shock videos involving extreme sexuality and violence, which were one of the source of inspiration for the piece), *Solids* is an attempt to draw a bridge between the apparent chaos of human perversion and on of the most fundamental philosophical texts from the tradition aiming at finding a method for deciphering the world through the lens of mathematical structures.
 
-{% include feature_row %}
+<div class="wiki">
+  {% for image in page.wiki %}
+  <div>
+    <div>
+      <a href="{{ image.img_url }}">
+        <img src="{{ image.img_path }}">
+      </a>
+    </div>
+    <div>
+      <p>{{ image.title }}</p>
+      {% if image.txt_url %}
+      <p>(<a href="{{ image.txt_url }}">{{ image.excerpt }}</a>)</p>
+      {% else %}
+      <p>{{ image.excerpt }}</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %} 
+</div>
 
 Plato’s method of classifying the fundamental elements of the world (fire, air, water, earth and aether, which he inherits from earlier Presocratic figures) using mathematical solids (tetrahedron or pyramid, hexahedron or cube, octahedron, dodecahedron, icosahedron) is used in the same manner, as a structural prism through which it is possible not only to apprehend various sexual perversions (sex addiction, scatophilia, zoophilia, rape, sometimes leading to mutilation or murder, etc.) as material, but also providing a formal framework out of which it is possible to ultimately turn them into literary texts. The last element, [aether](https://en.wikipedia.org/wiki/Aether_(classical_element)), is only fleetingly mentioned in Plato, and becomes more prominent in Aristotle as the supreme element containing the fixed heavenly/divine stars. We take it here as the element associated with this peculiar figure which is no solid but nevertheless plays a defining role in Plato’s cosmology: the sphere.
 
@@ -73,13 +92,13 @@ The final work will be a combination of three elements:
  - one or several pieces with video and music created in collaboration with Remmy Canedo, where the texts will be integrated on moving figures of solids projected in 3D;  
  - the creation of a website that allows for further reading and archiving (in a similar vein as [e-x-p-l-o-s-u-r-e](http://e-x-p-l-o-s-u-r-e.tumblr.com/) and [p-r-e-e-x-p-l-o-s-u-r-e](http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/)).
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Computational future
 
 Among various forays into the possibilities at hand using Plato’s framework, one came up that is particularly suited for computerization: starting with a rather simple premise, that given a general ‘theme’ specific to each solid, it possible to have one relevant word on each face. A tetrahedron is then a set of four words, a hexahedron, a set of six, etc. This is already sufficient a level of constraint for an attempt: how to find the best four, or six, words, that create a poetic and powerful set? However, two constraints may be added to that which could then, given the sheer difficulty of finding appropriate sets, give computational search power a good enough *raison d’être*: first, one may restrict the number of letters of each word to the number of faces of the solid, to increase coherence (four-lettered words for the tetrahedron, etc.); second, one could create a true letter puzzle by requiring that each letter be associated with an edge, and that the ‘other side’ of the edge, on the adjacent face, have the same letter attached to it. In the latter option, the gradual covering up of each face with a word would add letter constraints to the other faces, leading to the last face being entirely determined when all the others are complete. If one wishes the word set to be non-random, and, ideally, interesting, on a literary level, and given that it is almost impossible to execute this task in any way but empirically (starting with one word on one face, then going for a second face, each time checking that the letter constraint is being respected), the most efficient scenario would be to have a computer program produce possibilities generated from a comprehensive word list (e.g. the OED) and the rules and then among them separate the wheat from the chaff.
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Two remarks
 
@@ -95,11 +114,11 @@ The presence of the model in the mind of researchers acts retroactively on obser
 
 We started with four filthy videos (2 girl 1 cup; 1 guy 1 jar; 1 guy 1 horse; 3 guys 1 hammer). We need to extract *something* from them, a system, categories. Make those strong enough so they can guide our gaze toward finding what we did’t see, and didn’t even realise was missing.
 
-<p align='center'>&#9753;</p>
+{% include separators.html type='inner' %}
 
 In Plato’s *Timaeus* the Demiurge creates the soul of the world, and then devolves creative powers to the gods he brough into existence, which in turn create mortals. As the soul of the world is itself a copy of something more eternal and uncreated, it is probably arguable that humans are then at least copies of copies, if not worse (the copies of the copies (gods) of the copy (soul of the world?) of the prime essence). In short, worse than works of art.
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Web material (shock videos)
 
@@ -107,11 +126,15 @@ In Plato’s *Timaeus* the Demiurge creates the soul of the world, and then devo
 
 1 Guy 1 Jar, also known as “1 Guy 1 Cup,” is a shock site featuring a video of a nude Russian man who sits on a glass jar which enters his rectum and breaks inside of him. Many YouTubers uploaded videos of themselves reacting to the footage, in a similar vein to the 2 Girls 1 Cup and 3 Guys 1 Hammer reaction videos.
 
+{% include separators.html type='inner' %}
+
 **[2 Girls 1 Cup](http://knowyourmeme.com/memes/2-girls-1-cup)**
 
 The phrase, “2 Girls 1 Cup,” refers to the trailer for the Brazilian fetish film *Hungry Bitches* made by MFX Media in 2007. The extreme fetishistic nature of the clip as well as the dramatic piano music playing in the background caused it to go viral in late 2007, with many internet users posting their own or others’ reactions to seeing the video for the first time. This phenomenon received significant attention from the media.
 
 As a result, 2girls1cup.com, hosting the most viewed mirror of the trailer, would become one of the most famous shock sites in internet history. The name, “2 Girls 1 Cup” has also been subject to parody, exemplified in shock sites such as 3Guys1Hammer.
+
+{% include separators.html type='inner' %}
 
 **[2 Guys 1 Horse / Mr. Hands](http://knowyourmeme.com/memes/2-guys-1-horse-mr-hands),  [The Enumclaw horse sex case ](https://en.wikipedia.org/wiki/Enumclaw_horse_sex_case)**
 
@@ -125,6 +148,8 @@ Pinyan’s death rapidly prompted the passing of a bill in Washington prohibitin
 
 A documentary of the life and death of Pinyan, and the life led by those who came to the farm near Enumclaw, debuted at the Sundance Film Festival 2007 under the title *Zoo*. It was one of 16 winners out of 856 candidates for the festival, and played at numerous regional festivals in the United States thereafter. Following Sundance, it was also selected as one of the top five American films to be presented at the prestigious Directors Fortnight sidebar at the 2007 Cannes Film Festival.
 
+{% include separators.html type='inner' %}
+
 **[3 Guys 1 Hammer](http://knowyourmeme.com/memes/3-guys-1-hammer), [The Dnepropetrovsk maniacs](https://en.wikipedia.org/wiki/Dnepropetrovsk_maniacs)**
 
 3 Guys 1 Hammer is a viral shock video involving three young adults murdering a middle-aged man they held captive by primarily bludgeoning his face with a hammer. The title is a pun on another infamous shock video: 2 Girls 1 Cup.
@@ -136,6 +161,8 @@ The victim in this video was identified as Sergei Yatzenko, a 48 year old male w
 The Dnepropetrovsk maniacs (Ukrainian: Дніпропетровські маніяки, Russian: Днепропетровские маньяки) are Ukrainian serial killers responsible for a string of murders in Dnipropetrovsk in June and July 2007. The case gained additional notoriety because the killers made video recordings of some of the murders, with one of the videos leaking to the Internet. Two 19‑year-old locals, Viktor Sayenko (Ukrainian: Віктор Саєнко, Russian: Виктор Саенко) and Igor Suprunyuk (Ukrainian: Ігор Супрунюк, Russian: Игорь Супрунюк), were arrested and charged with 21 murders.
 
 A third conspirator, Alexander Hanzha (Ukrainian: Олександр Ганжа, Russian: Александр Ганжа) was charged with two armed robberies that took place before the murder spree. On 11 February 2009, all three defendants were found guilty. Suprunyuk and Sayenko were sentenced to life imprisonment, while Hanzha received nine years in prison. The lawyers for Suprunyuk and Sayenko launched an appeal, which was dismissed by the Supreme Court of Ukraine in November 2009.
+
+{% include separators.html type='inner' %}
 
 **[Water Hell (Bakki Visual Planning)](https://www.reddit.com/r/NoFap/comments/1369hu/pornographers_give_opinion_on_women_in_the/) [(Japanese Wiki page)](https://www.reddit.com/r/NoFap/comments/1369hu/pornographers_give_opinion_on_women_in_the/)**
 
@@ -158,7 +185,7 @@ Although the company responsible has stopped selling the videos, it is still doi
       [Vice documentary on the above](http://www.dailymotion.com/video/x6yec3) (and [article](https://www.vice.com/en_us/article/7bke3x/genki-and-the-art-of-eel-porn), both NSFW)  
       [Other article on Japanese zoophiliac pornography](http://www.tokyokinky.com/the-weirdest-strangest-japanese-hentai-porn/) (NSFW)
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 ### Artistic and literary sources (selection)
 
@@ -179,13 +206,19 @@ You! You read about my “many kisses”
 and doubt I’m fully a man?  
 I’ll push your shit in and stuff your face.
 
+{% include separators.html type='blank' %}
+
 **[Hokusai](https://en.wikipedia.org/wiki/Hokusai), [*The Dream of the Fisherman’s Wife, 1814*](https://en.wikipedia.org/wiki/The_Dream_of_the_Fisherman's_Wife)**
 
 ![Hokusai](/assets/solids/images/Hokusai.jpg)
 
+{% include separators.html type='blank' %}
+
 **[Kunisada](https://en.wikipedia.org/wiki/Kunisada), [*Woman and Dog, 日本春宫册页《女人和狗》, 1837*](https://zh.wikipedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E6%98%A5%E5%AE%AB%E5%86%8C%E9%A1%B5%E3%80%8A%E5%A5%B3%E4%BA%BA%E5%92%8C%E7%8B%97%E3%80%8B.jpg)**
 
 ![Kunisada](/assets/solids/images/Kunisada.jpg)
+
+{% include separators.html type='blank' %}
 
 **[W. B. Yeats](https://en.wikipedia.org/wiki/W._B._Yeats), ‘[Leda and the Swan](https://en.wikipedia.org/wiki/Leda_and_the_Swan)’**
 
@@ -207,13 +240,19 @@ So mastered by the brute blood of the air,
 Did she put on his knowledge with his power  
 Before the indifferent beak could let her drop?
 
+{% include separators.html type='blank' %}
+
 **[*Leda and the Swan*, 16th-century copy after a lost painting by Michelangelo](http://www.nationalgalleryimages.co.uk/Imagedetails.aspx?q=NG1868&ng=NG1868&frm=1)**
 
 ![Leda](/assets/solids/images/Leda-swan.jpg)
 
+{% include separators.html type='blank' %}
+
 **[Maurizio Cattelan, ‘untitled’, 2007](https://www.perrotin.com/artists/Maurizio_Cattelan/2/untitled/12880)**
 
 ![Cattelan](/assets/solids/images/Cattelan.jpg)
+
+{% include separators.html type='blank' %}
 
 **[Makoto Aida, b. 1965, retrospective at the Mori Art Museum, 2012](http://www.mori.art.museum/english/contents/aidamakoto_main/)**
 

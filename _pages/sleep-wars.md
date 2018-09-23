@@ -4,35 +4,36 @@ title: Sleep Wars
 permalink: /sleep-wars/ 
 ---
 
-## AN ESSAY IN THE SPIRIT OF HETEROBIOGRAPHY  
+
+### AN ESSAY IN THE SPIRIT OF HETEROBIOGRAPHY  
 
 Sleep. The word has a lovely ring to it, hasn’t it? It sounds plural, as much as book sounds singular. One sloop, two sleep. That’s how it should be. And sleep, you can see it coming, is always multiple. Not sure this jibe will be of use, but here we go, it isn’t the worst place to start. So, sloop. In the OED:
 
 
 <ul>
-<li class='plain'><b>sloop, <i>n</i>.<sup>1</sup></b></li>  
+<li class='plain small'><b>sloop, <i>n</i>.<sup>1</sup></b></li>  
 
 <ul>
-<li class='plain'><span><b>1.</b></span></li>  
+<li class='plain small'><b>1.</b></li>  
 <ul>
-<li class='plain'><span><b>a.</b> A small, one-masted, fore-and-aft rigged vessel, differing from a cutter in having a jib-stay and standing bowsprit.</span></li>  
-<li class='plain'><span><b>b.</b> A relatively small ship-of-war, carrying guns on the upper deck only. Also in full. Also in full <b>sloop-of-war</b>.</span></li>  
+<li class='plain small'><b>a.</b> A small, one-masted, fore-and-aft rigged vessel, differing from a cutter in having a jib-stay and standing bowsprit.</li>  
+<li class='plain small'><b>b.</b> A relatively small ship-of-war, carrying guns on the upper deck only. Also in full. Also in full <b>sloop-of-war</b>.</li>  
 </ul>
-<li class='plain'><span><b>†2.</b> A large open boat; a long-boat. <i>Obs</i>.</span></li>  
+<li class='plain small'><b>†2.</b> A large open boat; a long-boat. <i>Obs</i>.</li>  
 </ul>
 
-<li class='plain'>&nbsp;</li> 
-<li class='plain'><b>sloop, <i>n</i>.<sup>2</sup></b></li> 
+<li class='plain small'>&nbsp;</li> 
+<li class='plain small'><b>sloop, <i>n</i>.<sup>2</sup></b></li> 
 
 <ul>
-<li class='plain'><span><b>1.</b> A simple form of drag used in lumbering. Hence <b>sloop</b> v. trans., to draw on a sloop.</span></li>  
+<li class='plain small'><b>1.</b> A simple form of drag used in lumbering. Hence <b>sloop</b> v. trans., to draw on a sloop.</li>  
 </ul>
 </ul>
 
 And elsewhere:
 
 <ul>
-<li class='plain'><span>A small anti-submarine warship used for convoy escort in the Second World War.</span></li>
+<li class='plain small'>A small anti-submarine warship used for convoy escort in the Second World War.</li>
 </ul>
 
 Both senses, ship and hook, sailing and lumbering, are easily plied to our present purpose. On the one hand, the longing for the wild freedom of the waves, the proud silhouette of sails and the thundering thrill of epic naval warfare. On the other, the heavy, sluggish logs painfully dragged on the muddy ground, stubborn as corpses.
@@ -51,7 +52,9 @@ Since, despite my best intentions, I can’t resign myself to this bleak conclus
 
 So be it.
 
-## Heterobiography: a misintroduction
+{% include separators.html type='outer' %}
+
+### Heterobiography: a misintroduction
 
 What is heterobiography? Biography, written by another. The opposite of autobiography, nitwit. Right. However, in this case, it *is* written by the same, isn’t it? Technically it is, I confess. Therefore, we have to loosen the knot of the commonsense definition a little, invoking Fernando Pessoa for help. Heterobiography could be to autobiography what heteronymy was to his name. A way of crafting oneself as another. A path, at long last, toward alienation. Writing about others is of course an edifying exercise, that all of us, in this sad not-quite-Wittgensteinian world, have to tackle at one point or another, despite the futility of it all. Writing about oneself, on the other hand, is the nasty little task that so few truly commit to. Become one’s own Lucian Freud or Jenny Saville. Such a lofty quest! Something well worth dozing for.
 
@@ -79,7 +82,9 @@ The sense of ease, at least at a ‘bodily’ level, has never been as high, and
 
 Such righteousness. Not that I ‘desired’ anything of the sort in any conventional sense of the term. Certainly not. In fact, I still burn for it. Oh yes, intensely, obscurely, filthily. Hotter, and more soaked, I am and remain, than the underwater bastards along the Ring of Fire in the Pacific.
 
-## Listful Interlude: Some Rather Neutral Schedule Data
+{% include separators.html type='outer' %}
+
+### Listful Interlude: Some Rather Neutral Schedule Data
 
 Sleep patterns as observed in recent years:
 
@@ -122,7 +127,9 @@ Sleep vs thought:
   <li class='plain'>No sign of sleep when checking the news (international, mostly political and economic).</li>
 </ul>
 
-## Action!
+{% include separators.html type='outer' %}
+
+### Action!
 
 Without action, and without work, nothing happens. Nothing but defeat, misery, oblivion. Or so the mantra goes. How could sleep, negative and passive state *par excellence*, could be the way forward? The way anyward, in fact, at this stage. Well, let it be clear, it isn’t. I don’t think there is a solution to this. I haven’t found anything solid yet, and am not expecting to find one any time soon.
 
@@ -140,7 +147,9 @@ While all that is going on, sleep stays in power. Sometimes it appears as the re
 
 Therefore, what *shall* be possible is only what does not require from you any struggle, any push. You may read, but only a few pages. The more difficult the book, the shorter the session. Often it will be reduced to a few lines at most. You shall try your hand at writing and, apart from prizes, which might be Dr. Frankenstein’s miraculous current for the sewn limbs of your mind, you won’t succeed in going further than than a line or two. More often than not without any syntax at all.
 
-## Morpheus Blacked Out
+{% include separators.html type='outer' %}
+
+### Morpheus Blacked Out
 
 All this talk of sleep... Where are the dreams? Dreams, that’s the weapon we need, isn’t it? The transformational force, the healing engine at the core of us all, etc. Working for us even (especially) when we don’t want it to. The truth of what is happening during the day, what is lurking below the surface. All that old rubbish.
 
@@ -166,17 +175,19 @@ Which is also what the combination fears above all: being poked. Ever so slightl
 
 By Sleep’s Finger of Mess Distraction.
 
-## Short Writs (on Literature)
+{% include separators.html type='outer' %}
+
+### Short Writs (on Literature)
 
 John Keats, ‘To Sleep’. Isn’t it striking that the Romantic figure whose style feels most trenchant and precise is the one who yearns for relief and “a bower quiet for us”? Maybe there is a conjecture to be thrown there. The yearning resulting from an inner poetic intensity, in a near-physiological way, as thirst follows exertion.
 
-<p align='center'>§</p>
+{% include separators.html type='inner' %}
 
 Proust’s bed and the “big black woman”. Almost as much time spent in bed of late as him yet he was fifty and sickly. And rich. No sign of a woman for now, especially no big black one. Sometimes spiders of different sizes daydreamt instead. Creeping into the bed, the biggest ones peeping through the window. Mothers, of course, mothers.
 
 It’s quite sad Spiderman is already taken. That would have been a literary alias of choice. Maybe I should try my luck with stick insects...
 
-<p align='center'>§</p>
+{% include separators.html type='inner' %}
 
 *Finnegans Wake*, the all too often unassailed kingdom of sleep. A bad dream, for sure, but unquestionably, despite the insignificant growl of a few contemporary obscurantists, the best bad dream of the century. It is also by far the *heaviest* book—spiritually speaking—I was given to open. Once again, hypnotic vessel and cumbersome load combined.
 
@@ -186,7 +197,7 @@ It has been said that Joyce’s last book is the most antifascist of all. A fair
 
 Believe me I know. I’ve tried for years, harking more than once to the alluring strokes of Pietro da Verona’s axe. And still now. Still now. (Have I slept enough?) It seems all but in its infancy.
 
-<p align='center'>§</p>
+{% include separators.html type='inner' %}
 
 Samuel Beckett & Belacqua[^7]. Laze made literature.
 
@@ -196,15 +207,17 @@ Belacqua is the guy who can’t cope. He is not in Hell, sure, and he seems pret
 
 It isn’t difficult to see how that’s what the *Trilogy* (and from it onward) is all about. Faffing about in the shade. Fondling the same big rock ever more precisely. Ever more lazily.
 
-<p align='center'>§</p>
+{% include separators.html type='inner' %}
 
 Pierre Guyotat, perhaps the writer closest to Joyce in the world today, and, in that sense, certainly also the one who has the best shot at his glory (ironic, isn’t it, in an age that scorns the very shadow of France), has arguably more to do with trance and nightmare rather than ‘conscious’ narratives. The tongue is out of joint, but, just like in Denmark, next-to-nothing happens.
 
-<p align='center'>§</p>
+{% include separators.html type='inner' %}
 
 The writer in House of Cards confesses to the First Lady of the United States that he sleeps all the time. From the outset he seems lazy, even if more perceptive than the average, in comparison to the serious, more central characters. Even if this is could be slightly surprising for a popcultural representation, It is hard to envisage a more mediocre writer figure. Fascinated and finally sold to power, exsuding blatancy and cliché, Tom Yates is the Platonic idea of the lame, superficial scribbler. A self-reflection of the script writers, for sure. The epitome of what the English-speaking world (but it certainly would be the case for most empowered worlds) feeds the world with. It is disgusting, and probably a part of the disease, to have even mentioned him here. Same thing for Tyler Durden at the very start. As for *The Matrix*, barely admissible, at best.
 
-## A Stand against Hypnosophy
+{% include separators.html type='outer' %}
+
+### A Stand against Hypnosophy
 
 Sleep hasn’t, and won’t, come out unscathed. Nor shall the bedroom I-s jaded enough to have let themselves get stranded here. No rest for the sleepy. No mercy for the slothful. And, more importantly, no ‘hypnosophy’, whatever that might mean.
 

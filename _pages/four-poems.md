@@ -18,7 +18,7 @@ ossify      self         unwrap         skins      see
 cooped      secrets      casket      midden   
 floe      ground         no      sound      poetry
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 **Deleuzian Tetradecasyllabic (hence Square) Sonnet**
 
@@ -36,10 +36,10 @@ mais le cœur, l’organe amoureux de la répétition
 mais le cœur, l’organe amoureux de la répétition  
 mais le cœur, l’organe amoureux de la répétition  
 mais le cœur, l’organe amoureux de la répétition  
-        mais le cœur, l’organe amoureux de la répétition  
+        mais le cœur, l’organe amoureux de la répétition  
         mais le cœur, l’organe amoureux de la répétition
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 **On First Looking into Fagles’ Homer**
 
@@ -60,7 +60,7 @@ Or like stout Cortez when with eagle eyes
 Look’d at each other with a wild surmise –  
     Silent, upon a peak in Darien.
 
-<p align='center'>§</p>
+{% include separators.html type='outer' %}
 
 **To My Art**
 
