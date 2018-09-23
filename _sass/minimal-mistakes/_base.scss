@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
+  margin: 2em 0 1.5em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 h4 {
@@ -238,7 +238,7 @@ figure {
   }
 
   img {
-    width: 100%;
+    width: 50px;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
