@@ -146,8 +146,10 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: https://www.instagram.com/hilperic/
-
-
+    - label: "SoundCloud"
+      icon: "fab fa-fw fa-soundcloud"
+      # url: https://soundcloud.com/hilperic
+      
 # Reading Files
 include:
   - .htaccess
