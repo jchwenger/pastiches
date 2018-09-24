@@ -13,13 +13,12 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 // Font imports
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
- @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond'); 
-
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond'); 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 /* system typefaces */
 
-$serif: Georgia, Times, serif !default; 
-$sans-serif:  "Cormorant Garamond", "EB Garamond",  -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; 
+$serif: "Cormorant Garamond", Georgia, Times, serif !default; 
+$sans-serif:  "Josefin Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; 
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -33,7 +32,7 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
+$global-font-family: $serif !default;
 $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
