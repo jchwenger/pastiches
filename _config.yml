@@ -108,7 +108,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      # url: mailto:jeremie[dot]wenger[at]gmail[dot]com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,6 +124,23 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+  projects:
+    - label: code
+      pitch: 
+      icon:
+      url:
+    - label:
+      pitch:
+      icon:
+      url:
+    - label:
+      pitch:
+      icon:
+      url:
+    - label:
+      pitch:
+      icon:
+      url:
 
 # Site Footer
 footer:
