@@ -2,3 +2,24 @@
 layout: home
 author_profile: false
 ---
+
+<h1>Code</h1>
+<ul>
+  {% for project in site.projects.code  %}
+    <li class='home'>
+      <i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}
+    <a href="{{ link.url }}"></a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% include separators.html type='blank' %}
+
+<h1>Web</h1>
+<ul>
+  {% for project in site.projects.code  %}
+  <li class='home'>
+    {{ project.title }}
+  </li>
+  {% endfor %}
+</ul>
