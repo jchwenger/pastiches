@@ -106,17 +106,14 @@ author:
   location         : "London"
   email            : "jeremie[dot]wenger[at]gmail[dot]com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto: jeremie[dot]wenger[at]gmail[dot]com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       # url: "https://twitter.com/"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-facebook"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -125,48 +122,77 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
   projects:
-    - label: "code"
-      title: "Recursus"
-      pitch: 
-      icon:
-      url: "http://recursus.co/"
-    - label: "website"
-      title: "Explosure"
-      pitch: 
-      icon:
-      url: "http://e-x-p-l-o-s-u-r-e.tumblr.com/"
-    - label: "website"
-      title: "Preexplosure"
-      pitch:
-      icon:
-      url: "http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/"
-    - label: "website"
-      title: "Situs Vetus"
-      pitch:
-      icon:
-      url: "http://s-i-t-u-s.tumblr.com/"
-    - label: "social media"
-      title: "Situs Vetus"
-      pitch:
-      icon:
-      url: "https://twitter.com/situsvetus"
-    - label: "website"
-      title: "Old old words"
-      pitch:
-      icon:
-      url: "http://cargocollective.com/kammerklang/gallery"
-    - label: "website"
-      title: "Map Manifesto"
-      pitch:
-      icon:
-      url: "http://cargocollective.com/kammerklang/gallery"
+    - code:
+      - title: "AIT"
+        pitch: "Artificial It. Inchoate steps into neural text generation"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/jchwenger/AIT"
+      - title: "WordSquares"
+        pitch: "A foray into word squares as a poetic form"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/jchwenger/WordSquares"
+      - title: "WordSquaresAI"
+        pitch: "Visual study of WordSquares using Pandas, Datashader and Bokeh"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/jchwenger/WordSquaresAI"
+      - title: "Subwords"
+        pitch: "Words living within other words"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/jchwenger/Subwords"
+      - title: "Wordlaces"
+        pitch: "Circular poetic word paths using the Levenshtein distance"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/jchwenger/Wordlaces"
+      - title: "Offence Mechanism"
+        pitch: "A foul-mouthed, self-injuring bot"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/jchwenger/Wordlaces"
+    - web:
+      - title: "Recursus"
+        pitch: "Triptych of computational literature composed of WordSquares, Subwords and AIT"
+        icon:
+        url: "http://recursus.co/"
+      - title: "Explosure"
+        pitch: "Oulipian textual complex"
+        icon: "fab fa-fw fa-tumblr"
+        url: "http://e-x-p-l-o-s-u-r-e.tumblr.com/"
+      - title: "Preexplosure"
+        pitch: "More material from Explosure"
+        icon: "fab fa-fw fa-tumblr"
+        url: "http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/"
+      - title: "Situs Vetus"
+        pitch: "Words here and there on Tumblr"
+        icon: "fab fa-fw fa-tumblr"
+        url: "http://s-i-t-u-s.tumblr.com/"
+      - title: "Situs Vetus"
+        pitch: "Words here and there on Twitter"
+        icon: "fab fa-fw fa-twitter"
+        url: "https://twitter.com/situsvetus"
+      - title: "Opus"
+        pitch: "Where *it* lived for a few years"
+        icon: "fab fa-wordpress"
+        url: "https://opus.wordpress.com/"
+      - title: "Old old words"
+        pitch: "Quite old words of mine"
+        icon: "fab fa-wordpress"
+        url: "https://jchwenger.wordpress.com/"
+      - title: "Map Manifesto"
+        pitch: "A poetic reading of underground maps"
+        icon: "fab fa-wordpress"
+        url: "https://mapmanifesto.wordpress.com/"
+    - music:
+      - title:
+        pitch:
+        icon:
+        url:
+
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto: jeremie[dot]wenger[at]gmail[dot]com
+      # url: "mailto: jeremie[dot]wenger[at]gmail[dot]com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: https://twitter.com/hilperic
