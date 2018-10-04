@@ -4,22 +4,27 @@ author_profile: false
 classes: homepage
 ---
 
-<h1>Code</h1>
-<ul>
+<h1 class="archive__subtitle">Code</h1>
   {% for project in site.projects.code  %}
-    <li class='list-home'>
-      <a target="_blank" href="{{ project.url }}"><i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}</a>
-    </li>
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
+  </div>
   {% endfor %}
-</ul>
 
 {% include separators.html type='blank' %}
 
-<h1>Web</h1>
-<ul>
+<h1 class="archive__subtitle">Web</h1>
   {% for project in site.projects.web  %}
-  <li class='list-home'>
-    <a target="_blank" href="{{ project.url }}"><i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}</a>
-  </li>
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
+  </div>
   {% endfor %}
-</ul>
+
+{% include separators.html type='blank' %}
+
