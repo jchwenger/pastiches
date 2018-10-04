@@ -6,7 +6,7 @@ author_profile: false
 <h1>Code</h1>
 <ul>
   {% for project in site.projects.code  %}
-    <li class='home'>
+    <li class='list-home'>
       <i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}
     <a href="{{ link.url }}"></a>
     </li>
@@ -18,7 +18,7 @@ author_profile: false
 <h1>Web</h1>
 <ul>
   {% for project in site.projects.web  %}
-  <li class='home'>
+  <li class='list-home'>
     <i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}
   </li>
   {% endfor %}
