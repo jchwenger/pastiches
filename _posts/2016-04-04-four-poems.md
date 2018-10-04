@@ -5,7 +5,7 @@ date: 2016-04-04 15:45:52.000000000 +0100
 permalink: /four-poems/  
 ---
 
-**bucket poetry (a rereading in homage to K. R.)**
+### bucket poetry (a rereading in homage to K. R.)
 
         *after* North *by Seamus Heaney*
  
@@ -21,7 +21,7 @@ floe      ground         no      sound      poetry
 
 {% include separators.html type='outer' %}
 
-**Deleuzian Tetradecasyllabic (hence Square) Sonnet**
+### Deleuzian Tetradecasyllabic (hence Square) Sonnet
 
         *for C. P.*
 
@@ -42,7 +42,7 @@ mais le cœur, l’organe amoureux de la répétition
 
 {% include separators.html type='outer' %}
 
-**On First Looking into Fagles’ Homer**
+### On First Looking into Fagles’ Homer
 
         *after John Keats*
 
@@ -63,7 +63,7 @@ Look’d at each other with a wild surmise –
 
 {% include separators.html type='outer' %}
 
-**To My Art**
+### To My Art
 
         *after Philip Larkin*
 
