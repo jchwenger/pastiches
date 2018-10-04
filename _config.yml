@@ -147,7 +147,7 @@ projects:
     - title: "Offence Mechanism"
       pitch: "A foul-mouthed, self-injuring bot"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jchwenger/Wordlaces"
+      url: "https://github.com/jchwenger/ofxOffenceMechanism"
   web:
     - title: "Recursus"
       pitch: "Triptych of computational literature composed of WordSquares, Subwords and AIT"
