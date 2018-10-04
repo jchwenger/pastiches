@@ -1,6 +1,7 @@
 --- 
 layout: single 
 title: Euclideas 
+date: 2018-05-21 16:29:44.000000000 +0100
 permalink: /euclideas/ 
 ---
 
