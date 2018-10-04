@@ -2,6 +2,31 @@
 //   ADD-ONS
 // ========================
 
+.homepage {
+  font-family: $sans-serif;
+
+  /* links */
+
+  a {
+
+    text-decoration: none;
+    color: $muted-text-color;
+
+    &:focus {
+      @extend %tab-focus;
+    }
+
+    &:visited {
+      color: $link-color-hover;
+    }
+
+    &:hover {
+      color: $link-color-hover;
+      outline: 0;
+    }
+  }
+}
+
 // Blockquote-like lists
 li.plain {
   list-style-type: none;
