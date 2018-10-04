@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "light" # "contrast", "default", "air", "aqua", "dark
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "j c w"
+title                    : "J C W"
 title_separator          : "-"
 name                     : "Jérémie C. Wenger"
 description              : "London. Mostly text."
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "jérémie c. wenger"
+  name             : "Jérémie C. Wenger"
   avatar           : "/assets/jcw_b&w_cut.jpg"
   bio              : "mostly text"
   location         : "London"
