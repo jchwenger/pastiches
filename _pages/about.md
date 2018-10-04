@@ -2,6 +2,7 @@
 layout: single
 title: About
 permalink: /about/
+classes: homepage
 author_profile: true
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: home
 author_profile: false
+classes: homepage
 ---
 
 <h1>Code</h1>
 <ul>
   {% for project in site.projects.code  %}
     <li class='list-home'>
-      <i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}
-    <a href="{{ link.url }}"></a>
+      <a target="_blank" href="{{ project.url }}"><i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -19,7 +19,7 @@ author_profile: false
 <ul>
   {% for project in site.projects.web  %}
   <li class='list-home'>
-    <i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}
+    <a target="_blank" href="{{ project.url }}"><i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>&nbsp;&nbsp;{{ project.title }}</a>
   </li>
   {% endfor %}
 </ul>
