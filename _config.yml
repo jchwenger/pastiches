@@ -148,7 +148,7 @@ projects:
       pitch: "A foul-mouthed, self-injuring bot"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jchwenger/ofxOffenceMechanism"
-  web:
+  projects:
     - title: "Recursus"
       pitch: "Triptych of computational literature composed of WordSquares, Subwords and AIT"
       icon:
@@ -161,6 +161,7 @@ projects:
       pitch: "More material from Explosure"
       icon: "fab fa-fw fa-tumblr"
       url: "http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/"
+  other:
     - title: "Situs Vetus"
       pitch: "Words here and there on Tumblr"
       icon: "fab fa-fw fa-tumblr"
@@ -170,7 +171,7 @@ projects:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/situsvetus"
     - title: "Opus"
-      pitch: "Former abode of it"
+      pitch: "Its former abode"
       icon: "fab fa-wordpress"
       url: "https://opus.wordpress.com/"
     - title: "Old Old Words"
@@ -276,7 +277,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: texts/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

@@ -5,12 +5,48 @@ layout: archive
 {{ content }}
 
 
-{% if site.posts.size > 0 %}
-  <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "" }}</h1>
 
-  {% for post in paginator.posts %}
-    {% include archive-single.html %}
+<h1 class="archive__subtitle">Projects</h1>
+  {% for project in site.projects.projects  %}
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
+  </div>
   {% endfor %}
 
-  {% include paginator.html %}
+{% include separators.html type='blank' %}
+
+<h1 class="archive__subtitle">Code</h1>
+  {% for project in site.projects.code  %}
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
+  </div>
+  {% endfor %}
+
+
+{% include separators.html type='blank' %}
+
+{% if site.posts.size > 0 %}
+  <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "" }}</h1>
+	{% for post in site.posts limit:5 %}
+		{% include archive-single.html %}
+	{% endfor %}
+	<p align='right'><a href="{{ site.baseurl }}/texts/">All texts...</a></p>
 {% endif %}
+
+{% include separators.html type='blank' %}
+
+<h1 class="archive__subtitle">Other</h1>
+  {% for project in site.projects.other  %}
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
+  </div>
+  {% endfor %}
