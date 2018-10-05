@@ -10,7 +10,7 @@ layout: archive
   {% for project in site.projects.projects  %}
   <div class="{{ include.type | default: "list" }}__item">
     <h2 class="archive__item-title" itemprop="headline">
-    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
     </h2>
     <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
   </div>
@@ -22,7 +22,7 @@ layout: archive
   {% for project in site.projects.code  %}
   <div class="{{ include.type | default: "list" }}__item">
     <h2 class="archive__item-title" itemprop="headline">
-    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
     </h2>
     <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
   </div>
@@ -45,7 +45,7 @@ layout: archive
   {% for project in site.projects.other  %}
   <div class="{{ include.type | default: "list" }}__item">
     <h2 class="archive__item-title" itemprop="headline">
-    <a target="_blank" href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
     </h2>
     <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
   </div>
