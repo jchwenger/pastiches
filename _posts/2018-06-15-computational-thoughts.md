@@ -5,12 +5,15 @@ date: 2018-06-15 18:31:25.516793919 +0100
 permalink: /computational-thoughts/  
 ---  
 
-An archive of posts written in the context of the Master's in Computational Arts at Goldsmiths College, University of London.  
+An archive of posts written in the context of the Master's in Computational Arts at Goldsmiths College, University of London, academic year 2017-2018.  
+
 {% include separators.html type='outer' %}  
 
 ### 27 March, 00h29  
 
 All resources for 'Wordlaces', including the final essay, the code files, and the texts, are to be found in [this GitHub repository](https://github.com/jchwenger/Wordlaces).   
+
+{% include video id='ERibwqs9p38' provider='youtube' %}
 
 {% include separators.html type='outer' %}  
 
@@ -79,11 +82,10 @@ I cannot but wonder how my own experience fits within this discussion.
 My own experience, that is, with passiveness and action, with the participatory and, one could say, the imparticipatory forms of art. A first remark, which cannot go unmentioned, is that participatory art, in the common acception of the term, is quite alien to my trajectory, quite remote, as it were, as if a foreign tradition. But also, the other fact that the distinction between active and passive is not lifted at all for that reason, but runs through and between art works and their makers.  
 Even if I only focus on the 'imparticipatory' most of the time, the division between the 'passive' (bad) and 'active' bystander, and works made for it, is extremely active (it has been active to the point of inner civil war and mental breakdown in the past). And approaching participatory art even in the most superficial way I notice that I instantly produce the same division: is this piece, is this artist, rather in the passive or the active camp, and therefore should I devote time to them, piece or artist, or not bother? It is interesting that in what [Kaprow](https://www.youtube.com/watch?v=8iCM-YIjyHE) condemns as to be rejected ('film, poetry, cinema, architecture', etc.) in favour of the happening, the radically new, I see countless examples of the radically new, and the radically engaging (or perhaps rather the 'demanding radical engagement', which more often than not just means those works, those artists, are not often truly experienced, at best admired from afar or studied by specialists). Conversely, I find in the participatory, as in the conceptual, a lot of the unengaging, the easy, the shallow, against which the 'traditional' artists who paint, write, sculpt, etc., have stood for centuries. Something, it seems, repeats itself in the history of art, most probably as different from what preceded it as it is redundant: the insurrection of the (good) 'active' against the (bad) 'passive' and is afoot within, and across, both the participatory and the imparticipatory. P.S: another brand of unhelp, and false polarity, occurs with the value jugement of 'good' and 'bad' with regard to the (perceived) passiveness and activity of certain practices, as well as for the question of 'singular' and 'collective' authorship in the quote above. Those are, in my view, better approached as logic squares:  
 
-(bad) singular        (good) collective  
-(good) singular      (bad) collective  
-
-(bad) passive          (good) active  
-(good) passive        (bad) active  
+(bad) singular|(good) collective  
+(good) singular|(bad) collective  
+(bad) passive|(good) active  
+(good) passive|(bad) active  
 
 {% include separators.html type='outer' %}  
 
@@ -102,6 +104,8 @@ Jennifer Gabrys ' Sensing Climate Change and Expressing Environmental Citizenshi
 
 Completed the following tutorials (not incredible, but convering a few issues not present in Sentdex):  
 
+{% include video id='videoseries?list=PLcTXcpndN-Sl9eYrKM6jtcOTgC52EJnqH' provider='youtube' %}
+
 All the code relating to these can be found in [this repository](https://github.com/jchwenger/Wordlaces/tree/master/nltkTutorials).  
 
 {% include separators.html type='outer' %}  
@@ -110,11 +114,19 @@ All the code relating to these can be found in [this repository](https://github.
 
 Another captivating philosophical discovery, primarily because of the rarefied and lustrous style (itself a cause for suspicion), but also because it is rooted in a tradition that I know little of (and am still just as suspicious of, rooted as I am in more continental references), namely English liberal thought, mostly based on Hobbes, Locke, but also Bentham, Mill, and others:  
 
+{% include video id='PjQ-W2-fKUs' provider='youtube' %}
+
+{% include video id='d-bcyHYNxyk' provider='youtube' %}
+
+{% include video id='gH-NxQmf87k' provider='youtube' %}
+
 {% include separators.html type='outer' %}  
 
 ### 12 March, 23h  
 
 Completed a series of tutorials related to NLTK:  
+
+{% include video id='videoseries?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL' provider='youtube' %}
 
 The result is only a superficial introduction, a warm-up for things to come, but still gives a good glimpse of what is possible with these tools.  [Here](https://github.com/jchwenger/nltkTuts) is a repository containing the files produced during these (and future) sessions.  
 
@@ -131,9 +143,8 @@ process (see below).
 - [Lemmatization](https://en.wikipedia.org/wiki/Lemmatisation): the process by which the computer groups together different forms of a word (called 'inflection') into one: 'speaks', 'speak', 'spoke', 'speaking', all belong to the verb 'to speak'.  
 - [Morphological segmentation](https://en.wikipedia.org/wiki/Morphology_(linguistics)): this goes one step deeper, and separates components of words, e.g. 'speak-ing', where 'speak' is the [stem](https://en.wikipedia.org/wiki/Word_stem) and 'ing' is the marker for the [continuous aspect](https://en.wikipedia.org/wiki/Continuous_and_progressive_aspects).  
 - [Part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging): apply a tag to each word indicating to what [grammatical category](https://en.wikipedia.org/wiki/Part_of_speech) it belongs, e.g. 'speaks' (verb), 'colloquially' (adverb), cow (noun), etc.  
-- [Parsing](https://en.wikipedia.org/wiki/Parsing): use systematic methods to decompose a sentence into its structure, and therefore understands the function of each element (what is the subject of the verb, its object, what is the complement of what, etc.). This structure is called a '[parse tree](https://en.wikipedia.org/wiki/Parse_tree)', as it posits that each sentence can be reduced to a tree-like shape like so:  
-{image 7}  
-S = sentence, P = phrase, V = verb, N = noun, D = determiner. One notices that the sentence has a logic, it is not a pure concatenation of words, and in this case has two very important constituents: the verb phrase (VP), and a noun phrase (NP), the identification of which is done through another operation called [phrase chunking](https://en.wikipedia.org/wiki/Phrase_chunking).  
+- [Parsing](https://en.wikipedia.org/wiki/Parsing):  use systematic methods to decompose a sentence into its structure, and therefore understands the function of each element (what is the subject of the verb, its object, what is the complement of what, etc.). This structure is called a '[parse tree](https://en.wikipedia.org/wiki/Parse_tree)', as it posits that each sentence can be reduced to a tree-like shape like in the picture.    
+![Parse tree](/assets/thoughts/Parse_tree_1.jpg){: .align-right} S = sentence, P = phrase, V = verb, N = noun, D = determiner. One notices that the sentence has a logic, it is not a pure concatenation of words, and in this case has two very important constituents: the verb phrase (VP), and a noun phrase (NP), the identification of which is done through another operation called [phrase chunking](https://en.wikipedia.org/wiki/Phrase_chunking).  
 - [Sentence breaking](https://en.wikipedia.org/wiki/Sentence_breaking) (also known as [sentence boundary disambiguation](https://en.wikipedia.org/wiki/Sentence_boundary_disambiguation)): find the boundaries of sentences in a text.  
 - [Stemming](https://en.wikipedia.org/wiki/Stemming): process a text so that each inflected form ('speaking' instead of 'speaks', 'insects' instead of 'insect') is reduced to its stem, which can be useful when one is only interested in the semantic value of words within the text (are the words overall positive or negative, for instance). This is an important part of [text normalization](https://en.wikipedia.org/wiki/Text_normalization), the action of preparing a text before submitting it to analysis.  
 - [Stop word](https://en.wikipedia.org/wiki/Stop_words): a word that is filtered out during the text normalization process, that is, removed before the actual analysis takes place. In the context of sentiment analysis for instance (see that entry below), purely syntactic words like 'the' or 'a' will be filtered out, in order to focus on semantics (such as 'pizza', 'amazing', etc.).  
@@ -157,7 +168,7 @@ S = sentence, P = phrase, V = verb, N = noun, D = determiner. One notices that t
 - [Relationship extraction](https://en.wikipedia.org/wiki/Relationship_extraction): extracts relationships between entities of a text (e.g. feed the computer a novel, see if it can detect what are the interactions between the various characters, etc.). See also the [entity-relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model).  
 - [Sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis): extract subjective information from a text (alluded to in 'stemming' above), especially if the overall mood is positive or negative.  
 - [Topic model](https://en.wikipedia.org/wiki/Topic_model): a type of unsupervised statistical model developed to extract 'topics' from text corpora. In the conference by Patrick Harrison in the post below ([text here](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb)), the topic model used is [Latent Dirichlet allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), which uses three layers (documents or texts, topics, words) instead of two (documents, texts) to deal with texts:   
-[{image 8}](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb){.image-link}  
+[![Latent Dirichlet Allocation](/assets/thoughts/latent_dirichlet_allocation.png)](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb)
 - [Topic segmentation](https://en.wikipedia.org/wiki/Topic_segmentation) and recognition: divide a text into various parts, and extract a topic for each part.  
 - [Word sense disambiguation](https://en.wikipedia.org/wiki/Word_sense_disambiguation): a domain of 'lexical semantics' above, determine what specific meaning a word has in context (among all the ones it can have).  
 
@@ -181,27 +192,31 @@ S = sentence, P = phrase, V = verb, N = noun, D = determiner. One notices that t
 
 **Libraries** (see the conference and Jupyter Notebook text in the post below)
 
-- [spaCy](https://spacy.io/): 'is an industrial-strength natural language processing (*NLP*) library for Python. spaCy's goal is to take recent advancements in natural language processing out of research papers and put them in the hands of users to build production software.  
-> spaCy handles many tasks commonly associated with building an end-to-end natural language processing pipeline:  
-  > Tokenization  
-  > Text normalization, such as lowercasing, stemming/lemmatization  
-  > Part-of-speech tagging  
-  > Syntactic dependency parsing  
-  > Sentence boundary detection  
-  > Named entity recognition and annotation  
-  > In the "batteries included" Python tradition, spaCy contains built-in data and models which you can use out-of-the-box for processing general-purpose English language text:  
-  > Large English vocabulary, including stopword lists  
-  > Token "probabilities"  
-  > Word vectors' ([from here](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb))  
-[{image 9}](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb){.image-link}  
+- [spaCy](https://spacy.io/): "is an industrial-strength natural language processing (*NLP*) library for Python. spaCy's goal is to take recent advancements in natural language processing out of research papers and put them in the hands of users to build production software.  
+spaCy handles many tasks commonly associated with building an end-to-end natural language processing pipeline:  
+  - Tokenization  
+  - Text normalization, such as lowercasing, stemming/lemmatization  
+  - Part-of-speech tagging  
+  - Syntactic dependency parsing  
+  - Sentence boundary detection  
+  - Named entity recognition and annotation  
+  - In the "batteries included" Python tradition, spaCy contains built-in data and models which you can use out-of-the-box for processing general-purpose English language text:  
+  - Large English vocabulary, including stopword lists  
+  - Token "probabilities"  
+  - Word vectors' ([from here](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb))  
+[![spaCy](/assets/thoughts/spaCy.png)](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb)
 - [gensim](https://radimrehurek.com/gensim/): claims to be 'the most robust, efficient and hassle-free piece of software to realize unsupervised semantic modelling from plain text' ([here](https://radimrehurek.com/gensim/about.html)), and is used in the conference to achieve phrase modeling (the process by which 'New York' is recognised as one entity, and not just two words, and 'New York Times' as another, all in an unsupervised fashion).  
 - [pyLDAvis](https://pyldavis.readthedocs.io/en/latest/readme.html): a library  to create interactive topic model visualization.  
 - [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) (or t-distributed stochastic neighbor embedding): a 'dimensionality reduction technique to assist with visualizing high-dimensional datasets' (paper [here](https://lvdmaaten.github.io/publications/papers/JMLR_2008.pdf), scikit class reference [here](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html))  
 - [word2vec](https://en.wikipedia.org/wiki/Word2vec) (or word vector embedding models): models used to produce [word embeddings](https://en.wikipedia.org/wiki/Word_embedding), that is, the projection of words from a text into a(n often highly complex) vector space, the purpose of which is to create a geometric representation of relationships between words, and their context. Similar words (synonyms, antonyms, [cohyponynms](https://en.wikipedia.org/wiki/Hyponymy_and_hypernymy#Co-hyponyms), etc.) are close together in that space. From there, it is possible to apply algebraic operations to words themselves, namely vector addition and multiplication. Since vectors and coordinates are in a dual relationship (two mathematical entities almost substitutable for one another, as if one was looking at the same thing under two different aspects), a word like, say 'female' is not only somewhere on the space (as a coordinate) but will also exist as a 'distance' (a vector) between the words 'king' and 'queen' (and indeed word2vec allows for operations such as 'king' - 'male' + 'female' = 'queen'). Other fascinating examples that emerged from the unsupervised process are: 'sushi' - 'Japan' + 'Germany' = 'bratwurst', or 'Sarkozy' - 'France' + 'Germany' = 'Merkel'.  
-[](https://pyldavis.readthedocs.io/en/latest/readme.html)  
-{image 10}  
+[![Word vectors](/assets/thoughts/word2vecex.jpg)](https://pyldavis.readthedocs.io/en/latest/readme.html)  
+
+{% include separators.html type='inner' %}  
+
+{% include video id='Eku_pbZ3-Mw' provider='youtube' %}
 
 The links mentioned at the end of this video:  
+
 - [GloVe](https://nlp.stanford.edu/projects/glove/) (Stanford)  
 - [Word2vec](https://code.google.com/archive/p/word2vec/) (Google)  
 - [Word embedding tutorial](https://www.tensorflow.org/tutorials/word2vec) (Tensorflow)  
@@ -214,6 +229,8 @@ The links mentioned at the end of this video:
 
 A conference on NLP that displays quite a few concepts on a real example:  
 
+{% include video id='6zm9NC9uRkk' provider='youtube' %}
+
 [The Jupyter Notebook text of this conference on GitHub.](https://github.com/skipgram/modern-nlp-in-python/blob/master/executable/Modern_NLP_in_Python.ipynb)  
 
 {% include separators.html type='outer' %}  
@@ -223,9 +240,15 @@ A conference on NLP that displays quite a few concepts on a real example:
 The upside of having two concurrent projects is that at least I found more than zero areas of interest...Beside NLP, the parallel topic that came to me is David Harvey's introduction to Karl Marx's Capital,  
 available in book form and as two lecture series on YouTube:  
 
-- [*A Companion to Marx's Capital*, Vol. 1 & 2, New York, London: Verso, 2013](https://www.amazon.co.uk/Companion-Marxs-Capital-Vols-Shrinkwrapped/dp/1781682496/ref=sr_1_12?ie=UTF8&qid=1518735243&sr=8-12&keywords=david+harvey)  
-{image 6}  
-- 'Reading Marx's Capital' on YouTube:  
+*A Companion to Marx's Capital*, Vol. 1 & 2, New York, London: Verso, 2013  
+
+[![Harvey Marx](/assets/thoughts/Harvey-Marx.jpg){: .align-center}](https://www.amazon.co.uk/Companion-Marxs-Capital-Vols-Shrinkwrapped/dp/1781682496/ref=sr_1_12?ie=UTF8&qid=1518735243&sr=8-12&keywords=david+harvey)
+
+'Reading Marx's Capital' on YouTube:  
+
+{% include video id='videoseries?list=PL0A7FFF28B99C1303' provider='youtube' %}
+
+{% include video id='videoseries?list=PLA444E846FD59F94B' provider='youtube' %}
 
 {% include separators.html type='outer' %}  
 
@@ -235,39 +258,80 @@ First steps into [Natural Language Processing](https://en.wikipedia.org/wiki/Nat
 starting, as I've done fairly successfully for other computing topics,  
 by the most basic sources I can find:   
 
+{% include video id='8S3qHHUKqYk' provider='youtube' %}
+
+{% include video id='fOvTtapxa9c' provider='youtube' %}
+
+{% include video id='V8qrVleGY5U' provider='youtube' %}
+
+{% include video id='HVdPWoZ_swY' provider='youtube' %}
+
 {% include separators.html type='outer' %}  
 
 ### 08 February, 11h00  
 
 Recent discovery: Walter Scheidel  
 
+{% include video id='-0qsQux6zeI' provider='youtube' %}
+
 Watching this conference, and thinking back on my gradual politicisation during my time in London, as well as a growing consciousness of economic matters, I realise I should probably include various ressources that I went through in the past two years, as they undoubtably shape my current position and my areas of interest. I will mostly include here videos, and in some cases books.  
 
 {% include separators.html type='inner' %}  
+
 Thomas Piketty, *Le capital au XXIe siècle*, Paris, Seuil, 2013.  
 
-{image 2}  
+[![Piketty Capital](/assets/thoughts/piketty.png){: .align-center}](https://www.amazon.fr/Capital-au-XXIe-si%C3%A8cle/dp/2021082288/ref=sr_1_1?ie=UTF8&qid=1538753554&sr=8-1&keywords=piketty+le+capital+au+xxie+siecle)
+
+{% include video id='JKsHhXwqDqM' provider='youtube' %}
+{% include video id='YtIw-n7z3VY' provider='youtube' %}
+{% include video id='zMycLl2C8vw' provider='youtube' %}
+{% include video id='heOVJM2JZxI' provider='youtube' %}
 
 {% include separators.html type='inner' %}  
 
 Martin Wolf, *The Shifts and the Shocks: What we've learned -- and have still to learn -- from the financial crisis*, London, New York: Penguin, 2015.  
 
-{image 3}  
+[![Wolf Shifts & Shocks](/assets/thoughts/Wolf-Shifts-and-Shocks.jpg){: .align-center}](https://www.amazon.co.uk/Shifts-Shocks-learned-financial-crisis-ebook/dp/B00MEYU6GI/ref=sr_1_1?ie=UTF8&qid=1538753934&sr=8-1&keywords=wolf+shifts+shocks)
+
+{% include video id='F4UCCmnNM3A' provider='youtube' %}
+{% include video id='FgRDI4k-6Fg' provider='youtube' %}
+{% include video id='T4Cx8oRCdSw' provider='youtube' %}
+{% include video id='npnU7uVgZNY' provider='youtube' %}
+{% include video id='g-eUcJooHK8' provider='youtube' %}
+{% include video id='IuC1obJIxBU' provider='youtube' %}
+{% include video id='wEFNl1CxWV0' provider='youtube' %}
+{% include video id='B_rTSYo_CkQ' provider='youtube' %}
+{% include video id='pM03FVpd-Kk' provider='youtube' %}
+{% include video id='b93zcokh9tk' provider='youtube' %}
 
 {% include separators.html type='inner' %}  
 
 Paul Collier  
 
+{% include video id='4k1JlhniQFI' provider='youtube' %}
+{% include video id='jht1JcFcNJg' provider='youtube' %}
+{% include video id='rbt_mcjIoqk' provider='youtube' %}
+{% include video id='FjeuKj1krg0' provider='youtube' %}
+{% include video id='R-KLATwDf1o' provider='youtube' %}
+{% include video id='ax8cD3HSrcY' provider='youtube' %}
+{% include video id='e3lh3Lb1kes' provider='youtube' %}
+{% include video id='ebFxoudAvz4' provider='youtube' %}
+
 {% include separators.html type='inner' %}  
 
 David Graeber  
 
+{% include video id='CZIINXhGDcs' provider='youtube' %}
+{% include video id='yCQDq1oG0vA' provider='youtube' %}
+{% include video id='tpoJIkqEXYo' provider='youtube' %}
+{% include video id='REbrKOjsG2A' provider='youtube' %}
+
 {% include separators.html type='inner' %}  
 
-Yanis Varoufakis, *And the Weak Suffer What They Must?: Europe, Austerity and the Threat to Global Stability*, London, New York: Vintage, 2017.  
+Yanis Varoufakis, *And the Weak Suffer What They Must? Europe, Austerity and the Threat to Global Stability*, London, New York: Vintage, 2017.  
 ---, *The Global Minotaur: America, Europe and the Future of the Global Economy*, London, Zed Book, 2018.  
 
-{image 4}{image 5}  
+[![Varoufakis The Weak](/assets/thoughts/Varoufakis---weak-suffer-what-they-must.jpg){: .align-center}](https://www.amazon.co.uk/Weak-Suffer-What-They-Must/dp/1784704113/ref=sr_1_3?ie=UTF8&qid=1538754808&sr=8-3&keywords=varoufakis)|[![Varoufakis Minotaur](/assets/thoughts/Varoufakis---minotaur.jpg){: .align-center}](https://www.amazon.co.uk/Global-Minotaur-America-Economic-Controversies/dp/178360610X/ref=sr_1_4?ie=UTF8&qid=1538754808&sr=8-4&keywords=varoufakis)
 
 {% include separators.html type='outer' %}  
 
@@ -300,13 +364,12 @@ I watched two thirds of the videos of volume one a year ago, but could come back
 ### 24 January, 21h30  
 
 Thoughts on a few research threads.  
+
 The first, most obvious one would be to focus on [Natural Language Processing](https://en.wikipedia.org/wiki/Natural-language_processing), the field of study at the intersection between language and computation, which would give me foundations for my future practice. Two entire courses from Stanford University are available on YouTube, and which could be a substantial trove of material for the weeks to come:  
 [Professor Dan Jurafsky and Chris Manning's Introduction to Natural Language Processing](https://www.youtube.com/watch?v=nfoudtpBV68&list=PL6397E4B26D00A269), and Chris Manning and [Richard Socher's Natural Language Processing with Deep Learning](https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) (with perhaps books such as [this one](https://www.amazon.co.uk/Natural-Language-Processing-Python-Analyzing-ebook/dp/B0043D2E22/ref=sr_1_2?ie=UTF8&qid=1516830993&sr=8-2&keywords=natural+language+processing) as a starter). Python seems to be the obvious language for this enquiry, and starting to study it ([here](https://www.youtube.com/watch?v=ytpJdnlu9ug&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA), [here](https://www.youtube.com/watch?v=k6U-i4gXkLM&index=1&list=PL57FCE46F714A03BC) or [here](https://www.youtube.com/watch?v=tKTZoB2Vjuk&list=PLC8825D0450647509), although this is altogether too ambitious, and it might be quicker to go for online crash courses, or even cheat sheets).   
 
 Another, as yet unrelated topic of enquiry is to get a better idea of the current situation of the AI race, and its geopolitical implications.  
 I have been surprised not to find many books on the topic straight away (even though they must exist). One of the core questions is the emergence of two poles in the world today, the US and China, with Europe almost entirely out of the picture (the Brexit vote, among many other things, can be read as a geopolitical alignment whereby the UK, when confronted with a touch choice, goes the American rather than the European way), and what that means for Europe's present and future role in the world. (This is all the more surprising as many European countries are consistently ranked in the top ten in innovation and overall economic activity, see the map of [this article](https://www.bloomberg.com/news/articles/2018-01-22/south-korea-tops-global-innovation-ranking-again-as-u-s-falls) for instance.)  
-
-.  
 
 {% include separators.html type='outer' %}  
 
@@ -320,16 +383,19 @@ My first impulse can be subdivided into three 'alleyways':
 Taking each of these cases one after the other the result so far is the following:   
 
 Literary apps:  
+
 My dissatisfaction remains more or less complete: my journey started on [this page](http://www.dazeddigital.com/artsandculture/article/19888/1/ten-literary-apps-to-make-writing-more-than-words-on-a-page), which lists ten literary apps (1). Most of them, especially ones supposed to be works themselves, have been discontinued. The Jack Kerouack one looks like ones developed by Faber & Faber, discussed below. Even if [absentMINDR](http://absentmindr.tumblr.com/) and [Device6](http://simogo.com/work/device-6/) deserve a fair hearing (somewhat difficult as they are not available for download any more), they seem altogether far from triggering the reaction I have when facing, or suspecting that I am, a new work of literature.  
 I found four pages ([here](https://rhizome.org/editorial/2009/jul/07/art-in-your-pocket/), [here](https://rhizome.org/editorial/2010/may/26/art-in-your-pocket-2/), [here](http://rhizome.org/editorial/2012/jul/3/art-your-pocket-3-sensor-driven-ipad-and-iphone-ar/) and [here](http://rhizome.org/editorial/2015/aug/20/art-your-pocket-4/)) on Rhizome.org listing various artistic apps (only for iPhone, which means I won't be able to access them...). Apps related to text and language can be found on page 1, Andreas Müller and Nanika's [*For All Seasons*](http://nanikawa.com/?p=100) (poetry with visualisations, a gesture recalling Apollinaire's [*Calligrammes*](https://en.wikipedia.org/wiki/Calligrammes)) , as well as Aya Karpinska's [*Shadows Never Sleep*](http://www.technekai.com/shadow/index.html) (narrative with visualisations, pictures can be found from page 25 [here](http://www.technekai.com/shadow/media/ShadowsNeverSleep_thesis.pdf)), and on page 4, Jason Edward Lewis and Bruno Nadeau's  [*Poetry for Excitable \[Mobile\] Media*](http://www.poemm.net/) that focusses on developing new interactive relationships with texts, notably through touchscreens.   
 
 Utilitarian (if only *utiliterarian*!) apps:  
+
 An area of interest to me, but which lies more in geopolitics and economics than artistic practice, has been in the development of new relationships to literature and the digital sphere in China. The country has become a gigantic (and fast-growing) market for digital literature, and is turning to new technologies (especially mobile-based readership) perhaps more avidly than the West. Articles in the business press are easy to find (see [here](https://www.forbes.com/sites/jinshanhong/2017/07/17/chinas-online-reading-craze-is-so-big-its-challenging-amazons-kindle/#28ba18404a8c), [here](https://www.reuters.com/article/us-tencent-holdings-china-literature-ipo/tencents-online-publisher-files-for-hong-kong-ipo-seen-worth-800-million-idUSKBN19P0ER), [here](https://search.proquest.com/internationalnews1/docview/1974472778/A7F8D36B4CFA46E3PQ/1?accountid=11149)[here](https://www.thebookseller.com/futurebook/ebooks-and-china-trajectory-tencent-technology) and [here](https://search.proquest.com/internationalnews1/docview/1974472778/A7F8D36B4CFA46E3PQ/1?accountid=11149))(that last one accessible with a Goldsmiths / other university account), and the numbers are, as usual with China, quite staggering. I have been wondering for a while what it means to write for a *domestic* readership of 1.4 billion people, and I also wonder now about what experience these new apps (in WeChat and QQ for instance) provide. It is likely that immense majority of the books distributed there as are as insipid as most commercial production (like TV series, say), but the idea that millions of young Chinese people read novels and poetry mostly on their mobiles is quite baffling, especially coming from continental Europe, where love for the paper medium is still so strong. The main obstacle to more discovery is, obviously, language, my Mandarin being still far too primitive to dive heads on into these networks.  
 
 The web platform Rhizome developed a software for [recording the Internet](http://rhizome.org/editorial/2018/jan/11/rhizome-awarded-1000000/) (based on users' browsing habits) called [Webrecorder](https://webrecorder.io/). (But this is no app.). I should also mention their [Net Art anthology website](https://anthology.rhizome.org/), even though this is probably again not quite what I'm looking for (websites, not apps). Faber & Faber produced [The Waste Land for iPad](https://www.faber.co.uk/blog/the-waste-land-for-ipad/) (gathering material around the poem, including recordings, film, manuscript pages, commentary, etc.), as well as [Faber Voices](https://www.faber.co.uk/blog/faber-voices/) (presenting works of Ted Hughes, Seamus Heaney, Philip Larkin and Wendy Cope with texts and recordings). Still searching for more utilitarian apps, I found (on [this page](http://www.bachelorsdegreeonline.com/blog/2009/100-best-iphone-apps-for-serious-self-learners/)) the series of 'serious' apps released by Oxford University Press consisting of accessible dictionaries: mythology, etymology, idioms, philosophy, world history, literary terms, critical theory, concise mathematics (all available on the Google Play store for free, but with ads).  
 In a not too distant vein, I found a few apps that advertise tutorials to learn how to deal with neural networks: [Artifical Neural Network](https://play.google.com/store/apps/details?id=in.softecks.artificialneuralnetwork&hl=en_GB), [Neural Networks for Java](https://play.google.com/store/apps/details?id=com.corp.matsta.neuralnetworksforjava), [Learn Machine Learning : Neural Networks](https://play.google.com/store/apps/details?id=com.tamadasoft.machinelearning&hl=en_GB).  
 
 Evil apps:  
+
 Another idea, which would go in a radically opposite direction, would be to take apps that are the utter antithesis of art, and critique them from a sociological philosophical point of view: various contenders I thought of so far were the whole array of apps produced by [ExxonMobil](https://play.google.com/store/apps/collection/search_results_cluster_apps?clp=ggEOCgxleHhvbiBtb2JpbGU%3D%3AS%3AANO1ljIuTgA&hl=en_GB) (the page for the [main app](https://play.google.com/store/apps/details?id=com.exxonmobil.xom&hl=en_GB) contains pictures of happy African kids and an Asian dad with his daugter looking at a tablet, both also terribly happy...) or by [Lockheed Martin](https://play.google.com/store/search?q=lockheed%20martin&c=apps&hl=en_GB) (which seems to have produced an app offering a VR experience of the surface of Mars).  
 
 ---  
@@ -418,7 +484,7 @@ The problem was: let's say you wish to have one initial state when the program s
 
 ### 07 December, 23h 59  
 
-Succeeded in creating a Shakespearean insult generator working in the same framework as the other smile sketches. I will post a link as soon as I have converted it to the P5.js.  
+Succeeded in creating a Shakespearean insult generator working in the same framework as the other smile sketches. I will post a link as soon as I have converted it to the [P5.js](https://p5js.org/).  
 
 {% include separators.html type='outer' %}  
 
@@ -426,7 +492,8 @@ Succeeded in creating a Shakespearean insult generator working in the same frame
 
 A fairly unrelated sketch, that uses the graphic powers of code, whilst attempting to go beyond the sheer 'visual' dimension of the letter movement by combining the sine movement with the discrepancy between the two words/letters:  
 
-[Imm{i,a}nence](https://jchwenger.github.io/TheoryProject/11_immianence/)  
+[Imm{i,a}nence](https://jchwenger.github.io/TheoryProject/11_immianence/)
+{: .text-center}  
 
 {% include separators.html type='outer' %}  
 
@@ -435,40 +502,41 @@ A fairly unrelated sketch, that uses the graphic powers of code, whilst attempti
 One of the core conclusions of that project is the space that technical hurdles can take, stifling most of the creativity. I will start with an inventory of the various sketches that I\'ve been able to put online.  
 The first idea Guy came up with that could combine computer vision and feasibility was to use smile detection from a library created by [Brian Chung](http://www.magicandlove.com/blog/research/smile-detection-library-for-processing/).  
 The sketch, first conceived to be running on processing, would interact with the web cam, retrieve the video feeds, analyse it and change the text according to the presence or absence of a smile.On that basis, and taking the smile both as a binary input and a thematic constraint, I came up with a few primitive examples of what this textual transformation could be. Given the current state of our knowledge, in the difficulties in adapting the sketches to JavaScript, these examples react to the clicking of the mouse only. The three examples also show how code allows for a complete control over what elements change (sentences, words, letters), and how they are positioned on the 'page'.  
-[Example 1: 'grump'](https://jchwenger.github.io/TheoryProject/01_smile_1_words_grump/)  
-[Example 2: 'gutter'](https://jchwenger.github.io/TheoryProject/02_smile_1_words_2_gutter/)  
-[Example 3: 'gutted?'](https://jchwenger.github.io/TheoryProject/03_smile_1_words_3_gutted/)  
-[Example 4: 'morn/eve'](https://jchwenger.github.io/TheoryProject/04_smile_1_2_morn_eve/)  
+
+- [Example 1: 'grump'](https://jchwenger.github.io/TheoryProject/01_smile_1_words_grump/)  
+- [Example 2: 'gutter'](https://jchwenger.github.io/TheoryProject/02_smile_1_words_2_gutter/)  
+- [Example 3: 'gutted?'](https://jchwenger.github.io/TheoryProject/03_smile_1_words_3_gutted/)  
+- [Example 4: 'morn/eve'](https://jchwenger.github.io/TheoryProject/04_smile_1_2_morn_eve/)  
 
 The four examples above play with the opposition between the two moods represented by the presence or absence of a smile. In the following three, however, the tone changes to something more cutting and ironic, breaking the conventional relationship of civility between the work and the reader. Examples 6 and 7, apart from the obvious wink to the film *The Matrix*, are first steps into dealing with temporality, in two ways: first, through the integration of a 'typewriter tool' that simulates the process of typing on a screen; second, through the integration of time constraints based on the number of frames the program has been through, whereby certain events can be triggered and stopped at will. In example 6, only the first technique is used, in combination with a hypothetical smile (implemented at the click of the mouse here as well), while in example 7 each of the states (the first with no smile, the second with one, the third after the smile has stopped) is followed by another remark after a certain amount of frames, with the intent of pushing, quite curtly so I confess, the reader into smiling or stopping to do so.  Working with time transforms the relationship to text quite profoundly: text has to be written like drama or music, and yet the precision is more akin to cinema or contemporary music editing than to traditional score or part writing. As often happens, the drive to expand the range of technical tools available made me neglect the actual literary work that still remains to be done (write texts of literary value but with a time constraint, or with the binary nature defined by the smile).  
 
-[Example 5: 'mean scowl'](https://jchwenger.github.io/TheoryProject/05_smile_2_mean_scowl/)  
-[Example 6: 'Matrix surveilance'](https://jchwenger.github.io/TheoryProject/06_smile_2_2_Matrix_surveilance/sketch/)  
-[Example 7: 'Matrix interaction'](https://jchwenger.github.io/TheoryProject/07_smile_2_3_Matrix_interaction/sketch/)  
+- [Example 5: 'mean scowl'](https://jchwenger.github.io/TheoryProject/05_smile_2_mean_scowl/)  
+- [Example 6: 'Matrix surveilance'](https://jchwenger.github.io/TheoryProject/06_smile_2_2_Matrix_surveilance/sketch/)  
+- [Example 7: 'Matrix interaction'](https://jchwenger.github.io/TheoryProject/07_smile_2_3_Matrix_interaction/sketch/)  
 
 A third very important concept of computation comes into play in the following example: randomness. Using a random word generator studied in the Processing class, it was possible to generate a small text that plays both on the Biblical theme of Creation and this fundamental computational tool, whilst returning to the tongue-in-cheek tone of the earlier examples. If, against Einstein, one holds that creation, in the deepest sense is indeed playing dice, then randomness, even in this narrow, pseudo-form that we are dealing with here, can then be read as a pointer to the power that was attributed to God (and which is cheekily shoved onto the reader's back): a portrait of the artist as a coin tosser. Two time-controlled events have been included as well in this sketch.  
 
-[Example 8: 'Smile Poetry God'](https://jchwenger.github.io/TheoryProject/08_smile_2_4_God_gibberish/)  
+- [Example 8: 'Smile Poetry God'](https://jchwenger.github.io/TheoryProject/08_smile_2_4_God_gibberish/)  
 
 In the last two examples, the tool of randomness is explored further, following Guy's impulsion and architecture. In the first example, this smile logic is still used, translated here as always as a click of the mouse. Each time this event occurs, a new poem is generated. Using lists of words found online, the sketch produces the text by picking randomly out of several lists of words or punctuation prepared in advance. In the second one, short poems are produced in a continuous fashion, until a face (the left button of the mouse kept pressed) is detected (This solution was developed first because the smile detection library could not be implemented on my computer. Guy proceeded to send me another version with plain face detection that we can both work on). The presence of a reader makes the computer is stop the us producing a readable version, and automatically prompts the saving of the poem into the reader's computer.  
 
-[Example 9: 'Autopoem 1'](https://jchwenger.github.io/TheoryProject/09_autoPoem_1/)  
-[Example 10: 'Autopoem 4'](https://jchwenger.github.io/TheoryProject/10_autoPoem_4/)  
+- [Example 9: 'Autopoem 1'](https://jchwenger.github.io/TheoryProject/09_autoPoem_1/)  
+- [Example 10: 'Autopoem 4'](https://jchwenger.github.io/TheoryProject/10_autoPoem_4/)  
 
 Other versions are coming up that are not yet adapted for online use (and it is a bit of a shame not to have the video element). Various alleyways for exploration include:  
 - a version with more diverse dictionaries that Guy investigated, in which it is possible to toggle between different 'styles' of poems;  
 - a 'Penelope' prose-based version, in which random text production yields a continuous stream of text, from which randomly picked words are removed while the text is being read (once the face is no longer detected, more text is generated again on top of the one remaining).  
 
-The intrusive and potentially overwhelming aspect of the automatic saving of poems on the computer is also an interesting detail we might integrate into the final work: only a few seconds using one of these sketches generates dozens of different texts all saved at once, without any approval or oversight, into the Processing folder, adding another,  
-very typically 'computational' dimension to these objects.  
+The intrusive and potentially overwhelming aspect of the automatic saving of poems on the computer is also an interesting detail we might integrate into the final work: only a few seconds using one of these sketches generates dozens of different texts all saved at once, without any approval or oversight, into the Processing folder, adding another, very typically 'computational' dimension to these objects.  
 
 {% include separators.html type='outer' %}  
 
 ### 06 December, 17h  
 
 After a lot of technical issues, it was finally possible to adapt the sketches for online use. I now have a [GitHub repository](https://github.com/jchwenger/TheoryProject) to host the sketches and turn them into mini-websites.  
-[Example: grump](https://jchwenger.github.io/TheoryProject/01_smile_1_words_grump/)
-[Example: autopoem](https://jchwenger.github.io/TheoryProject/10_autoPoem_4/)  
+
+- [Example: grump](https://jchwenger.github.io/TheoryProject/01_smile_1_words_grump/)  
+- [Example: autopoem](https://jchwenger.github.io/TheoryProject/10_autoPoem_4/)  
 
 {% include separators.html type='outer' %}  
 
@@ -488,7 +556,7 @@ Perhaps a more fruitful approach could be to use facial data in a more abstract 
 
 ### 23 November, 15h  
 
-Theory Artefact  
+#### Theory Artefact  
 
 The project will include two parts: the visual one, and the textual one.  
 
@@ -501,7 +569,7 @@ Something that can easily be done is store various possibilities as an array. In
 
 ~~~
 vector <string> slots = {"that lethal morning", "the hatred, the love you instill", "beigel paradise"};  
-string s = "London, " + slots\[2\] + "...";   
+string s = "London, " + slots[2] + "...";   
 ~~~
 
 String s would read "London, beigel paradise...". The same process can be used at a letter (or phonetic) level: the verb 'sing' can be stored as an array of character, and it is possible to change the 'i' to 'a' or 'u' to change the tense. Similar letter swap could be used to create 'pathways' between words (between 'rat' to 'bat', then between 'bat' to 'bot', swapping only one letter at a time), or between entire texts (the smooth transition between one text to another mentioned above).   
@@ -510,7 +578,7 @@ String s would read "London, beigel paradise...". The same process can be used a
 
 ### 23 November, 12h  
 
-The Nonhuman Turn  
+#### The Nonhuman Turn  
 
 In his introduction, Richard Grusin offers both an introduction to the concept of the 'nonhuman', the topic of the present volume, and an overview of the disciplines to which this concept can be applied (which, unsurprisingly, encompasses no less than the totality of the humanities). The nonhuman, as the name indicates, focusses on what is outside the scope of what is at least traditionally understood as belonging to the human (such as, say, affect, understanding, etc.), and this new line of enquiry aims at changing the debate in the humanities, from the previous state of the struggle where, in a very rough and inaccurate stroke, the aim of the humanities was to defend and study the 'human' against what was not it (e.g. the natural sciences). In a quite amusing twist which is rather typical of critical studies Grusin brings forth as his first example the concept of the 'Anthropocene' and puts its meaning on its head: this term, which denotes the threshold after which the distinction between the natural environment (inhuman, beyond human control) and human activity falls apart, as human activity has reached a power and importance that allows it to modify and potentially harm or destroy the natural environment as a whole, is now read as the becoming-inhuman of human activity ("humans must now be understood as climatological or on the planet that operate just as nonhumans would, independent of human will, belief, or desires"). He then goes on with the overview and discussion of this 'turn', which unfortunately remains anchored in the same theoretical and critical paradigm as previous ones (dominated by the same set of figures from the so-called French Theory, namely Deleuze, Derrida, Latour, etc.), and including strong contradictors (such as the so-called 'Speculative Realists') in one same box.  
 
@@ -521,7 +589,7 @@ Richard Grusin, ed., *The Nonhuman Turn*, Minneapolis, London: University of Min
 
 ### 19 October 17, 15h  
 
-Algorithms as Imagination  
+#### Algorithms as Imagination  
 
 Consider the following hypothesis: in a pre-algorithmic age, imagination is often described as an outside lying beyond our comprehension or control. In ancient times, the gods would represent that external intervention: the poet calls to Apollo, the Muses, or similar, for help.  
 In more recent times, that external realm, from which ideas and images come, can be turned inward, especially since the 'Unconscious Turn 'of the turn of the 20th century, the legacy of which is still with us today every time an artist invokes an unconscious decision or resources, especially dreams, seen as lying within the depth of the individual, for the source of its work and ideas. Seen more coldly, however, the ' gods 'or the 'unconscious 'can merely be specific, singular cases in a vast reservoir of possibilities, which are 'encountered ' by the artist whilst in the appropriate state of practice or pondering.  
@@ -530,7 +598,8 @@ Now consider what algorithms do: they parse through possibilities and return cas
 
 Let us look at an example: I develop a small program that will generate images according to some preestablished rules as well as some randomized factors. The computer will not only produce a piece of work instantly, but allow me to access a very large, possibly infinite array of 'parallel 'works, that are all singular instances within the space of possibilities opened by the code. Looking at all these different possible images, and how I react to them -- sometimes being surprised by an unexpected shape, sometimes being provoked to tweak the code in order to produce a result but I haven't been offered yet, but that I could infer lies somewhere in the possibilities that hand -- it does feel like with the computer is offering me is a tangible, manipulable part of inspiration itself.  
 
-{image 1}  
+![Neural Network](/assets/thoughts/neural-network.png){: .align-center}
+
 
 It is not impossible to think of neural networks in the same way: the step, this time, is that it adds a number of possible paths to the equation, the only generating a possible state and returning it to me, but generating a number of possible states, that interact in a number of possible ways with other possible states, before returning the final result(s). Again, this could be seen as all the different choices that an artist makes in the process of its praxis -- but instead of remaining a possibility, they are all enacted by the machine.  
 
@@ -538,7 +607,7 @@ It is not impossible to think of neural networks in the same way: the step, this
 
 ### 13 October 17, 18h  
 
-Remarks on Pragmatics  
+#### Remarks on Pragmatics  
 
 A closer look at algorithms allows one to consider more carefully a crucial intersection: pragmatics, on the one hand, which usually refers to language, and, on the other, problem solving and computability. The emergence of pragmatics, as emphasized by the article (17), disrupted the self-enclosed view of language that was dominant in the mid-twentieth century, and introduced an 'outside' that language would interact with, in ways that exceeded previous theoretical models (what is the semantic value of a [phatic expression](https://en.wikipedia.org/wiki/Phatic_expression)?, how do you account for [promises, orders, or blessings](https://en.wikipedia.org/wiki/Performative_utterance)?).  
 
@@ -577,14 +646,13 @@ The Navajo workers are part of the new 'creative class' (925), and the whole end
 The article concludes with a return to Marx' focus on labour and 'production', so often hidden from users, as in the example of the 'Intel Inside' campaign featuring clean, happy 'bunny people' instead of the actual workers (937), and to Baudrillard's call for 'another political economic based on more than just the human capacity to produce', that is, a 'realm beyond economic value' (938). Paradoxically, in representing the labour of Navajo women as a 'labour of love' (938) the Fairchild brochure, argues Nakamura, achieves just this: 'semiconductor production is posited as an intrinsic part of the Indian semiconductor production is posited as an intrinsic part of the Indian the "modern" world' (938).   
 
 ---  
-Lisa Nakamura, 'Indigenous Circuits: Navajo Women and the Racialization of Early Electronic Manufacture', *American Quarterly*, Vol. 66, N° 4,  
-Dec. 2014, 919-941.  
+Lisa Nakamura, 'Indigenous Circuits: Navajo Women and the Racialization of Early Electronic Manufacture', *American Quarterly*, Vol. 66, N° 4, Dec. 2014, 919-941.  
 
 {% include separators.html type='outer' %}  
 
 ### 9 October 17, 19h  
 
-On the incomputable  
+#### On the incomputable  
 
 The incomputable appears as this infinite reservoir of possibilities, out of which only a small amount (probably infinite as well, in which case it would be one of a smaller cardinality) is accessible to our algorithm. As Clough points out, this allows for a theory of novelty: the passage of some of the formerly incomputable into the computable (by way of 'prehension' and 'infection') is the process by which novelty arises.   
 It could be of interest to compare the Harman/Whitehead paradigm of a dialectic between the incomputable and the computable and Badiou's set-theoretic framework, where the transfinite hierarchy of sets provides the backdrop (the incomputable) from which it is possible to think the irruption of novelty (the event).  
@@ -600,6 +668,7 @@ Patricia Ticiento Clough, 'Computational Aesthetics in The Practices of Art as P
 ### 8 October 17, 17h    
 
 A major thread in Clough's article revolves around, to put it simply, the goal of ontological turn to reach the 'things themselves' and how they operate 'on their own', without human perception. Yet a striking feature of the text is the number of concepts (especially the idea that algorithms 'experience' things, but also the 'aesthetisation' of causation, on p. 9, and the reference to Whitehead Aristotelian take on teleology, in which "all entities or objects --not just humans\--have purpose" ) are drawn from a conceptual vocabulary that has been developed to describe human, or at least organic / living processes. Is this a defensible choice? Shouldn\'t one attemt to think these 'inhuman', nonbiological processes and mechanisms in inhuman terms as well? It seems to me that the present approach bears a high risk of doing the opposite effect to what it says it attempts to do: it *anthropomorphizes *and *humanizes* objects, structures, 'things', instead of helping us to think these as outside the realm of the human and the organic.  
+
 ---  
 Patricia Ticiento Clough, 'Computational Aesthetics in The Practices of Art as Politics', in Randy Martin, *The Routledge Companion to Art and Politics*, London & New York: 2015, 222-229.  
 
