@@ -5,8 +5,9 @@ date: 2016-03-15 23:47:20.000000000 +0000
 permalink: /sleep-wars/ 
 ---
 
-
 ### AN ESSAY IN THE SPIRIT OF HETEROBIOGRAPHY  
+
+<!--more-->
 
 Sleep. The word has a lovely ring to it, hasn’t it? It sounds plural, as much as book sounds singular. One sloop, two sleep. That’s how it should be. And sleep, you can see it coming, is always multiple. Not sure this jibe will be of use, but here we go, it isn’t the worst place to start. So, sloop. In the OED:
 

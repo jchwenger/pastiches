@@ -5,6 +5,8 @@ date: 2016-04-04 15:45:52.000000000 +0100
 permalink: /four-poems/  
 ---
 
+<!--more-->
+
 ### bucket poetry (a rereading in homage to K. R.)
 
         *after* North *by Seamus Heaney*
