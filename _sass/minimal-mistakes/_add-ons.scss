@@ -59,6 +59,72 @@ li.list-home {
   margin: 1em 0 0 1em;
 }
 
+// Poem indent, inspired by Ed https://github.com/elotroalex/ed/blob/gh-pages/_sass/_ed.scss
+
+ul.poetry {
+  font-size: $type-size-5;
+  > li {
+    margin-bottom: 0em;
+    list-style: none;
+    list-style-type: none;
+  }
+	padding-left: 1rem;
+	text-indent: -1rem;
+}
+
+.poetry span[class^='indent-']{
+    margin: 0; /* reset browsers default margin styles*/
+}
+
+.indent-1 {
+	font-style: normal;
+	padding-left: 1rem;
+}
+
+.indent-2 {
+	font-style: normal;
+	padding-left: 2rem;
+}
+
+.indent-3 {
+	font-style: normal;
+	padding-left: 3rem;
+}
+
+.indent-4 {
+	font-style: normal;
+	padding-left: 4rem;
+}
+
+.indent-5 {
+	font-style: normal;
+	padding-left: 5rem;
+}
+
+.indent-6 {
+	font-style: normal;
+	padding-left: 6rem;
+}
+
+.indent-7 {
+	font-style: normal;
+	padding-left: 7rem;
+}
+
+.indent-8 {
+	font-style: normal;
+	padding-left: 8rem;
+}
+
+.indent-9 {
+	font-style: normal;
+	padding-left: 9rem;
+}
+
+.indent-10 {
+	font-style: normal;
+	padding-left: 10rem;
+}
 // Flexbox for solid page
 // Solution found here: https://stackoverflow.com/a/36401995
 
