@@ -40,8 +40,8 @@ permalink: /four-poems/
 - mais le cœur, l’organe amoureux de la répétition  
 - mais le cœur, l’organe amoureux de la répétition  
 - mais le cœur, l’organe amoureux de la répétition  
-- {: .indent-3} mais le cœur, l’organe amoureux de la répétition  
-- {: .indent-3} mais le cœur, l’organe amoureux de la répétition
+- {: .indent-1} mais le cœur, l’organe amoureux de la répétition  
+- {: .indent-1} mais le cœur, l’organe amoureux de la répétition
 {: .poetry}
 
 {% include separators.html type='outer' %}
@@ -51,19 +51,19 @@ permalink: /four-poems/
         *after John Keats*
 
 - Much have I travell’d in the realms of gold,  
-- {: .indent-2} And many goodly states and kingdoms seen;  
-- {: .indent-2} Round many western islands have I been  
+- {: .indent-1} And many goodly states and kingdoms seen;  
+- {: .indent-1} Round many western islands have I been  
 - Which bards in fealty to Apollo hold.  
 - Oft of one wide expanse had I been told  
-- {: .indent-2} That deep-brow’d Homer ruled as his demesne;  
-- {: .indent-2} Yet did I never breathe its pure serene  
+- {: .indent-1} That deep-brow’d Homer ruled as his demesne;  
+- {: .indent-1} Yet did I never breathe its pure serene  
 - Till I heard McKellen speak out loud and bold:  
 - Then felt I like some watcher of the skies  
-- {: .indent-2} When a new planet swims into his ken;  
+- {: .indent-1} When a new planet swims into his ken;  
 - Or like stout Cortez when with eagle eyes  
-- {: .indent-2} He star’d at the Pacific – and all his men  
+- {: .indent-1} He star’d at the Pacific – and all his men  
 - Look’d at each other with a wild surmise –  
-- {: .indent-2} Silent, upon a peak in Darien.
+- {: .indent-1} Silent, upon a peak in Darien.
 {: .poetry}
 
 {% include separators.html type='outer' %}
