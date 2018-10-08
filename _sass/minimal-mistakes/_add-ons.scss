@@ -62,13 +62,15 @@ li.list-home {
 // Poem indent, inspired by Ed https://github.com/elotroalex/ed/blob/gh-pages/_sass/_ed.scss
 
 ul.poetry {
-  font-size: $type-size-6;
 
-  @include breakpoint($small) {
-    font-size: $type-size-5;
-  }
 
   > li {
+
+    font-size: $type-size-6;
+    @include breakpoint($small) {
+      font-size: $type-size-5;
+    }
+
     margin-bottom: 0em;
     list-style: none;
     list-style-type: none;
