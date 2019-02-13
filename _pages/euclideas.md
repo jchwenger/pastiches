@@ -84,8 +84,13 @@ As often happens in computational arts, quite a bit of time was spent in calcula
 
 ### Musical examples 
 
-Looked up when studying [Godfried Toussaint's 'The Euclidean Algorithm Generates Traditional Musical Rhythm'](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) :  
+Looked up when studying [Godfried Toussaint's 'The Euclidean Algorithm Generates Traditional Musical Rhythm'](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf):  
 
+{% include video id="0TrXTwA0yv8" provider="youtube" %}
+
+{% include video id="9EKu_JC5hqQ" provider="youtube" %}
+
+{% include video id="v8kobQSd8C8" provider="youtube" %}
 
 {% include video id="6dFtlcqGW50" provider="youtube" %}
 
