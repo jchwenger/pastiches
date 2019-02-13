@@ -199,8 +199,13 @@ hr {
 
 ul li,
 ol li {
-  font-size: $type-size-5;
+	font-size: $type-size-5;
   margin-bottom: 0.5em;
+}
+
+// Inherit font size from li
+li p {
+	font-size: 100%;
 }
 
 li ul,
