@@ -53,7 +53,23 @@ button,
 select,
 textarea {
   box-sizing: border-box;
-  font-family: $sans-serif;
+  font-family: $garamond;
+}
+
+// Applying italics to placeholder text
+// https://css-tricks.com/almanac/selectors/p/placeholder-shown/
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
 }
 
 label {
