@@ -12,6 +12,9 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.ml5 %}
+    {% include head/ml5.html %}
+    {% endif %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}">
