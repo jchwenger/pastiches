@@ -5,28 +5,28 @@ const models = {
   'Jean-Jacques Rousseau':
     {
       'seed': 'Je forme une entreprise qui n’eut jamais d’exemple & dont l’exécution n’aura point d’imitateur. ',
-      'src': '/rousseau2/'
+      'src': '/rousseau/'
     },
-  'Kant avec Sade':
-    {
-      'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
-      'src': 'kantavecsade/'
-    },
-  'Marcel Proust':
-    {
-      'seed': 'Longtemps je me suis couché de bonne heure ',
-      'src': 'proust/',
-    },
-    'Marcel Proust 2':
-    {
-      'seed': 'Longtemps je me suis couché de bonne heure ',
-      'src': 'proust2/',
-    },
-  'Jacques Lacan':
-    {
-      'seed': 'Sinthome : le mot existe dans les incunables ',
-      'src': 'lacan2/',
-    }
+  // 'Kant avec Sade':
+  //   {
+  //     'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
+  //     'src': 'kantavecsade/'
+  //   },
+  // 'Marcel Proust':
+  //   {
+  //     'seed': 'Longtemps je me suis couché de bonne heure ',
+  //     'src': 'proust/',
+  //   },
+  //   'Marcel Proust 2':
+  //   {
+  //     'seed': 'Longtemps je me suis couché de bonne heure ',
+  //     'src': 'proust2/',
+  //   },
+  // 'Jacques Lacan':
+  //   {
+  //     'seed': 'Sinthome : le mot existe dans les incunables ',
+  //     'src': 'lacan2/',
+  //   }
 }
 
 let lstms = new Object();
@@ -114,8 +114,14 @@ function switchModel() {
 // Generate new text
 function generate() {
   // Update the status log
-
   select('#status').html('Ça génère...');
+
+  // Remove previous content and hide print button & signature
+  document.getElementById('result').innerHTML = '';
+  document.getElementById('signature').innerHTML = '';
+
+  document.getElementById('print-lstm').style.display = 'none';
+  document.getElementById('signature').style.display = 'none';
 
   // Grab the original text
 
@@ -142,6 +148,7 @@ function generate() {
 
   // When it's done
   function gotData(err, result) {
+
     // Update the status log
     select('#status').html('Voilà :');
 
@@ -155,18 +162,42 @@ function generate() {
       lastIndex = result.sample.lastIndexOf(lastMatch);
       result.sample = result.sample.slice(0,lastIndex)  + '...';
     } else if (lastChar !== '.'){
-      result.sample += '.';
+      result.sample += '...';
     }
 
-    // for (let char of result.sample) {
-    //   console.log(char);
-    // }
+    select('#result').html('« ' + txt + result.sample + ' »');
 
-    select('#result').html(txt + result.sample);
+    // console.log(encode_utf8(result.sample));
 
-    console.log(encode_utf8(result.sample));
+    printReady();
 
   }
+}
+
+async function printReady() {
+
+    // Adding an adverb
+    let adverbs = [
+      'Algorithmiquement vôtre,<br>',
+      'Artificiellement vôtre,<br>',
+      'Robotiquement vôtre,<br>',
+      'Neuralement vôtre,<br>',
+      'Probabilistiquement vôtre,<br>',
+    ];
+    currentAdv = adverbs[Math.floor(Math.random() * adverbs.length)];
+
+    // Grab the model name from the dropdown menu
+    currentName = document
+                   .getElementById("model-select")
+                      .selectedOptions[0]
+                        .innerHTML;
+
+    // Add the signature
+    document.getElementById('signature').style.display = 'block';
+    document.getElementById('signature').innerHTML += currentAdv + currentName;
+
+     // Display the print button
+    document.getElementById('print-lstm').style.display = 'block';
 }
 
 async function encode_utf8( s ) {
