@@ -1,7 +1,6 @@
 ---
 layout: single 
 title: Pastiches & mélanges    
-date: 2019-03-14 10:31:19.822187525 +0000
 ml5: true
 permalink: /pastiches/  
 ---
@@ -10,20 +9,20 @@ permalink: /pastiches/
 
 <!--more-->
 
-<div id="jcw-signature" style="display: none; float: right;">
+<div id="jcw-signature">
   <p>Jérémie C. Wenger, 2019</p>
 </div>
 
 <div class="example">
-  <div id="lstm-controls" style="display: flex; flex-wrap: wrap;">
-    <div style="margin-right: 15px;">
+  <div id="lstm-controls">
+    <div>
       <span>Entre un début ici :</span>
-      <textarea id="textInput" style="width: 100%; height: 250px;" placeholder=""></textarea>
+      <textarea id="textInput" placeholder=""></textarea>
     </div>
-    <div style="width: 40%">
+    <div>
       <span>Voix souhaitée :</span>
-      <select id="model-select" style="width: 100%;"></select>
-      <div style="padding-top: 15px;">
+      <select id="model-select"></select>
+      <div id="lstm-sliders">
         Longueur désirée : <span id="length">500</span>
         <input id="lenSlider" type="range" min="0" max="1000" value="500"> 
         Température : <span id="temperature">0.8</span>
@@ -32,23 +31,23 @@ permalink: /pastiches/
     </div>
   </div>
   <div id="lstm-generate">
-    <br/><button id="generate" style="width: 100%; height: 50px;">Génère !</button>
-    <div style=" padding-top: 30px;">
+    <br/><button id="generate">Génère !</button>
+    <div>
       <p id="status">Ça charge...</p>
     </div>
     <hr>
   </div>
     <div> 
-      <div id="breaks" style="display: none;">
+      <div id="breaks">
         <br><br><br><br><br><br><br><br>
       </div>
       <p id="result">
       <span id="original"></span><span id="prediction"></span>
       </p>
-      <i><span id="signature" style="display: none; float: right;"></span></i>
+      <i><span id="signature"></span></i>
     </div>
     <br>
     <div>
-      <button id="print-lstm" onclick="printLSTM('result')" value="print generated text" style="display: none; height: 50px;">Imprime</button>
+      <button id="print-lstm" onclick="printLSTM('result')" value="print generated text">Imprime</button>
     </div>
 </div>

@@ -176,28 +176,28 @@ function generate() {
 
 async function printReady() {
 
-    // Adding an adverb
-    let adverbs = [
-      'Algorithmiquement vôtre,<br>',
-      'Artificiellement vôtre,<br>',
-      'Robotiquement vôtre,<br>',
-      'Neuralement vôtre,<br>',
-      'Probabilistiquement vôtre,<br>',
-    ];
-    currentAdv = adverbs[Math.floor(Math.random() * adverbs.length)];
+  // Adding an adverb
+  let adverbs = [
+    'Algorithmiquement vôtre,<br>',
+    'Artificiellement vôtre,<br>',
+    'Robotiquement vôtre,<br>',
+    'Neuralement vôtre,<br>',
+    'Probabilistiquement vôtre,<br>',
+  ];
+  currentAdv = adverbs[Math.floor(Math.random() * adverbs.length)];
 
-    // Grab the model name from the dropdown menu
-    currentName = document
-                   .getElementById("model-select")
-                      .selectedOptions[0]
-                        .innerHTML;
+  // Grab the model name from the dropdown menu
+  currentName = document
+    .getElementById("model-select")
+    .selectedOptions[0]
+    .innerHTML;
 
-    // Add the signature
-    document.getElementById('signature').style.display = 'block';
-    document.getElementById('signature').innerHTML += currentAdv + currentName;
+  // Add the signature
+  document.getElementById('signature').style.display = 'block';
+  document.getElementById('signature').innerHTML += currentAdv + currentName;
 
-     // Display the print button
-    document.getElementById('print-lstm').style.display = 'block';
+  // Display the print button
+  document.getElementById('print-lstm').style.display = 'block';
 }
 
 async function encode_utf8( s ) {

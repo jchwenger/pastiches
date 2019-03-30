@@ -63,7 +63,6 @@ li.list-home {
 
 ul.poetry {
 
-
   > li {
 
     font-size: $type-size-6;
@@ -75,8 +74,8 @@ ul.poetry {
     list-style: none;
     list-style-type: none;
   }
-	padding-left: 1rem;
-	text-indent: -1rem;
+  padding-left: 1rem;
+  text-indent: -1rem;
 }
 
 .poetry span[class^='indent-']{
@@ -84,53 +83,53 @@ ul.poetry {
 }
 
 .indent-1 {
-	font-style: normal;
-	padding-left: 1rem;
+  font-style: normal;
+  padding-left: 1rem;
 }
 
 .indent-2 {
-	font-style: normal;
-	padding-left: 2rem;
+  font-style: normal;
+  padding-left: 2rem;
 }
 
 .indent-3 {
-	font-style: normal;
-	padding-left: 3rem;
+  font-style: normal;
+  padding-left: 3rem;
 }
 
 .indent-4 {
-	font-style: normal;
-	padding-left: 4rem;
+  font-style: normal;
+  padding-left: 4rem;
 }
 
 .indent-5 {
-	font-style: normal;
-	padding-left: 5rem;
+  font-style: normal;
+  padding-left: 5rem;
 }
 
 .indent-6 {
-	font-style: normal;
-	padding-left: 6rem;
+  font-style: normal;
+  padding-left: 6rem;
 }
 
 .indent-7 {
-	font-style: normal;
-	padding-left: 7rem;
+  font-style: normal;
+  padding-left: 7rem;
 }
 
 .indent-8 {
-	font-style: normal;
-	padding-left: 8rem;
+  font-style: normal;
+  padding-left: 8rem;
 }
 
 .indent-9 {
-	font-style: normal;
-	padding-left: 9rem;
+  font-style: normal;
+  padding-left: 9rem;
 }
 
 .indent-10 {
-	font-style: normal;
-	padding-left: 10rem;
+  font-style: normal;
+  padding-left: 10rem;
 }
 // Flexbox for solid page
 // Solution found here: https://stackoverflow.com/a/36401995
@@ -171,3 +170,83 @@ ul.poetry {
   }
 }
 
+// Pastiches & mélanges 
+
+#jcw-signature{
+  display: none; 
+  float: right;
+}
+
+#lstm-controls {
+  display: flex; 
+  flex-wrap: wrap;
+
+  > div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  > :first-child {
+
+    width: 100%;
+
+    // both input & select/sliders on one row above $medium
+    @include breakpoint($medium){
+      width: 60%;
+    }
+  }
+
+  > :last-child {
+
+    width: 100%;
+
+    // both input & select/sliders on one row above $medium
+    @include breakpoint($medium){
+      width: 40%;
+    }
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  #model-select {
+
+    // Smaller font when input & select on one row
+    @include breakpoint($medium) {
+      font-size: $type-size-8;
+    }
+    width: 100%;
+  }
+
+  #lstm-sliders {
+    width: 100%;
+    padding-top: 15px;
+  }
+}
+
+#lstm-generate {
+
+  button {
+    width: 100%; 
+    height: 50px;
+  }
+
+  > div {
+    margin-top: 30px;
+  }
+}
+
+#breaks {
+  display: none;
+}
+
+#signature {
+  display: none; 
+  float: right;
+}
+
+#print-lstm {
+  display: none; 
+  height: 50px;
+}
