@@ -12,16 +12,11 @@ const models = {
   //     'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
   //     'src': 'kantavecsade/'
   //   },
-  // 'Marcel Proust':
-  //   {
-  //     'seed': 'Longtemps je me suis couché de bonne heure ',
-  //     'src': 'proust/',
-  //   },
-  //   'Marcel Proust 2':
-  //   {
-  //     'seed': 'Longtemps je me suis couché de bonne heure ',
-  //     'src': 'proust2/',
-  //   },
+  'Marcel Proust':
+    {
+      'seed': 'Longtemps je me suis couché de bonne heure ',
+      'src': 'proust/',
+    },
   // 'Jacques Lacan':
   //   {
   //     'seed': 'Sinthome : le mot existe dans les incunables ',
