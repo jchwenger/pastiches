@@ -3,29 +3,35 @@
 const models = {
 
   'Jean-Jacques Rousseau':
-    {
-      'seed': 'Je forme une entreprise qui n’eut jamais d’exemple & dont l’exécution n’aura point d’imitateur. ',
-      'nick': 'Jean-Jacques',
-      'src': '/rousseau/'
-    },
+  {
+    'seed': 'Je forme une entreprise qui n’eut jamais d’exemple & dont l’exécution n’aura point d’imitateur. ',
+    'nick': 'Jean-Jacques',
+    'src': '/rousseau/'
+  },
   'Kant avec Sade':
-    {
-      'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
-      'nick': 'Donatien Alphonse François & Immanuel',
-      'src': 'kantavecsade/'
-    },
+  {
+    'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
+    'nick': 'Donatien Alphonse François & Immanuel',
+    'src': 'kantavecsade/'
+  },
   'Marcel Proust':
-    {
-      'seed': 'Longtemps je me suis couché de bonne heure ',
-      'nick': 'Marcel',
-      'src': 'proust/',
-    },
+  {
+    'seed': 'Longtemps je me suis couché de bonne heure ',
+    'nick': 'Marcel',
+    'src': 'proust/',
+  },
+  'Louis-Ferdinand Céline':
+  {
+    'seed': 'Ça a débuté comme ça ',
+    'nick': 'Louis-Ferdinand',
+    'src': 'celine/',
+  },
   'Jacques Lacan':
-    {
-      'seed': 'Sinthome : le mot existe dans les incunables ',
-      'nick': 'Jacques',
-      'src': 'lacan/',
-    }
+  {
+    'seed': 'Sinthome : le mot existe dans les incunables ',
+    'nick': 'Jacques',
+    'src': 'lacan/',
+  },
 }
 
 let lstms = new Object();
