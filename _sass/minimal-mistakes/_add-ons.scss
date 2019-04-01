@@ -247,6 +247,11 @@ ul.poetry {
 }
 
 #print-lstm {
+  width: 100%;
   display: none; 
   height: 50px;
+}
+
+#print-lstm-div {
+  padding-top: 60px;
 }

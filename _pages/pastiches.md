@@ -47,7 +47,7 @@ permalink: /pastiches/
       <i><span id="signature"></span></i>
     </div>
     <br>
-    <div>
-      <button id="print-lstm" onclick="printLSTM('result')" value="print generated text">Imprime</button>
+    <div id="print-lstm-div">
+      <button id="print-lstm" onclick="printLSTM('result')" value="print generated text">Imprime !</button>
     </div>
 </div>

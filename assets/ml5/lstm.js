@@ -5,21 +5,25 @@ const models = {
   'Jean-Jacques Rousseau':
     {
       'seed': 'Je forme une entreprise qui n’eut jamais d’exemple & dont l’exécution n’aura point d’imitateur. ',
+      'nick': 'Jean-Jacques',
       'src': '/rousseau/'
     },
-  // 'Kant avec Sade':
-  //   {
-  //     'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
-  //     'src': 'kantavecsade/'
-  //   },
+  'Kant avec Sade':
+    {
+      'seed': 'Nous tenons que le boudoir sadien s’égale à ces lieux dont les écoles de la philosophie antique prirent leur nom ',
+      'nick': 'Donatien Alphonse François & Immanuel',
+      'src': 'kantavecsade/'
+    },
   'Marcel Proust':
     {
       'seed': 'Longtemps je me suis couché de bonne heure ',
+      'nick': 'Marcel',
       'src': 'proust/',
     },
   // 'Jacques Lacan':
   //   {
   //     'seed': 'Sinthome : le mot existe dans les incunables ',
+      // 'nick': 'Jacques',
   //     'src': 'lacan2/',
   //   }
 }
@@ -95,12 +99,29 @@ function switchModel() {
 
   console.log('Switched to model', current);
 
-  select('#result')
-      .html('');
+  // Remove previous content and hide print button & signature
+  document
+    .getElementById('result')
+    .innerHTML = '';
 
+  document
+    .getElementById('signature')
+    .innerHTML = '';
+
+  document
+    .getElementById('print-lstm')
+    .style
+    .display = 'none';
+
+  document
+    .getElementById('signature')
+    .style
+    .display = 'none';
+
+  // Change placeholder text
   select('#textInput')
-      .attribute('placeholder',
-                  models[current].seed);
+    .attribute('placeholder',
+      models[current].seed);
 
   select('#status').html('Réseau « ' + current + ' » prêt à générer...');
 }
@@ -172,27 +193,37 @@ function generate() {
 async function printReady() {
 
   // Adding an adverb
-  let adverbs = [
+  const adverbs = [
     'Algorithmiquement vôtre,<br>',
     'Artificiellement vôtre,<br>',
     'Robotiquement vôtre,<br>',
     'Neuralement vôtre,<br>',
     'Probabilistiquement vôtre,<br>',
+    'Automatiquement vôtre, <br>',
   ];
-  currentAdv = adverbs[Math.floor(Math.random() * adverbs.length)];
+  const currentAdv = adverbs[Math.floor(Math.random() * adverbs.length)];
 
   // Grab the model name from the dropdown menu
-  currentName = document
+  const currentName = document
     .getElementById("model-select")
     .selectedOptions[0]
     .innerHTML;
 
+  const currentNick = models[currentName].nick;
+
   // Add the signature
-  document.getElementById('signature').style.display = 'block';
-  document.getElementById('signature').innerHTML += currentAdv + currentName;
+  document
+    .getElementById('signature')
+    .style.display = 'block';
+
+  document
+    .getElementById('signature')
+    .innerHTML += currentAdv + currentNick;
 
   // Display the print button
-  document.getElementById('print-lstm').style.display = 'block';
+  document
+    .getElementById('print-lstm')
+    .style.display = 'block';
 }
 
 async function encode_utf8( s ) {
