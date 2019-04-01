@@ -54,11 +54,21 @@
 }
 
 .page__footer-copyright {
+  text-align: right;
   font-family: $header-font-family;
   font-size: $type-size-7;
+  width: 60%;
+  @include breakpoint($small){
+    width: auto;
+  }
 }
 
 .page__footer-follow {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
   ul {
     margin: 0;
     padding: 0;
@@ -81,7 +91,6 @@
 
   a {
     padding-right: 10px;
-    font-weight: bold;
   }
 
   .social-icons {

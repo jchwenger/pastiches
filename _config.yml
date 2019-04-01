@@ -206,18 +206,18 @@ projects:
 # Site Footer
 footer:
   links:
-    - label: "Email"
+    - label: ""
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto: jeremie[dot]wenger[at]gmail[dot]com"
+      url: "mailto: jeremie[dot]wenger[at]gmail[dot]com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: https://twitter.com/hilperic
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
+    - label: ""
       icon: "fab fa-fw fa-github"
-      # url: https://github.com/jchwenger
+      url: https://github.com/jchwenger
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: https://www.instagram.com/hilperic/
