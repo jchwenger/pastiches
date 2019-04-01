@@ -20,12 +20,12 @@ const models = {
       'nick': 'Marcel',
       'src': 'proust/',
     },
-  // 'Jacques Lacan':
-  //   {
-  //     'seed': 'Sinthome : le mot existe dans les incunables ',
-      // 'nick': 'Jacques',
-  //     'src': 'lacan2/',
-  //   }
+  'Jacques Lacan':
+    {
+      'seed': 'Sinthome : le mot existe dans les incunables ',
+      'nick': 'Jacques',
+      'src': 'lacan/',
+    }
 }
 
 let lstms = new Object();
@@ -133,11 +133,21 @@ function generate() {
   select('#status').html('Ça génère...');
 
   // Remove previous content and hide print button & signature
-  document.getElementById('result').innerHTML = '';
-  document.getElementById('signature').innerHTML = '';
+  document
+    .getElementById('result')
+    .innerHTML = '';
 
-  document.getElementById('print-lstm').style.display = 'none';
-  document.getElementById('signature').style.display = 'none';
+  document
+    .getElementById('signature')
+    .innerHTML = '';
+
+  document
+    .getElementById('print-lstm')
+    .style.display = 'none';
+
+  document
+    .getElementById('signature')
+    .style.display = 'none';
 
   // Grab the original text
 
@@ -199,6 +209,9 @@ async function printReady() {
     'Robotiquement vôtre,<br>',
     'Neuralement vôtre,<br>',
     'Probabilistiquement vôtre,<br>',
+    'Machinalement vôtre, <br>',
+    'Profondément vôtre, <br>',
+    'Machiniquement vôtre, <br>',
     'Automatiquement vôtre, <br>',
   ];
   const currentAdv = adverbs[Math.floor(Math.random() * adverbs.length)];
