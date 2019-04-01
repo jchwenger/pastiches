@@ -39,7 +39,7 @@ permalink: /pastiches/
   </div>
     <div> 
       <div id="breaks">
-        <br><br><br><br><br><br><br><br>
+        <br><br><br><br>
       </div>
       <p id="result">
       <span id="original"></span><span id="prediction"></span>
