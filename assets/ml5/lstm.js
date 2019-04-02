@@ -1,7 +1,12 @@
 // Create the LSTM Generator passing it the model directory
 // const lstm = ml5.charRNN('models/lot-of-it', modelReady);
 const models = {
-
+  'Rabelais et Montaigne':
+  {
+  'seed': 'Oysiveté pleine de pantagrueliſme',
+  'nick': 'François & Michel',
+  'src': 'rabelaisetmontaigne/'
+  },
   'Jean-Jacques Rousseau':
   {
     'seed': 'Je forme une entreprise qui n’eut jamais d’exemple & dont l’exécution n’aura point d’imitateur. ',
@@ -31,7 +36,7 @@ const models = {
     'seed': 'Sinthome : le mot existe dans les incunables ',
     'nick': 'Jacques',
     'src': 'lacan/',
-  },
+  }
 }
 
 let lstms = new Object();
@@ -75,12 +80,15 @@ function setup() {
 }
 
 function modelReady() {
-  document.getElementById('status').innerHTML = 'Les modèles sont prêts.';
+  document
+    .getElementById('status')
+    .innerHTML = 'Les modèles sont prêts.';
 }
 
 function populate() {
 
-  let drpd = document.getElementById("model-select");
+  let drpd = document
+              .getElementById('model-select');
 
   for (i in models) {
     drpd.options[drpd.options.length] = new Option(i, i);
@@ -91,15 +99,16 @@ function populate() {
     }
   }
 
-  select('#textInput').attribute('placeholder', models[initModel].seed);
+  select('#textInput')
+    .attribute('placeholder', models[initModel].seed);
 }
 
 // Switch model
 function switchModel() {
   let current = document
-                 .getElementById("model-select")
-                    .selectedOptions[0]
-                      .innerHTML;
+                  .getElementById('model-select')
+                  .selectedOptions[0]
+                  .innerHTML;
 
   lstm = lstms[current];
 
@@ -129,14 +138,33 @@ function switchModel() {
     .attribute('placeholder',
       models[current].seed);
 
-  select('#status').html('Réseau « ' + current + ' » prêt à générer...');
+  // Reset length, temperature slider
+  document
+    .getElementById('lenSlider')
+    .value = 500;
+
+  document
+    .getElementById('length')
+    .innerHTML = '500';
+
+  document
+    .getElementById('tempSlider')
+    .value = 0.8;
+
+  document
+    .getElementById('temperature')
+    .innerHTML = '0.8';
+
+  select('#status')
+    .html('Réseau « ' + current + ' » prêt à générer...');
 }
 
 
 // Generate new text
 function generate() {
   // Update the status log
-  select('#status').html('Ça génère...');
+  select('#status')
+    .html('Ça génère...');
 
   // Remove previous content and hide print button & signature
   document
@@ -163,9 +191,9 @@ function generate() {
   // use the default seed
   if (txt.length === 0) {
     let current = document
-                   .getElementById("model-select")
-                      .selectedOptions[0]
-                        .innerHTML;
+                    .getElementById('model-select')
+                    .selectedOptions[0]
+                    .innerHTML;
     txt = models[current].seed;
     console.log('Using default seed: « ' + txt + ' »');
   }
