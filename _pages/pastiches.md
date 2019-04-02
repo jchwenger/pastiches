@@ -24,9 +24,9 @@ permalink: /pastiches/
       <select id="model-select"></select>
       <div id="lstm-sliders">
         Longueur désirée : <span id="length">500</span>
-        <input id="lenSlider" type="range" min="0" max="1000" value="500"> 
+        <input id="lenSlider" type="range" min="1" max="1000" value="500"> 
         Température<sup>(*)</sup> : <span id="temperature">0.8</span>
-        <input id="tempSlider" type="range" min="0" max="1" step="0.01" value="0.8">
+        <input id="tempSlider" type="range" min="0.1" max="1.5" step="0.01" value="0.8">
       </div>
     </div>
   </div>

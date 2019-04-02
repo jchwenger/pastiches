@@ -1,5 +1,5 @@
-// Create the LSTM Generator passing it the model directory
-// const lstm = ml5.charRNN('models/lot-of-it', modelReady);
+// Text generation using LSTMs with ML5js https://ml5js.org/
+
 const models = {
   'Rabelais et Montaigne':
   {
