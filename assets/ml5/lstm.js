@@ -39,14 +39,11 @@ const models = {
   }
 }
 
-let lstms = new Object();
-
-for (i in models) {
-  lstms[i] = ml5.charRNN('/assets/ml5/models/' + models[i].src, modelReady);
-}
-
 const initModel = 'Jean-Jacques Rousseau';
-let lstm = lstms[initModel];
+let currentModel = initModel;
+
+let lstms = new Object();
+let lstm = new Object();
 
 let textInput;
 let lengthSlider;
@@ -59,9 +56,9 @@ function setup() {
   populate();
 
   // Grab the DOM elements
-  textInput = select('#textInput');
-  lengthSlider = select('#lenSlider');
-  tempSlider = select('#tempSlider');
+  textInput = select('#text-input');
+  lengthSlider = select('#length-slider');
+  tempSlider = select('#temp-slider');
   button = select('#generate');
   modelSelect = select('#model-select');
 
@@ -77,12 +74,11 @@ function setup() {
     select('#temperature').html(tempSlider.value());
   }
 
-}
+  // Load the init model & initialize the current lstm
+  lstms[initModel] = ml5.charRNN('/assets/ml5/models/' + models[initModel].src, modelReady(`« ${initModel} »`));
 
-function modelReady() {
-  document
-    .getElementById('status')
-    .innerHTML = 'Les modèles sont prêts.';
+  // Assign the current lstm
+  lstm = lstms[initModel];
 }
 
 function populate() {
@@ -99,20 +95,36 @@ function populate() {
     }
   }
 
-  select('#textInput')
+  select('#text-input')
     .attribute('placeholder', models[initModel].seed);
 }
 
+function modelReady(modelName) {
+  document
+    .getElementById('status')
+    .innerHTML = `Réseau ${modelName} est prêt.`;
+}
+
 // Switch model
-function switchModel() {
-  let current = document
-                  .getElementById('model-select')
-                  .selectedOptions[0]
-                  .innerHTML;
+async function switchModel() {
 
-  lstm = lstms[current];
+  // Get rid of the current model
+  delete lstms[currentModel];
 
-  console.log('Switched to model', current);
+  // Get the name of the selected model
+  currentModel = document
+              .getElementById('model-select')
+              .selectedOptions[0]
+              .innerHTML;
+
+  // Update status
+  document
+    .getElementById('status')
+    .innerHTML = 'Ça charge...';
+
+  lstms[currentModel] = ml5.charRNN('/assets/ml5/models/' + models[currentModel].src, modelReady(`« ${currentModel} »`));
+
+  console.log('Switched to model', currentModel);
 
   // Remove previous content and hide print button & signature
   document
@@ -134,13 +146,13 @@ function switchModel() {
     .display = 'none';
 
   // Change placeholder text
-  select('#textInput')
+  select('#text-input')
     .attribute('placeholder',
-      models[current].seed);
+      models[currentModel].seed);
 
   // Reset length, temperature slider
   document
-    .getElementById('lenSlider')
+    .getElementById('length-slider')
     .value = 500;
 
   document
@@ -148,7 +160,7 @@ function switchModel() {
     .innerHTML = '500';
 
   document
-    .getElementById('tempSlider')
+    .getElementById('temp-slider')
     .value = 0.8;
 
   document
@@ -156,15 +168,16 @@ function switchModel() {
     .innerHTML = '0.8';
 
   select('#status')
-    .html('Réseau « ' + current + ' » prêt à générer...');
+    .html('Réseau « ' + currentModel + ' » prêt à générer...');
 }
 
 
 // Generate new text
 function generate() {
+
   // Update the status log
   select('#status')
-    .html('Ça génère...');
+    .html('Patience ! Ça génère...');
 
   // Remove previous content and hide print button & signature
   document
@@ -190,11 +203,11 @@ function generate() {
   // If the user hasn't input something
   // use the default seed
   if (txt.length === 0) {
-    let current = document
-                    .getElementById('model-select')
-                    .selectedOptions[0]
-                    .innerHTML;
-    txt = models[current].seed;
+    let currentModel = document
+                        .getElementById('model-select')
+                        .selectedOptions[0]
+                        .innerHTML;
+    txt = models[currentModel].seed;
     console.log(`Using default seed: « ${txt} »`);
 
   } else {
