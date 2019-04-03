@@ -3,7 +3,7 @@
 const models = {
   'Rabelais et Montaigne':
   {
-  'seed': 'Oysiveté pleine de pantagrueliſme',
+  'seed': 'Oysiveté pleine de pantagrueliſme ',
   'nick': 'François & Michel',
   'src': 'rabelaisetmontaigne/'
   },
@@ -195,7 +195,15 @@ function generate() {
                     .selectedOptions[0]
                     .innerHTML;
     txt = models[current].seed;
-    console.log('Using default seed: « ' + txt + ' »');
+    console.log(`Using default seed: « ${txt} »`);
+
+  } else {
+
+    // Hack: if there is no space at the end, add one
+
+    if (txt[txt.length-1] !== ' ') {
+      txt = `${txt} `;
+    }
   }
 
   let data = {
