@@ -124,6 +124,8 @@ async function switchModel() {
 
   lstms[currentModel] = ml5.charRNN('/assets/ml5/models/' + models[currentModel].src, modelReady(`« ${currentModel} »`));
 
+  lstm = lstms[currentModel];
+
   console.log('Switched to model', currentModel);
 
   // Remove previous content and hide print button & signature
