@@ -178,62 +178,66 @@ ul.poetry {
 }
 
 #lstm-controls {
-  display: flex; 
-  flex-wrap: wrap;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto 100px auto auto;
+  grid-row-gap: 1em;
 
   > div {
-    padding-left: 5px;
-    padding-right: 5px;
+    border-radius: 1em;
   }
 
-  > :first-child {
-
-    width: 100%;
-
-    // both input & select/sliders on one row above $medium
-    @include breakpoint($medium){
-      width: 60%;
-    }
-  }
-
-  > :last-child {
-
-    width: 100%;
-
-    // both input & select/sliders on one row above $medium
-    @include breakpoint($medium){
-      width: 40%;
-    }
-  }
-
-  textarea {
-    height: 200px;
-  }
+  // font-size: $type-size-7;
 
   #model-select {
-
-    // Smaller font when input & select on one row
-    @include breakpoint($medium) {
-      font-size: $type-size-8;
-    }
     width: 100%;
   }
 
-  #lstm-sliders {
+  #text-input {
+    height: 100%;
+  }
+
+  #temp-slider {
     width: 100%;
-    padding-top: 15px;
+  }
+
+  #temp-note {
+    grid-column: 1 / 3;
+    font-size: $type-size-8;
+  }
+
+  hr {
+    grid-column: 1 / 3;
   }
 }
 
 #lstm-generate {
 
-  button {
-    width: 100%; 
+  margin-top: 30px;
+
+  #generate {
+    width: 100%;
     height: 50px;
+    margin-bottom: 15px;
   }
 
-  > div {
-    margin-top: 30px;
+  #lstm-buttons {
+    display: flex;
+    margin-bottom: 30px;
+
+    button {
+      width: 50%; 
+      height: 50px;
+    }
+
+    #tabula {
+      margin-right: 1%;
+    }
+
+    #finis {
+      margin-left: 1%;
+    }
   }
 }
 
@@ -244,18 +248,5 @@ ul.poetry {
 #signature {
   display: none; 
   float: right;
-}
-
-#print-lstm {
-  width: 100%;
-  display: none; 
-  height: 50px;
-}
-
-#print-lstm-div {
-  padding-top: 60px;
-}
-
-#temp-note {
-  font-size: $type-size-8;
+  margin-bottom: 15px;
 }
