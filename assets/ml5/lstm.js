@@ -245,6 +245,7 @@ async function switchModel() {
   // Remove previous content and hide print button & signature, switch back to generate button
   clearId('signature');
   showHideId('signature', 'none');
+  showHideId('lstm-buttons', 'none');
 
   document
     .getElementById('temp-slider')
@@ -311,7 +312,7 @@ async function resetModel() {
     let inputDiv = document
                     .getElementById('text-input');
     inputDiv.value = '';
-    inputDiv.setAttribute('placeholder', models[initModel].seed);
+    inputDiv.setAttribute('placeholder', models[currentModel].seed);
 
     // Reset result div
     modelReady(`« ${currentModel} »`);
