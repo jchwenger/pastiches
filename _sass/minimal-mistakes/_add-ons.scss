@@ -250,3 +250,30 @@ ul.poetry {
   float: right;
   margin-bottom: 15px;
 }
+
+
+// --------------------------
+// Plain table for Ça artificiel
+
+.ca-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  font-size: $type-size-6;
+  line-height: 1;
+
+  tr {
+    border: none;
+  }
+
+  th, td { 
+    vertical-align: top;
+    padding-left: 30px;
+    padding-right: 15px;
+    border-right: solid 1px red;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

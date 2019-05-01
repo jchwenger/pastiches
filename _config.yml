@@ -124,8 +124,12 @@ author:
   
 projects:
   projects:
+    - title: "Ça artificiel"
+      pitch: "L'écriture à l'épreuve de la machine"
+      icon:
+      url: "/ca-artificiel/"
     - title: "Pastiches & mélanges"
-      pitch: "Génération automatique de textes grâce au deep learning."
+      pitch: "Génération automatique de textes grâce au deep learning"
       icon:
       url: "/pastiches/"
     - title: "Recursus"
