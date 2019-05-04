@@ -104,3 +104,23 @@ $(document).ready(function() {
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 });
+
+// ------------------------------------------
+//  Instructions for JS & plugins here: 
+//  https://mmistakes.github.io/minimal-mistakes/docs/javascript/
+
+// -------------------------------------------
+// Translation function: load both versions & hide/show them as needed
+
+function toggleLang() {
+  langTag = $('.lang-link').find('a');
+  if (langTag.text() == 'Français') {
+    $('.FR').show();
+    $('.EN').hide();
+    langTag.text('English');
+  } else if (langTag.text() == 'English') {
+    $('.EN').show();
+    $('.FR').hide();
+    langTag.text('Français');
+  }
+}

@@ -1,8 +1,13 @@
-{% if include.type == 'outer' %}
-<p class='separator-outer'>§</p>
-{% elsif include.type == 'inner' %}
-<p class='separator-inner'>&#9753;</p>
-{% elsif include.type == 'blank' %}
-<p class='separator-inner'>&nbsp;</p>
+{% if include.lang %}
+{% assign lang_class = include.lang %}
 {% endif %}
-
+{% if include.state %}
+{% assign include_state = include.state %}
+{% endif %}
+{% if include.type == 'outer' %}
+<p class='separator-outer {{lang_class}}' {{include_state}}>§</p>
+{% elsif include.type == 'inner' %}
+<p class='separator-inner {{lang_class}}' {{include_state}}>&#9753;</p>
+{% elsif include.type == 'blank' %}
+<p class='separator-inner {{lang_class}}' {{include_state}}>&nbsp;</p>
+{% endif %}
