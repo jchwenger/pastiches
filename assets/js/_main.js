@@ -113,7 +113,7 @@ $(document).ready(function() {
 // Translation function: load both versions & hide/show them as needed
 
 function toggleLang() {
-  langTag = $('.lang-link').find('a');
+  langTag = $('.lang-link');
   if (langTag.text() == 'Français') {
     $('.FR').show();
     $('.EN').hide();
@@ -122,5 +122,7 @@ function toggleLang() {
     $('.EN').show();
     $('.FR').hide();
     langTag.text('Français');
-  }
+ }
 }
+
+$('.lang-link')[0].addEventListener('click', toggleLang);
