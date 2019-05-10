@@ -132,6 +132,10 @@ projects:
       pitch: "Génération automatique de textes grâce au deep learning"
       icon:
       url: "/pastiches/"
+    - title: "Carrés"
+      pitch: "Version française des carrés de lettres, suivant les procédures développées dans <a href=\"https://recursus.co/\">Recursus</a>"
+      icon:
+      url: "/sous-mots/"
     - title: "Recursus"
       pitch: "Triptych of computational literature composed of WordSquares, Subwords and AIT"
       icon: "fas fa-fw fa-link"
