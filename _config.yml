@@ -153,6 +153,10 @@ projects:
       icon: "fab fa-fw fa-tumblr"
       url: "http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/"
   code:
+    - title: "The Siamesor"
+      pitch: "The breeding of Siamese words, aka werewords"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jchwenger/siamesor"
     - title: "AIT"
       pitch: "Artificial It. Inchoate steps into neural text generation"
       icon: "fab fa-fw fa-github"
