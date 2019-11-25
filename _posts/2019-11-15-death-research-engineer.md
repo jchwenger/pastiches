@@ -24,7 +24,7 @@ sensed the maggots starting to wriggle in his stomach. He saw that a prim
 gentleman sitting in the circular leather couch next to him was carefully
 wiping his monocle and his Google Pixel 37A+ with his glove and muttering
 something to himself. In the prim gentleman, W. recognised Dr. P., a senior
-executive working for Menick Inc, the parent corporation of W.'s current
+executive working for M. Inc, the parent corporation of W.'s current
 employer.
 
 "I have spattered his device," thought W., "technically he does not work
