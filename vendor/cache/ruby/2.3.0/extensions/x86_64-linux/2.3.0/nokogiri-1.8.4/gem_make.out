@@ -1,5 +1,5 @@
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/nokogiri-1.8.4/ext/nokogiri
-/home/default/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20191115-6339-1w86ze5.rb extconf.rb
+/usr/bin/ruby2.3 -r ./siteconf20191121-24808-g3vsmi.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.3.0
@@ -77,40 +77,106 @@ make "DESTDIR=" clean
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/nokogiri-1.8.4/ext/nokogiri
 make "DESTDIR="
-compiling xml_text.c
-compiling xml_sax_parser_context.c
-compiling xml_reader.c
-compiling xml_comment.c
-compiling xml_namespace.c
-compiling xml_document.c
 compiling html_document.c
-compiling xml_relax_ng.c
-compiling xml_document_fragment.c
-compiling xml_cdata.c
-compiling xml_sax_parser.c
-compiling xml_encoding_handler.c
-compiling xml_node_set.c
-compiling xml_schema.c
-compiling xml_sax_push_parser.c
-compiling xml_attribute_decl.c
 compiling html_element_description.c
-compiling xml_processing_instruction.c
-compiling xml_dtd.c
+compiling html_entity_lookup.c
+html_entity_lookup.c: In function ‘get’:
+html_entity_lookup.c:9:24: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static VALUE get(VALUE self, VALUE key)
+                        ^
 compiling html_sax_parser_context.c
+compiling html_sax_push_parser.c
+compiling nokogiri.c
+compiling xml_attr.c
+compiling xml_attribute_decl.c
+compiling xml_cdata.c
+compiling xml_comment.c
+compiling xml_document.c
+xml_document.c: In function ‘dealloc_node_i’:
+xml_document.c:3:38: warning: unused parameter ‘key’ [-Wunused-parameter]
+ static int dealloc_node_i(xmlNodePtr key, xmlNodePtr node, xmlDocPtr doc)
+                                      ^
+compiling xml_document_fragment.c
+compiling xml_dtd.c
+compiling xml_element_content.c
+compiling xml_element_decl.c
+compiling xml_encoding_handler.c
+xml_encoding_handler.c: In function ‘delete’:
+xml_encoding_handler.c:24:27: warning: unused parameter ‘klass’ [-Wunused-parameter]
+ static VALUE delete(VALUE klass, VALUE name)
+                           ^
+xml_encoding_handler.c: In function ‘alias’:
+xml_encoding_handler.c:36:26: warning: unused parameter ‘klass’ [-Wunused-parameter]
+ static VALUE alias(VALUE klass, VALUE from, VALUE to)
+                          ^
 compiling xml_entity_decl.c
-compiling xml_libxml2_hacks.c
-compiling xml_syntax_error.c
 compiling xml_entity_reference.c
 compiling xml_io.c
-compiling html_entity_lookup.c
-compiling xml_element_content.c
-compiling xslt_stylesheet.c
-compiling xml_element_decl.c
-compiling nokogiri.c
-compiling xml_xpath_context.c
-compiling html_sax_push_parser.c
+xml_io.c: In function ‘io_close_callback’:
+xml_io.c:54:30: warning: unused parameter ‘ctx’ [-Wunused-parameter]
+ int io_close_callback(void * ctx) {
+                              ^
+compiling xml_libxml2_hacks.c
+compiling xml_namespace.c
 compiling xml_node.c
-compiling xml_attr.c
+compiling xml_node_set.c
+xml_node_set.c: In function ‘allocate’:
+xml_node_set.c:43:29: warning: unused parameter ‘klass’ [-Wunused-parameter]
+ static VALUE allocate(VALUE klass)
+                             ^
+xml_node_set.c: In function ‘to_array’:
+xml_node_set.c:322:41: warning: unused parameter ‘rb_node’ [-Wunused-parameter]
+ static VALUE to_array(VALUE self, VALUE rb_node)
+                                         ^
+compiling xml_processing_instruction.c
+compiling xml_reader.c
+compiling xml_relax_ng.c
+compiling xml_sax_parser.c
+xml_sax_parser.c: In function ‘attributes_as_list’:
+xml_sax_parser.c:88:9: warning: unused parameter ‘self’ [-Wunused-parameter]
+   VALUE self,
+         ^
+xml_sax_parser.c: In function ‘start_element_ns’:
+xml_sax_parser.c:126:7: warning: unused parameter ‘nb_defaulted’ [-Wunused-parameter]
+   int nb_defaulted,
+       ^
+compiling xml_sax_parser_context.c
+compiling xml_sax_push_parser.c
+compiling xml_schema.c
+compiling xml_syntax_error.c
+xml_syntax_error.c: In function ‘Nokogiri_error_raise’:
+xml_syntax_error.c:10:34: warning: unused parameter ‘ctx’ [-Wunused-parameter]
+ void Nokogiri_error_raise(void * ctx, xmlErrorPtr error)
+                                  ^
+compiling xml_text.c
+compiling xml_xpath_context.c
+xml_xpath_context.c: In function ‘lookup’:
+xml_xpath_context.c:162:48: warning: unused parameter ‘ns_uri’ [-Wunused-parameter]
+                                 const xmlChar* ns_uri )
+                                                ^
+xml_xpath_context.c: In function ‘xpath_generic_exception_handler’:
+xml_xpath_context.c:172:52: warning: unused parameter ‘ctx’ [-Wunused-parameter]
+ static void xpath_generic_exception_handler(void * ctx, const char *msg, ...)
+                                                    ^
+compiling xslt_stylesheet.c
+xslt_stylesheet.c: In function ‘parse_stylesheet_doc’:
+xslt_stylesheet.c:64:41: warning: unused parameter ‘klass’ [-Wunused-parameter]
+ static VALUE parse_stylesheet_doc(VALUE klass, VALUE xmldocobj)
+                                         ^
+xslt_stylesheet.c: In function ‘swallow_superfluous_xml_errors’:
+xslt_stylesheet.c:112:51: warning: unused parameter ‘userdata’ [-Wunused-parameter]
+ static void swallow_superfluous_xml_errors(void * userdata, xmlErrorPtr error, ...)
+                                                   ^
+xslt_stylesheet.c:112:73: warning: unused parameter ‘error’ [-Wunused-parameter]
+ static void swallow_superfluous_xml_errors(void * userdata, xmlErrorPtr error, ...)
+                                                                         ^
+xslt_stylesheet.c: In function ‘shutdownFunc’:
+xslt_stylesheet.c:226:17: warning: unused parameter ‘uri’ [-Wunused-parameter]
+  const xmlChar *uri, void *data)
+                 ^
+xslt_stylesheet.c:226:28: warning: unused parameter ‘data’ [-Wunused-parameter]
+  const xmlChar *uri, void *data)
+                            ^
 linking shared-object nokogiri/nokogiri.so
 Cleaning files only used during build.
 rm -rf /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/nokogiri-1.8.4/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports
@@ -118,4 +184,4 @@ rm -rf /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/nokogiri-1.8.4/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20191115-6339-13hhmv7/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20191121-24808-15rc5py/nokogiri

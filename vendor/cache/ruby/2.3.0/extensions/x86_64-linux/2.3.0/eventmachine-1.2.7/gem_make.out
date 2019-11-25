@@ -1,5 +1,5 @@
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/home/default/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20191115-6339-192jfh1.rb extconf.rb
+/usr/bin/ruby2.3 -r ./siteconf20191121-24808-130i3sy.rb extconf.rb
 creating Makefile
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
@@ -7,14 +7,10 @@ make "DESTDIR=" clean
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR="
-compiling rubymain.cpp
-cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
 compiling mapper.cpp
-cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
-cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+compiling rubymain.cpp
 linking shared-object fastfilereaderext.so
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20191115-6339-17sbvsg
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20191121-24808-lvmr1i

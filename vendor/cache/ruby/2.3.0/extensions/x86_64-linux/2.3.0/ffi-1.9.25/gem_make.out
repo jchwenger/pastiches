@@ -1,6 +1,6 @@
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/ffi-1.9.25/ext/ffi_c
-/home/default/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20191115-6339-1y8netj.rb extconf.rb
-/home/default/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/mkmf.rb:1547: warning: Insecure world writable dir /media/default/linux-data in PATH, mode 040777
+/usr/bin/ruby2.3 -r ./siteconf20191121-24808-14nvg9s.rb extconf.rb
+/usr/lib/ruby/2.3.0/mkmf.rb:1547: warning: Insecure world writable dir /media/default/linux-data in PATH, mode 040777
 checking for ffi_call() in -lffi... yes
 checking for ffi_closure_alloc()... yes
 checking for ffi_raw_call()... yes
@@ -19,33 +19,33 @@ make "DESTDIR=" clean
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/ffi-1.9.25/ext/ffi_c
 make "DESTDIR="
-compiling Function.c
-compiling Pointer.c
 compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DataConverter.c
+compiling DynamicLibrary.c
+compiling Function.c
 compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
 compiling StructByReference.c
 compiling StructByValue.c
-compiling MethodHandle.c
-compiling DataConverter.c
-compiling Types.c
-compiling Thread.c
-compiling Variadic.c
-compiling MappedType.c
-compiling ClosurePool.c
-compiling ArrayType.c
 compiling StructLayout.c
-compiling LastError.c
-compiling ffi.c
-compiling Call.c
-compiling DynamicLibrary.c
-compiling LongDouble.c
+compiling Thread.c
 compiling Type.c
-compiling Struct.c
-compiling MemoryPointer.c
-compiling Buffer.c
-compiling Platform.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
 linking shared-object ffi_c.so
 
 current directory: /media/default/linux-data/web/jchwenger.github.io/vendor/cache/ruby/2.3.0/gems/ffi-1.9.25/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20191115-6339-1feaucq
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20191121-24808-j1o89a
