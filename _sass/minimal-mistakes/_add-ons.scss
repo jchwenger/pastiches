@@ -300,3 +300,17 @@ ul.poetry {
   cursor: pointer;
 }
 
+// -----------------------------
+// Accordion
+// https://codepen.io/brenden/pen/Kwbpyj
+// ----------------------------
+
+.accordion {
+  cursor: pointer;
+  border-bottom: none;
+}
+
+.accordion-inner {
+  overflow: hidden;
+  display: none;
+}

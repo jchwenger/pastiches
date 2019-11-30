@@ -125,3 +125,26 @@ function toggleLang() {
  }
 }
 
+// ------------------------------------------------
+// Accordion for home page
+// https://codepen.io/brenden/pen/Kwbpyj
+// -----------------------------------------------
+
+$('.accordion').click(function(e) {
+  e.preventDefault();
+
+  if ($(this).next().hasClass('show')) {
+    $(this).css({"border-bottom": "none"});
+    $(this).next().removeClass('show');
+    $(this).next().slideUp(350);
+  } else {
+    $.each($(this).parent().parent().find('div .accordion'), function(i, item) {
+      $(item).css({"border-bottom": "none"});
+    });
+    $(this).parent().parent().find('div .accordion-inner').removeClass('show');
+    $(this).parent().parent().find('div .accordion-inner').slideUp(350);
+    $(this).css({"border-bottom": "1px solid #ff0000"});
+    $(this).next().toggleClass('show');
+    $(this).next().slideToggle(350);
+  }
+});

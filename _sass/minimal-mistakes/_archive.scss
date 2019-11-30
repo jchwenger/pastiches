@@ -24,7 +24,7 @@
   font-size: $type-size-3;
   font-weight: normal;
   color: $muted-text-color;
-  border-bottom: 1px solid $border-color;
+  // border-bottom: 1px solid $border-color; // now set programmatically from main.js
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
