@@ -106,14 +106,14 @@ $(document).ready(function() {
 });
 
 // ------------------------------------------
-//  Instructions for JS & plugins here: 
+//  Instructions for JS & plugins here:
 //  https://mmistakes.github.io/minimal-mistakes/docs/javascript/
 
 // -------------------------------------------
 // Translation function: load both versions & hide/show them as needed
 
 function toggleLang() {
-  langTag = $('.lang-link');
+  var langTag = $('.lang-link');
   if (langTag.text() == 'Français') {
     $('.FR').show();
     $('.EN').hide();
@@ -125,4 +125,3 @@ function toggleLang() {
  }
 }
 
-$('.lang-link')[0].addEventListener('click', toggleLang);

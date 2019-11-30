@@ -79,7 +79,7 @@ ul.poetry {
 }
 
 .poetry span[class^='indent-']{
-    margin: 0; /* reset browsers default margin styles*/
+  margin: 0; /* reset browsers default margin styles*/
 }
 
 .indent-1 {
@@ -154,26 +154,26 @@ ul.poetry {
 
 .wiki {
   display: flex;
-  flex-flow: row  wrap; 
+  flex-flow: row  wrap;
   padding-top: 20px;
   padding-bottom: 20px;
 
   > div {
-      min-width:20%;
-      @include flex-wrap-fix(100px);
-    }
+    min-width:20%;
+    @include flex-wrap-fix(100px);
+  }
 
   p {
     font-size: $type-size-7;
     text-align: center;
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 }
 
-// Pastiches & mélanges 
+// Pastiches & mélanges
 
 #jcw-signature{
-  display: none; 
+  display: none;
   float: right;
 }
 
@@ -227,7 +227,7 @@ ul.poetry {
     margin-bottom: 30px;
 
     button {
-      width: 50%; 
+      width: 50%;
       height: 50px;
     }
 
@@ -246,7 +246,7 @@ ul.poetry {
 }
 
 #signature {
-  display: none; 
+  display: none;
   float: right;
   margin-bottom: 15px;
 }
@@ -266,7 +266,7 @@ ul.poetry {
     border: none;
   }
 
-  th, td { 
+  th, td {
     vertical-align: top;
     padding-left: 30px;
     padding-right: 15px;

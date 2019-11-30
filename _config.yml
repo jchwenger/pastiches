@@ -397,8 +397,3 @@ defaults:
     values:
       layout: single
       author_profile: false
-
-
-# Scripts
-footer_scripts:
-- /assets/js/toggleLang.js
