@@ -128,18 +128,6 @@ projects:
       pitch: "L'écriture à l'épreuve de la machine"
       icon:
       url: "/ca-artificiel/"
-    - title: "Pastiches & mélanges"
-      pitch: "Génération automatique de textes grâce au deep learning"
-      icon:
-      url: "/pastiches/"
-    - title: "Les mots sous les mots"
-      pitch: "Version française des décompositions de mots en sous-mots, suivant les procédures développées dans <a href=\"https://recursus.co/\">Recursus</a>"# {{{}}}
-      icon:
-      url: "/sous-mots/"
-    - title: "Carrés"
-      pitch: "Version française des carrés de lettres, suivant les procédures développées dans <a href=\"https://recursus.co/\">Recursus</a>"
-      icon:
-      url: "/carres/"
     - title: "Recursus"
       pitch: "Triptych of computational literature composed of WordSquares, Subwords and AIT"
       icon: "fas fa-fw fa-link"
@@ -182,6 +170,10 @@ projects:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jchwenger/ofxOffenceMechanism"
   other:
+    - title: "Pastiches & mélanges"
+      pitch: "Génération automatique de textes grâce au deep learning"
+      icon:
+      url: "/pastiches/"
     - title: "Computational Thoughts"
       pitch: "Reflections & materials from the MA in Computational Arts at Goldsmiths"
       icon: ""
