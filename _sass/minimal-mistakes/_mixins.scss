@@ -4,10 +4,11 @@
 
 %tab-focus {
   /* Default*/
-  outline: thin solid $border-color;
+  // outline: thin solid $border-color;
   /* Webkit*/
-  outline: 1px 1px $border-color;
-  outline-offset: -2px;
+  // outline: 1px 1px $border-color;
+  // outline-offset: -2px;
+  outline: none; // removing all focus
 }
 
 /*
