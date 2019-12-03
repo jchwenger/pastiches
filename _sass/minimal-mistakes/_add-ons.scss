@@ -16,9 +16,9 @@
       @extend %tab-focus;
     }
 
-    &:visited {
-      color: $link-color-hover;
-    }
+    // &:visited {
+    //   color: $link-color-hover;
+    // }
 
     &:hover {
       color: $link-color-hover;
