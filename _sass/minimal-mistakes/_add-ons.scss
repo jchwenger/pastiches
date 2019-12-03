@@ -302,6 +302,11 @@ ul.poetry {
 .accordion {
   cursor: pointer;
   border-bottom: none;
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
 }
 
 .accordion-inner {
