@@ -287,9 +287,6 @@ ul.poetry {
 // --------------------------
 // Translation button
 
-
-// Translation link
-
 .lang-link {
   cursor: pointer;
 }
@@ -312,4 +309,8 @@ ul.poetry {
 .accordion-inner {
   overflow: hidden;
   display: none;
+}
+
+.endless {
+  white-space: nowrap;
 }
