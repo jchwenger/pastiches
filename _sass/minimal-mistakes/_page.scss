@@ -6,7 +6,7 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
+  padding-left: 2em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -20,6 +20,19 @@
 }
 
 .page {
+
+  @include breakpoint($small) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-very-very-narrow});
+    padding-right: $right-sidebar-width-very-very-narrow;
+  }
+
+  @include breakpoint($medium) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-very-narrow});
+    padding-right: $right-sidebar-width-very-narrow;
+  }
+
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
