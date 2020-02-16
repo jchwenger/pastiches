@@ -10,7 +10,7 @@ Google has been working on a Text-To-Speech API. Several languages, as well as s
 
 ## J. Robert Oppenheimer
 
-J. Robert Oppenheimer recalling the atomic bomb test of 16 July 1945. ([link](http://www.atomicarchive.com/Movies/Movie8.shtml))
+J. Robert Oppenheimer recalling the atomic bomb test of 16 July 1945. Hindi. ([link](http://www.atomicarchive.com/Movies/Movie8.shtml))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760527652%3Fsecret_token%3Ds-NUnte&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -18,7 +18,7 @@ J. Robert Oppenheimer recalling the atomic bomb test of 16 July 1945. ([link](ht
 
 ## US Constitution
 
-The Constitutions of the United States, 21 June 1788. ([link](https://www.archives.gov/founding-docs/constitution-transcript))
+The Constitutions of the United States, 21 June 1788. Arabic, German. ([link](https://www.archives.gov/founding-docs/constitution-transcript))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760520395%3Fsecret_token%3Ds-HClVK&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -34,7 +34,7 @@ The Constitutions of the United States, 21 June 1788. ([link](https://www.archiv
 
 ## Donald Trump
 
-Donald Trump's remarks during a visit to the border wall, San Diego, CA, 19 September, 2019. ([link](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-visit-border-wall-san-diego-ca/))
+Donald Trump's remarks during a visit to the border wall, San Diego, CA, 19 September, 2019. Spanish. ([link](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-visit-border-wall-san-diego-ca/))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760523137%3Fsecret_token%3Ds-2IPUo&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -54,7 +54,7 @@ Donald Trump's remarks during a visit to the border wall, San Diego, CA, 19 Sept
 
 {% include separators.html type='inner' %}
 
-Donald Trump's inaguration speech, Washington DC, 20 January 2017. ([link](https://www.whitehouse.gov/briefings-statements/the-inaugural-address/))
+Donald Trump's inaguration speech, Washington DC, 20 January 2017. Mandarin, Spanish. ([link](https://www.whitehouse.gov/briefings-statements/the-inaugural-address/))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760523605%3Fsecret_token%3Ds-MfCOG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -90,7 +90,7 @@ Donald Trump's inaguration speech, Washington DC, 20 January 2017. ([link](https
 
 ## Boris Johnson
 
-Boris Johnson's speech for the departure of the United Kingdom from the European Union, 31 January 2020. ([link](https://www.gov.uk/government/speeches/pm-address-to-the-nation-31-january-2020))
+Boris Johnson's speech for the departure of the United Kingdom from the European Union, 31 January 2020. Polish. ([link](https://www.gov.uk/government/speeches/pm-address-to-the-nation-31-january-2020))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760517434%3Fsecret_token%3Ds-PleqB&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -108,7 +108,7 @@ Boris Johnson's speech for the departure of the United Kingdom from the European
 
 ## Dwight D. Eisenhower
 
-Dwight D. Eisenhower's farewell address, mentioning the military industrial complex, 17 January 1961. ([link](https://www.ourdocuments.gov/doc.php?flash=false&doc=90))
+Dwight D. Eisenhower's farewell address, mentioning the military industrial complex, 17 January 1961. Japanese. ([link](https://www.ourdocuments.gov/doc.php?flash=false&doc=90))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760530697%3Fsecret_token%3Ds-OXa51&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -116,7 +116,7 @@ Dwight D. Eisenhower's farewell address, mentioning the military industrial comp
 
 {% include separators.html type='inner' %}
 
-Dwight D. Eisenhower's farewell address, mentioning the military industrial complex, 17 January 1961, French translation. ([link](http://perspective.usherbrooke.ca/bilan/servlet/BMDictionnaire?iddictionnaire=1846))
+Dwight D. Eisenhower's farewell address, mentioning the military industrial complex, 17 January 1961, French translation. Canadian French. ([link](http://perspective.usherbrooke.ca/bilan/servlet/BMDictionnaire?iddictionnaire=1846))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760531138%3Fsecret_token%3Ds-TVJ5r&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 This track is an exception: a Canadian French voice reads a French translation of the same speech.
@@ -126,7 +126,7 @@ This track is an exception: a Canadian French voice reads a French translation o
 
 ## John F. Kennedy
 
-John F. Kennedy's speech "Ich bin ein Berliner", West Berlin, 26 June 1963. ([link](https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/berlin-w-germany-rudolph-wilde-platz-19630626))
+John F. Kennedy's speech "Ich bin ein Berliner", West Berlin, 26 June 1963. German. ([link](https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/berlin-w-germany-rudolph-wilde-platz-19630626))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760529266%3Fsecret_token%3Ds-0NlOD&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -134,7 +134,7 @@ John F. Kennedy's speech "Ich bin ein Berliner", West Berlin, 26 June 1963. ([li
 
 ## Elizabeth II, Queen of England
 
-The Queen of England's speech to both Houses of Parliament, 14 October 2019. ([link](https://www.gov.uk/government/speeches/queens-speech-2019))
+The Queen of England's speech to both Houses of Parliament, 14 October 2019. Australian English, Russian. ([link](https://www.gov.uk/government/speeches/queens-speech-2019))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760527457%3Fsecret_token%3Ds-L0714&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -144,7 +144,7 @@ The Queen of England's speech to both Houses of Parliament, 14 October 2019. ([l
 
 ## Winston Churchill
 
-Winston Churchill's speech: "We shall fight on the beaches" to the House of Commons on 4 June 1940.
+Winston Churchill's speech: "We shall fight on the beaches" to the House of Commons on 4 June 1940. German.
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760535323%3Fsecret_token%3Ds-pbFxt&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -152,7 +152,7 @@ Winston Churchill's speech: "We shall fight on the beaches" to the House of Comm
 
 ## Margaret Thatcher
 
-Margaret Thatcher's last speech in the House of Commons, 22 November 1990.
+Margaret Thatcher's last speech in the House of Commons, 22 November 1990. Hindi.
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760536136%3Fsecret_token%3Ds-upN2x&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -160,7 +160,7 @@ Margaret Thatcher's last speech in the House of Commons, 22 November 1990.
 
 {% include separators.html type='inner' %}
 
-Margaret Thatcher's interview for *Woman's Own*, 23 September 1987. ([link](https://www.margaretthatcher.org/document/106689))
+Margaret Thatcher's interview for *Woman's Own*, 23 September 1987. French. ([link](https://www.margaretthatcher.org/document/106689))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760524313%3Fsecret_token%3Ds-hl8sg&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -168,7 +168,7 @@ Margaret Thatcher's interview for *Woman's Own*, 23 September 1987. ([link](http
 
 ## Déclaration des Droits de l'Homme et du Citoyen
 
-Déclaration des Droits de l'Homme et du Citoyen de 1789. ([link](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789))
+Déclaration des Droits de l'Homme et du Citoyen de 1789. Arabic. ([link](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760531372%3Fsecret_token%3Ds-7Cx1h&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -196,7 +196,7 @@ Déclaration des Droits de l'Homme et du Citoyen de 1789. ([link](https://www.co
 
 ## Charles de Gaulle
 
-Charles de Gaulle's speech after the liberation of Paris, 25 August 1944. ([link](https://www.reseau-canope.fr/cnrd/ressource/texte/3948)).
+Charles de Gaulle's speech after the liberation of Paris, 25 August 1944. Canadian French. ([link](https://www.reseau-canope.fr/cnrd/ressource/texte/3948)).
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760532599%3Fsecret_token%3Ds-b5WzR&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -210,7 +210,7 @@ Charles de Gaulle's speech after the liberation of Paris, 25 August 1944. ([link
 
 {% include separators.html type='inner' %}
 
-Charles de Gaulle's speech "Je vous ai compris" at Alger, 4 June 1958. ([link](https://fr.wikipedia.org/wiki/Je_vous_ai_compris))
+Charles de Gaulle's speech "Je vous ai compris" at Alger, 4 June 1958. Arabic, German. ([link](https://fr.wikipedia.org/wiki/Je_vous_ai_compris))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760535041%3Fsecret_token%3Ds-NhjDX&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
@@ -220,7 +220,7 @@ Charles de Gaulle's speech "Je vous ai compris" at Alger, 4 June 1958. ([link](h
 
 ## Karl Marks & Friedrich Engels
 
-Karl Marx & Friedrich Engels, The Communist Manifesto, 1848.
+Karl Marx & Friedrich Engels, The Communist Manifesto, 1848. Mandarin.
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760528057%3Fsecret_token%3Ds-IIjrN&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
