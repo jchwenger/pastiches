@@ -48,8 +48,8 @@ Versions web:
 
 Web versions:  
 [Artificial It](/artificial-it-ii){:target="_blank"}  
-[Artificial It, first batch](/artificial-it){:target="_blank"}  
-[Lumps](/artificial-it-lumps){:target="_blank"}  
+[Artificial It, first batch](/ait){:target="_blank"}  
+[Lumps](/artificial-it-ii-lumps){:target="_blank"}  
 [Logisms](/logisms){:target="_blank"}  
 [Writing and its Double (essay)](/writing-double){:target="_blank"}  
 {: .EN}
