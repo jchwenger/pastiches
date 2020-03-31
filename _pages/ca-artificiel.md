@@ -40,7 +40,7 @@ Some code can be found <a href="https://github.com/jchwenger/ait">here</a>.
  
 Versions web:  
 [Ça artificiel](/artificial-it-ii){:target="_blank"}  
-[Ça artificiel, première fournée](/artificial-it){:target="_blank"}  
+[Ça artificiel, première fournée](/ait){:target="_blank"}  
 [Morceaux](/artificial-it-lumps){:target="_blank"}  
 [Logismes](/logisms){:target="_blank"}  
 [L'écriture et son double (essay)](/writing-double){:target="_blank"}  
