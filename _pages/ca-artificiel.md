@@ -38,6 +38,7 @@ Some code can be found <a href="https://github.com/jchwenger/ait">here</a>.
 
 {% include separators.html type='outer' %}
  
+Versions web:  
 [Ça artificiel](/artificial-it-ii){:target="_blank"}  
 [Ça artificiel, première fournée](/artificial-it){:target="_blank"}  
 [Morceaux](/artificial-it-lumps){:target="_blank"}  
