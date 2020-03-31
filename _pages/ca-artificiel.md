@@ -37,6 +37,23 @@ Some code can be found <a href="https://github.com/jchwenger/ait">here</a>.
 {: .EN}
 
 {% include separators.html type='outer' %}
+ 
+[Ça artificiel](/artificial-it-ii){:target="_blank"}  
+[Ça artificiel, première fournée](/artificial-it){:target="_blank"}  
+[Morceaux](/artificial-it-lumps){:target="_blank"}  
+[Logismes](/logisms){:target="_blank"}  
+[L'écriture et son double (essay)](/writing-double){:target="_blank"}  
+{: .FR}
+
+Web versions:  
+[Artificial It](/artificial-it-ii){:target="_blank"}  
+[Artificial It, first batch](/artificial-it){:target="_blank"}  
+[Lumps](/artificial-it-lumps){:target="_blank"}  
+[Logisms](/logisms){:target="_blank"}  
+[Writing and its Double (essay)](/writing-double){:target="_blank"}  
+{: .EN}
+
+{% include separators.html type='outer' %}
 
 [Logismes](/assets/ca-artificiel/JWenger_ca_logismes.pdf){:target="_blank"}  
 [Prose, grand format](/assets/ca-artificiel/JWenger_ca_artificiel_grand.pdf){:target="_blank"}  
