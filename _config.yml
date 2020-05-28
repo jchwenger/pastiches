@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -121,7 +121,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-  
+
 projects:
   projects:
     - title: "Ça artificiel"
@@ -170,6 +170,10 @@ projects:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jchwenger/ofxOffenceMechanism"
   other:
+    - title: "v(o)ices"
+      pitch: "Casual misuse of Text-To-Speech..."
+      url: "/voices/"
+      icon: "fab fa-soundcloud"
     - title: "Pastiches & mélanges"
       pitch: "Génération automatique de textes grâce au deep learning"
       icon:
@@ -242,7 +246,7 @@ footer:
     # - label: "Bitbucket"
     #   icon: "fab fa-fw fa-bitbucket"
     #   # url:
-      
+
 # Reading Files
 include:
   - .htaccess
