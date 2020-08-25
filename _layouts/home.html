@@ -7,10 +7,10 @@ layout: splash
 
 {% if site.posts.size > 0 %}
   <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "" }}</h1>
-	{% for post in site.posts limit:5 %}
-		{% include archive-single.html %}
-	{% endfor %}
-	<p align='right'><a href="{{ site.baseurl }}/texts/page2/">All texts...</a></p>
+  {% for post in site.posts limit:5 %}
+    {% include archive-single.html %}
+  {% endfor %}
+  <p align='right'><a href="{{ site.baseurl }}/texts/page2/">All texts...</a></p>
 {% endif %}
 
 {% include separators.html type='blank' %}
