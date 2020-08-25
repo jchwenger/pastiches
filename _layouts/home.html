@@ -4,47 +4,48 @@ layout: splash
 
 {{ content }}
 
-<div>
-  {% if site.posts.size > 0 %}
-    <h1 class="accordion archive__subtitle" href="javascript:void(0);">{{ site.data.ui-text[site.locale].recent_posts | default: "" }}</h1>
-    <div class="accordion-inner">
-      {% for post in site.posts limit:5 %}
-        {% include archive-single.html %}
-      {% endfor %}
-      <p align='right'><a href="{{ site.baseurl }}/texts/">All texts...</a></p>
-    </div>
-  {% endif %}
-  <h1 class="accordion archive__subtitle" href="javascript:void(0);">Shows</h1>
-  <div class="accordion-inner">
-    {% for project in site.projects.projects  %}
-    <div class="{{ include.type | default: "list" }}__item">
-      <h2 class="archive__item-title" itemprop="headline">
-        <a href="{{ project.url }}">{{ project.title }}</a>{% if project.icon %}&nbsp;<i class="{{ project.icon }}" aria-hidden="true">{% endif %}</i>
-      </h2>
-      <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
-    </div>
-    {% endfor %}
+
+{% if site.posts.size > 0 %}
+  <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "" }}</h1>
+	{% for post in site.posts limit:5 %}
+		{% include archive-single.html %}
+	{% endfor %}
+	<p align='right'><a href="{{ site.baseurl }}/texts/page2/">All texts...</a></p>
+{% endif %}
+
+{% include separators.html type='blank' %}
+
+<h1 class="archive__subtitle">Projects</h1>
+  {% for project in site.projects.projects  %}
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
   </div>
-  <h1 class="accordion archive__subtitle" href="javascript:void(0);">Code</h1>
-    <div class="accordion-inner">
-      {% for project in site.projects.code  %}
-      <div class="{{ include.type | default: "list" }}__item">
-        <h2 class="archive__item-title" itemprop="headline">
-          <a href="{{ project.url }}">{{ project.title }}</a>{% if project.icon %}&nbsp;<i class="{{ project.icon }}" aria-hidden="true">{% endif %}</i>
-        </h2>
-        <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
-      </div>
-      {% endfor %}
+  {% endfor %}
+
+{% include separators.html type='blank' %}
+
+<h1 class="archive__subtitle">Code</h1>
+  {% for project in site.projects.code  %}
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
   </div>
-  <h1 class="accordion archive__subtitle" href="javascript:void(0);">Other</h1>
-  <div class="accordion-inner">
-    {% for project in site.projects.other  %}
-    <div class="{{ include.type | default: "list" }}__item">
-      <h2 class="archive__item-title" itemprop="headline">
-        <a href="{{ project.url }}">{{ project.title }}</a>{% if project.icon %}&nbsp;<i class="{{ project.icon }}" aria-hidden="true">{% endif %}</i>
-      </h2>
-      <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
-    </div>
-    {% endfor %}
+  {% endfor %}
+
+
+{% include separators.html type='blank' %}
+
+<h1 class="archive__subtitle">Other</h1>
+  {% for project in site.projects.other  %}
+  <div class="{{ include.type | default: "list" }}__item">
+    <h2 class="archive__item-title" itemprop="headline">
+    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
   </div>
-</div>
+  {% endfor %}
