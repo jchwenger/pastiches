@@ -14,7 +14,7 @@ Décomposition de longs mots en mots plus courts, avec pour contraintes que:
 1. toutes les lettres doivent être utilisées; 
 2. les sous-mots doivent avoir été eux-mêmes divisés au moins une fois.
 
-La réalisation de ces pièces utilise le même processus que pour [Recursus](https://recursus.co/category/subwords.html) (en anglais). On en trouvera ici [l'implémentation](https://github.com/jchwenger/Subwords). 
+La réalisation de ces pièces utilise le même processus que pour [Recursus](https://recursus.co/category/subwords.html) (en anglais).
 
 On pourra lire deux versions d'un même train de pensée autour de ces expérimentations en [anglais](https://recursus.co/squares/writing-under-computation/) et en [français](https://jeremiewenger.com/assets/ca-artificiel/JWenger_printemps_2019_%C3%A9criture_double.pdf).  
 
