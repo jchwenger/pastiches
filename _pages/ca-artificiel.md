@@ -24,16 +24,10 @@ Poursuite de mes expérimentations avec la génération de textes grâce au <i>d
 Les textes présentés ici se déclinent en trois types: <i>Logismes</i> rassemble des mots générés ou inspirés par un réseau entraîné sur le dictionnaire <a href="http://www.cnrtl.fr/definition/">CNRTL</a>; « pour commencer... » ainsi que les <i>Morceaux</i> sont le résultat d'un trajet en trois temps, a) la lente rédaction du corpus encore souterrain <i>Ça I-VI</i>, b) l'entraînement d'un réseau sur ce corpus et génération de textes bruts, c) réécriture (et traductions) des textes finaux; enfin, un essai touchant à certaines des problématiques rencontrées, qui peut se lire en parallèle à <a href="https://recursus.co/squares/writing-under-computation/">celui-là</a> (en anglais).
 {: .FR}
 
-On trouvera du code <a href="https://github.com/jchwenger/ait">ici</a>.
-{: .FR}
-
 One more set of experiments around text generation using <i>deep learning</i>, an exhibit presented at the occasion of the <a href="http://printempspoesie.ch/wordpress/event/ca-artificiel-lecriture-a-lepreuve-de-la-machine/">Printemps de la poésie</a> by the gallery <a href="http://lecabanon-unil.ch/">Le Cabanon</a> at the University of Lausanne. The show also included the interactive page <a href="/pastiches/">« Pastiches & mélanges »</a>. 
 {: .EN}
 
 The texts presented here fit into three categories: <i>Logisms</i> gathers words generated or inspired by a network trained on the <a href="http://www.cnrtl.fr/definition/">CNRTL</a> dictionary (and then translated); "to begin with..." as well as the <i>Lumps</i> are the result of a three-pronged trajectory, a) the slow elaboration of the still subterranean corpus <i>It I-VI</i>, b) the training of a network on this corpus and the generation of raw texts, c) the rewriting (and translation) of the finished texts; finally, an essay pertaining some encountered issues and questions, that can be read in parallel with <a href="https://recursus.co/squares/writing-under-computation/">this one</a>.
-{: .EN}
-
-Some code can be found <a href="https://github.com/jchwenger/ait">here</a>.
 {: .EN}
 
 {% include separators.html type='outer' %}
