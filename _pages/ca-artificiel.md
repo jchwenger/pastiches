@@ -82,7 +82,7 @@ Web versions:
 
 {% include separators.html type='outer' %}
 
-Toute ma gratitude à Colin Pahlisch pour m’avoir invité à participer au Printemps de la Poésie, ainsi qu’à Monica Unser et Rafaël Santianez du Cabanon, ainsi que le reste de l’équipe, Marie, Clarissa, Letizia, Chloé, Janett, Lucas et Sébastien, pour leur enthousiasme et le professionalisme impeccables dont ils ont fait preuve durant l’élaboration de ce projet. Toute ma gratitude également à Rebecca Aston, Clément Hongler et Jacob Menick pour leur soutien et leur sorcellerie. Rien de tout cela n’existerait sans eux, merci !
+Toute ma gratitude à Colin Pahlisch pour m’avoir invité à participer au Printemps de la Poésie, ainsi qu’à Monica Unser et Rafaël Santianez du Cabanon, ainsi que le reste de l’équipe, Marie, Clarissa, Letizia, Chloé, Janett, Lucas et Sébastien, pour leur enthousiasme et le professionalisme impeccables dont ils ont fait preuve durant l’élaboration de ce projet. Toute ma gratitude également à Rebecca Aston, Clément Hongler et Jacob Menick pour leur soutien et leur sorcellerie. Rien de tout cela n’existerait sans eux, merci !
 {: .FR}
 
 All my gratitude to Colin Pahlisch for inviting me to participate in the Printemps de la Poésie in Lausanne, as well as Monica Unser and Rafael Santianez, co-curators of Le Cabanon, as well as the rest of the team, Marie, Clarissa, Letizia, Chloé, Janett, Lucas and Sébastien, for their enthusiasm and the impeccable professionalism they showed during the development of this project. I am also grateful to Rebecca Aston, Clément Hongler and Jacob Menick for their support and sorcery. None of this would exist without them, thank you!
