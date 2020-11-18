@@ -11,10 +11,10 @@ pitch:
 ---
 
 <blockquote class='FR'>
-  <p>L'écriture à l'épreuve de la machine. Textes présentés à l'occasion de l'exposition <a href="/ca-artificiel/"><nobr style="font-style: normal">Ça artificiel</nobr></a> à Lausanne</p>
+  <p>L'écriture à l'épreuve de la machine. Texte présenté à l'occasion de l'exposition <a href="/ca-artificiel/"><nobr style="font-style: normal">Ça artificiel</nobr></a> à Lausanne</p>
 </blockquote>
 <blockquote class='EN'>
-  <p>Writing to the test of the machine. Texts presented during the exhibition <a href="/ca-artificiel/"><nobr style="font-style: normal">Ça artificiel</nobr></a> in Lausanne</p>
+  <p>Writing to the test of the machine. Text presented during the exhibition <a href="/ca-artificiel/"><nobr style="font-style: normal">Ça artificiel</nobr></a> in Lausanne</p>
 </blockquote>
 
 <p class='small' align='right'><i><a class='lang-link'>English</a></i></p>
