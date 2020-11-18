@@ -37,7 +37,7 @@ Versions web:
 [Ça artificiel](/ait){:target="_blank"}  
 [Morceaux](/artificial-it-ii-lumps){:target="_blank"}  
 [Logismes](/logisms){:target="_blank"}  
-[L'écriture et son double (essay)](/writing-double){:target="_blank"}  
+[L'écriture et son double (essai)](/writing-double){:target="_blank"}  
 {: .FR}
 
 Web versions:  
