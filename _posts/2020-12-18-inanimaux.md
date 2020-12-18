@@ -9,6 +9,12 @@ permalink: /inanimaux/
 
 <!--more-->
 
+<div class="responsive-video-container">
+<iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLlNDOBNFozLAx8WbcpEHnpZuQeGwohLaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+{% include separators.html type='outer' %}
+
 Le trappeur palestinien, et redoutable courtisan, Ahmad al-Kurieni et le
 l'alchimiste allemand Gustav von Sittichheim, se rencontrent durant les
 réunions du *Dieu Pan*, un club parisien fondé en grand secret par Edgar Degas en
