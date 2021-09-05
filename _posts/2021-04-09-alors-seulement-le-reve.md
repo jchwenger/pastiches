@@ -5,7 +5,7 @@ title: "Alors seulement le rêve..."
 date: 2021-04-09 19:35:50.064492611 +0100  
 permalink: /alors-seulement-le-reve/  
 pitch:  
-- "textes neuraux"  
+- "Textes neuraux"  
 ---
 
 > Texte issus de réécritures de matériaux obtenus à partir de modèles linguistiques neuraux français, utilisant l'architecture Transformer [GPT-2 d’OpenAI](https://openai.com/blog/better-language-models/).
