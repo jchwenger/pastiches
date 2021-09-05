@@ -14,6 +14,17 @@ else
   echo "Updating '$DIR'."
 fi
 
+echo "Update imported submodule? "
+read answer
+echo "Your answer: $answer"
+echo "----------------------------------------"
+if [[ "${answer,,}" =~ y  ]]
+then
+  cd $DIR
+  git pull
+  cd ..
+fi
+
 source "$1.sh"
 
 # https://stackoverflow.com/a/12298757
@@ -49,15 +60,17 @@ vim $POST \
   -c "%s/﻿//g" \
   -c "wq"
 
-echo "Update imported submodule? "
+echo "----------------------------------------"
+echo "Commit changes? "
 read answer
 echo "Your answer: $answer"
 if [[ "${answer,,}" =~ y  ]]
 then
-  git add ../.gitmodules
+  git add "$DIR"
   git add "$POST"
   git add "$1.sh"
   git status
+  echo "----------------------------------------"
   echo "Everything ok? "
   read second_answer
   if [[ "${second_answer,,}" =~ y  ]]
@@ -65,12 +78,13 @@ then
     git commit -m "${1//-/ } | update submodule, source files, bash script and post"
     # git push
   else
-    git restore --staged ../.gitmodules
+    git restore --staged "$DIR"
     git restore --staged "$POST"
     git restore --staged "$1.sh"
     echo "---------"
     echo "Aborting update."
     git status
+    echo "----------------------------------------"
     exit 2
   fi
 else
