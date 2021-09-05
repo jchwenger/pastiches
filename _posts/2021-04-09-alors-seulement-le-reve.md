@@ -152,7 +152,7 @@ Ma dureté ?
 <poetry>  
 À l'aurore, l'ameublement  
 Boit mes splendeurs  
-                    (Tout contre Bismarck ou le Turc).  
+                    (Tout contre Bismarck ou le Grand Turc).  
 </poetry>
 
 {% include separators.html type='outer' %}
