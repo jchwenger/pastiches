@@ -8,6 +8,10 @@ then
 fi
 touch $POST
 
+s="> Texte issus de réécritures de matériaux obtenus à partir de modèles"
+s="$s linguistiques neuraux français, utilisant l'architecture Transformer"
+s="$s [GPT-2 d’OpenAI](https://openai.com/blog/better-language-models/)."
+
 echo '---'                                       >> $POST
 echo 'layout: single'                            >> $POST
 echo 'classes: wide'                             >> $POST
@@ -18,7 +22,5 @@ echo 'pitch:'                                    >> $POST
 echo '- "Textes neuraux"'                        >> $POST
 echo '---'                                       >> $POST
 echo ''                                          >> $POST
-s="> Texte issus de réécritures de matériaux obtenus à partir de modèles linguistiques neuraux français, utilisant l'architecture Transformer [GPT-2 d’OpenAI](https://openai.com/blog/better-language-models/)."
 echo "$s"                                        >> $POST
 echo ''                                          >> $POST
-
