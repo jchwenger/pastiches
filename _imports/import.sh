@@ -28,17 +28,21 @@ fi
 source "$1.sh"
 
 # https://stackoverflow.com/a/12298757
-DIR="$1"
 declare -a files
 FILES=($DIR/[0-9]*.txt)
 IND=$(( ${#FILES[*]} - 1 ))
 LAST=${FILES[$IND]}
 
+echo "poems? $POEMS"
+echo ""
+echo "texts:"
+echo "------"
+
 i=0
 for f in "${FILES[@]}"; do
   ((i=i+1))
   echo "$i | $f"
-  if [ $POEMS ]
+  if $POEMS
   then
     echo "<poetry>"                                   >> $POST
     cat "$f"                                          >> $POST
@@ -54,11 +58,7 @@ for f in "${FILES[@]}"; do
   fi
 done
 
-# add two spaces at the end of § lines for markdown
-vim $POST \
-  -c "%s/\(.\)\n\(\n\)\@!/\1  \r/eg" \
-  -c "%s/﻿//g" \
-  -c "wq"
+sed -i 's/﻿//g' $POST
 
 echo "----------------------------------------"
 echo "Commit changes? "
