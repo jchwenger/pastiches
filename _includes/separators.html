@@ -1,15 +1,15 @@
 {% if include.lang %}
-  {% assign lang_class = include.lang %}
+{% assign lang_class = include.lang %}
 {% endif %}
 {% if include.state %}
-  {% assign include_state = include.state %}
+{% assign include_state = include.state %}
 {% endif %}
 {% if include.type == 'outer' %}
-  <p class='separator-outer {{lang_class}}' {{include_state}}>§</p>
+<p class='separator-outer {{lang_class}}' {{include_state}}>§</p>
 {% elsif include.type == 'inner' %}
-  <p class='separator-inner {{lang_class}}' {{include_state}}>&#9753;</p>
+<p class='separator-inner {{lang_class}}' {{include_state}}>&#9753;</p>
 {% elsif include.type == 'blank' %}
-  <p class='separator-inner {{lang_class}}' {{include_state}}>&nbsp;</p>
+<p class='separator-inner {{lang_class}}' {{include_state}}>&nbsp;</p>
 {% elsif include.type == 'star' %}
-  <p class='separator-inner {{lang_class}}' {{include_state}}>*</p>
+<p class='separator-inner {{lang_class}}' {{include_state}}>*</p>
 {% endif %}
