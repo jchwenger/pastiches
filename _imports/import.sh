@@ -81,6 +81,7 @@ echo "Your answer: $answer"
 if [[ "${answer,,}" =~ y  ]]
 then
   git add "$DIR"
+  git add "$DIR.txt"
   git add "$POST"
   git add "$1.sh"
   git status
@@ -89,10 +90,13 @@ then
   read second_answer
   if [[ "${second_answer,,}" =~ y  ]]
   then
-    git commit -m "${1//-/ } | update submodule, source files, bash script and post"
+    echo "Commit message?"
+    read third_answer
+    git commit -m "${1//-/ } | $third_answer"
     # git push
   else
     git restore --staged "$DIR"
+    git restore --staged "$DIR.txt"
     git restore --staged "$POST"
     git restore --staged "$1.sh"
     echo "---------"
