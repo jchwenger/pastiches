@@ -42,19 +42,33 @@ i=0
 for f in "${FILES[@]}"; do
   ((i=i+1))
   echo "$i | $f"
-  if $POEMS
+  if [ "$POEMS" = true ]
   then
-    echo "<poetry>"                                   >> $POST
-    cat "$f"                                          >> $POST
-    echo "</poetry>"                                  >> $POST
+    echo "<poetry>"                                                         >> $POST
+    if [ "$SEPARATORS" = true ]
+    then
+      cat "$f" \
+        | sed -e "s/^\*\*$/{\% include separators.html type='star' \%}/" \
+        | sed -e "s/^\*\*\*$/{\% include separators.html type='inner' \%}/" >> $POST
+    else
+      cat "$f"                                                              >> $POST
+    fi
+    echo "</poetry>"                                                        >> $POST
   else
-    cat "$f"                                          >> $POST
+    if [ "$SEPARATORS" = true ]
+    then
+      cat "$f" \
+        | sed -e "s/^\*\*$/{\% include separators.html type='star' \%}/" \
+        | sed -e "s/^\*\*\*$/{\% include separators.html type='inner' \%}/" >> $POST
+    else
+      cat "$f"                                                              >> $POST
+    fi
   fi
   if [[ $f != $LAST ]]
   then
-    echo ""                                           >> $POST
-    echo "{% include separators.html type='outer' %}" >> $POST
-    echo ""                                           >> $POST
+    echo ""                                                                 >> $POST
+    echo "{% include separators.html type='outer' %}"                       >> $POST
+    echo ""                                                                 >> $POST
   fi
 done
 
