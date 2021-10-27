@@ -4,3 +4,6 @@
 [submodule "_imports/lacanage"]
 	path = _imports/lacanage
 	url = https://github.com/jchwenger/lacanage
+[submodule "_imports/vegans"]
+	path = _imports/vegans
+	url = https://github.com/jchwenger/vegans/
