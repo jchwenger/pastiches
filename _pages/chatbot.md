@@ -28,11 +28,11 @@ This transdisciplinary collaboration intends to shift the perception paradigm of
 ## Team
 
 Nicolas Zlatoff, stage director  
-Prune Beuchat, comedian
+Prune Beuchat, comedian  
 Guillaume Ceppi, comedian (Manufacture graduate 2019)  
 Pr. Clément Hongler, mathematician and AI researcher  
-Claire de Ribaupierre, dramaturge
-Marc Riner, IT designer
+Claire de Ribaupierre, dramaturge  
+Marc Riner, IT designer  
 Lucas Savioz, comedian (Manufacture graduate 2018)  
 Batrek Sozanski, comedian, HES research assistant  
 Elsa Thébault, comédienne (Manufacture graduate 2019)  
