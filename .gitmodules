@@ -7,3 +7,6 @@
 [submodule "_imports/vegans"]
 	path = _imports/vegans
 	url = https://github.com/jchwenger/vegans/
+[submodule "_imports/departs"]
+	path = _imports/departs
+	url = https://github.com/jchwenger/departs

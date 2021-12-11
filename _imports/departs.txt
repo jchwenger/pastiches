@@ -1,0 +1,11 @@
+> Protoype pour une pièce radiophonique à deux voix. Les textes sont issus de réécritures de matériaux générés par des modèles linguistiques neuraux, utilisant l'architecture Transformer, (notamment, entre autres, [le GPT-3 d’OpenAI](https://beta.openai.com/overview)).
+
+# [ÉCOUTER]({{ site.baseurl }}{% link /assets/departs/index.html %})
+{: .text-center}
+
+*voix 1 : [Iris Colomb](https://www.iriscolomb.com/)*  
+*voix 2 : Jérémie Wenger*
+
+*(L'app ci-dessus a pu être codée gràce à [p5.js](https://p5js.org/).)*
+
+Dans les textes qui suivent, et à l'exception du titre d'un quotidien suisse romand bien connu, les passages en italiques dénotent les périodes de convergence.
