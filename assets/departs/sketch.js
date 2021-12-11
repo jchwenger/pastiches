@@ -60,7 +60,7 @@ class Settings {
       filter: hundredth,
     });
     addInput("fftBins", {
-      default: 256,
+      default: 128,
       attrs: { options: keyMirror([16, 32, 64, 128, 256, 512, 1024]) },
     });
     addSeparator();
