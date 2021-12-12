@@ -65,7 +65,7 @@ class Settings {
     });
     addSeparator();
     addInput("amplitudeSmooth", {
-      default: 95,
+      default: 25,
       attrs: { min: 0, max: 100, step: 1 },
       filter: hundredth,
     });
@@ -153,10 +153,6 @@ const ctx = {
     /**
      * @type p5.Amplitude
      */
-    amplitude: null,
-    /**
-     * @type p5.Gain
-     */
     gain: null,
   },{
     /**
@@ -170,9 +166,6 @@ const ctx = {
      */
     fft: null,
     spectrum: null,
-    /**
-     * @type p5.Amplitude
-     */
     amplitude: null,
     /**
      * @type p5.Gain
@@ -184,6 +177,10 @@ const ctx = {
    */
   mixGain: null,
   mixVolume: null,
+  /**
+   * @type p5.Amplitude
+   */
+  mixAmplitude: null,
   font: null,
   delay: null,
 };
@@ -274,10 +271,10 @@ function setup() {
       }),
       peakFactor: () => updatePeaks(),
       peakNormalizer: () => updatePeaks(),
-      amplitudeSmooth: v => ctx.sounds.forEach((x) => {
-        if (!x.amplitude) return;
-        x.amplitude.smooth(v);
-      }),
+      amplitudeSmooth: v => {
+        if (!ctx.mixAmplitude) return;
+        ctx.mixAmplitude.smooth(v);
+      },
     },
   });
 
@@ -311,6 +308,9 @@ function setup() {
   ctx.mixGain.connect();
   ctx.mixGain.amp(1);
   ctx.mixVolume = 0.5;
+  ctx.mixAmplitude = new p5.Amplitude(ctx.settings.amplitudeSmooth);
+  ctx.mixAmplitude.setInput(ctx.mixGain);
+
   ctx.delay = 0;
 
   ctx.sounds.forEach(s => {
@@ -320,19 +320,18 @@ function setup() {
     updatePeaks();
     s.fft = new p5.FFT(ctx.settings.fftSmooth);
     s.fft.setInput(s.sound);
-    s.amplitude = new p5.Amplitude(ctx.settings.amplitudeSmooth);
-    s.amplitude.setInput(s.sound);
     s.sound.disconnect(); // diconnect from p5 output
     s.gain = new p5.Gain(); // setup a gain node
     s.gain.setInput(s.sound); // connect the first sound to its input
     s.gain.connect(ctx.mixGain); // connect its output to the final mix bus
   });
 
-  for (s of ctx.sounds) console.log(s);
 
   ctx.settings.toggleVisibility();
   textFont(ctx.font);
 
+  // for (s of ctx.sounds) console.log(s);
+  // console.log(ctx.mixGain);
   // console.log(ctx.sounds[0].peaks.length, ctx.sounds[1].peaks.length);
   // console.log(ctx.sounds[0].sound.duration(), ctx.sounds[1].sound.duration());
 
@@ -407,13 +406,14 @@ function keyPressed() {
 }
 
 function renderBackground() {
-  if (!ctx.sounds[0].amplitude) return;
+  if (!ctx.mixAmplitude) return;
   const color = chroma.mix(
     ctx.settings.color1a,
     ctx.settings.color1b,
-    Math.min(ctx.sounds[0].amplitude.getLevel() / ctx.sounds[0].sound.getVolume() * ctx.settings.mixFactor, 1),
+    Math.min(ctx.mixAmplitude.getLevel() / ctx.mixVolume * ctx.settings.mixFactor, 1),
     ctx.settings.mixType,
   );
+  // console.log(ctx.mixAmplitude.getLevel());
   background(color.rgb());
 }
 
