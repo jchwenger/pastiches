@@ -338,7 +338,7 @@ function setup() {
 
   // less bins for mobile
   if (windowWidth < 600) {
-    ctx.settings.fftBins = 64;
+    ctx.settings.fftBins = 16;
   }
 
 }
@@ -358,7 +358,7 @@ function windowResized() {
   renderPeaks();
   // less bins for mobile
   if (windowWidth < 600) {
-    ctx.settings.fftBins = 64;
+    ctx.settings.fftBins = 16;
   } else {
     ctx.settings.fftBins = 128;
   }
@@ -440,7 +440,7 @@ function renderPeaks() {
       rect(x, baseY - h, barWidth, h);
       fill(color.rgb(), 160);
       rect(x, baseY, barWidth, h * 0.5);
-    }, this);
+    });
   });
   // area separators
   stroke(ctx.settings.color1b.rgb());
