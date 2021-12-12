@@ -333,6 +333,8 @@ function setup() {
   ctx.settings.toggleVisibility();
   textFont(ctx.font);
 
+  // console.log(ctx.sounds[0].peaks.length, ctx.sounds[1].peaks.length);
+  // console.log(ctx.sounds[0].sound.duration(), ctx.sounds[1].sound.duration());
 }
 
 function mouseDragged() {
@@ -400,36 +402,34 @@ function renderBackground() {
     Math.min(ctx.sounds[0].amplitude.getLevel() / ctx.sounds[0].sound.getVolume() * ctx.settings.mixFactor, 1),
     ctx.settings.mixType,
   );
-  background(...color.rgb());
+  background(color.rgb());
 }
 
 function renderPeaks() {
+  if (!ctx.sounds[0].peaks && !ctx.sounds[1].peaks) return;
+  const pos = ctx.sounds[0].sound.currentTime() / ctx.sounds[0].sound.duration() * ctx.sounds[0].peaks.length;
+  const w = width / ctx.sounds[0].peaks.length;
+  const barWidth = w * 0.8;
+  const maxRectHeight = height * 1/3 * 1/4;
+  rectMode(CORNER);
+  noStroke();
   ctx.sounds.forEach((s, i) => {
-    if (!s.peaks) return;
-    const pos = s.sound.currentTime() / s.sound.duration() * s.peaks.length;
-    const w = width / s.peaks.length;
-    const barWidth = w * 0.8;
-    const maxRectHeight = height * 1/3 * 1/4;
     let baseY;
     if (i == 0) {
       baseY = height * 1/3 + maxRectHeight * 1.5;
     } else {
       baseY = height * 1/3 + maxRectHeight * 3;
     }
-    rectMode(CORNER);
-    noStroke();
     s.peaks.forEach((peak, j) => {
-      let color = ctx.settings.color2a;
-      if (j - pos < 0) color = ctx.settings.color2b;
+      const color = (j - pos < 0) ? ctx.settings.color2b : ctx.settings.color2a;
       const x = w * j;
       const h = Math.max(maxRectHeight * peak, 0.5);
-      fill(...color.rgb(), 230);
+      fill(color.rgb(), 230);
       rect(x, baseY - h, barWidth, h);
-      fill(...color.rgb(), 160);
+      fill(color.rgb(), 160);
       rect(x, baseY, barWidth, h * 0.5);
-    });
+    }, this);
   });
-
   // area separators
   stroke(ctx.settings.color1b.rgb());
   line(0, height * 1/3, width, height * 1/3);
@@ -456,7 +456,7 @@ function renderSpectrum() {
     rectMode(CORNER);
     noStroke();
     const color = ctx.settings.color2a;
-    fill(...color.rgb(), 230);
+    fill(color.rgb(), 230);
     s.spectrum.forEach((sp, j) => {
       const x = w * j;
       const h = maxRectHeight * sp / 255;
@@ -470,7 +470,7 @@ function renderMessage() {
     return;
   }
   textSize(15);
-  fill(...ctx.message.color);
+  fill(ctx.message.color);
   text(`${ctx.message.type.toUpperCase()}: ${ctx.message.text}`, 10, 10, width - 10, height - 10);
 }
 
@@ -479,7 +479,7 @@ function renderPlayPositionIndicator() {
   if (posY > 1/3 && posY < 2/3) {
     noStroke();
     rectMode(CORNER);
-    fill(...ctx.settings.color1b.rgb(), 100);
+    fill(ctx.settings.color1b.rgb(), 100);
     const margin = 10;
     rect(mouseX, height * 1/3 + margin, 1, height * 1/3 - margin * 2);
   }
