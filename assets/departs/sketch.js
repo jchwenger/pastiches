@@ -317,7 +317,6 @@ function setup() {
     ctx.message.reset();
     s.sound.setVolume(ctx.settings.volume);
     s.rawPeaks = s.sound.getPeaks(s.sound.duration() * 1000);
-    updatePeaks();
     s.fft = new p5.FFT(ctx.settings.fftSmooth);
     s.fft.setInput(s.sound);
     s.sound.disconnect(); // diconnect from p5 output
@@ -338,7 +337,9 @@ function setup() {
   // less bins for mobile
   if (windowWidth < 600) {
     ctx.settings.fftBins = 16;
+    ctx.settings.peakFactor = 10;
   }
+  updatePeaks();
 
 }
 
@@ -354,13 +355,16 @@ function mouseDragged() {
 
 function windowResized() {
   resizeCanvas(windowWidth - 1, windowHeight - 20);
-  renderPeaks();
   // less bins for mobile
   if (windowWidth < 600) {
     ctx.settings.fftBins = 16;
+    ctx.settings.peakFactor = 10;
   } else {
     ctx.settings.fftBins = 128;
+    ctx.settings.peakFactor = 4;
   }
+  updatePeaks();
+  renderPeaks();
 }
 
 function keyPressed() {
