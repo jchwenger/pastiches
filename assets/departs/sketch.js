@@ -276,7 +276,7 @@ function setup() {
       peakNormalizer: () => updatePeaks(),
       amplitudeSmooth: v => ctx.sounds.forEach((x) => {
         if (!x.amplitude) return;
-        x.amplitude.smooth(v)
+        x.amplitude.smooth(v);
       }),
     },
   });
@@ -290,7 +290,7 @@ function setup() {
     if (posY > 2/3) {
       if (ctx.sounds[0].sound.isPlaying()) {
         ctx.sounds.forEach(s => s.sound.pause());
-        ctx.delay = 45;
+        ctx.delay = 20;
       } else {
         ctx.sounds.forEach(s => s.sound.play());
       }
@@ -335,6 +335,12 @@ function setup() {
 
   // console.log(ctx.sounds[0].peaks.length, ctx.sounds[1].peaks.length);
   // console.log(ctx.sounds[0].sound.duration(), ctx.sounds[1].sound.duration());
+
+  // less bins for mobile
+  if (windowWidth < 600) {
+    ctx.settings.fftBins = 64;
+  }
+
 }
 
 function mouseDragged() {
@@ -350,6 +356,12 @@ function mouseDragged() {
 function windowResized() {
   resizeCanvas(windowWidth - 1, windowHeight - 20);
   renderPeaks();
+  // less bins for mobile
+  if (windowWidth < 600) {
+    ctx.settings.fftBins = 64;
+  } else {
+    ctx.settings.fftBins = 128;
+  }
 }
 
 function keyPressed() {
@@ -368,7 +380,7 @@ function keyPressed() {
         [key(" ")]: () => {
           if (ctx.sounds[0].sound.isPlaying()) {
             ctx.sounds.forEach(s => s.sound.pause());
-            ctx.delay = 10;
+            ctx.delay = 20;
           } else {
             ctx.sounds.forEach(s => s.sound.play());
           }
