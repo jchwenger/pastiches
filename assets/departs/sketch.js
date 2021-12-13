@@ -336,8 +336,8 @@ function setup() {
 
   // less bins for mobile
   if (windowWidth < 600) {
-    ctx.settings.fftBins = 16;
-    ctx.settings.peakFactor = 10;
+    ctx.settings.fftBins = 32;
+    ctx.settings.peakFactor = 8;
   }
   updatePeaks();
 
@@ -357,8 +357,8 @@ function windowResized() {
   resizeCanvas(windowWidth - 1, windowHeight - 20);
   // less bins for mobile
   if (windowWidth < 600) {
-    ctx.settings.fftBins = 16;
-    ctx.settings.peakFactor = 10;
+    ctx.settings.fftBins = 32;
+    ctx.settings.peakFactor = 8;
   } else {
     ctx.settings.fftBins = 128;
     ctx.settings.peakFactor = 4;
@@ -410,15 +410,16 @@ function keyPressed() {
 }
 
 function renderBackground() {
-  if (!ctx.mixAmplitude) return;
-  const color = chroma.mix(
-    ctx.settings.color1a,
-    ctx.settings.color1b,
-    Math.min(ctx.mixAmplitude.getLevel() / ctx.mixVolume * ctx.settings.mixFactor, 1),
-    ctx.settings.mixType,
-  );
+  // if (!ctx.mixAmplitude) return;
+  // const color = chroma.mix(
+  //   ctx.settings.color1a,
+  //   ctx.settings.color1b,
+  //   Math.min(ctx.mixAmplitude.getLevel() / ctx.mixVolume * ctx.settings.mixFactor, 1),
+  //   ctx.settings.mixType,
+  // );
   // console.log(ctx.mixAmplitude.getLevel());
-  background(color.rgb());
+  // background(color.rgb());
+  background(ctx.settings.color1a.rgb());
 }
 
 function renderPeaks() {
