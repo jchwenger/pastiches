@@ -141,9 +141,9 @@ projects:
       icon: "fab fa-fw fa-tumblr"
       url: "http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/"
   other:
-    - title: "v(o)ices"
-      pitch: "Casual misuse of Text-To-Speech..."
-      url: "/voices/"
+    - title: "Google TTS reads foreign texts with an accent"
+      pitch: "Casual mischief with Google's Text-To-Speech system"
+      url: "/google-tts/"
       icon: "fab fa-soundcloud"
     - title: "Pastiches & mélanges"
       pitch: "Génération automatique de textes grâce au deep learning"
