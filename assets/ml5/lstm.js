@@ -98,7 +98,7 @@ function setup() {
   }
 
   // Load the init model & initialize the current lstm
-  lstms[initModel] = ml5.charRNN('/assets/ml5/models/' + models[initModel].src, 
+  lstms[initModel] = ml5.charRNN('/assets/ml5/models/' + models[initModel].src,
                                  modelReady(`« ${initModel} »`));
 
   // Assign the current lstm
@@ -189,7 +189,7 @@ async function typeRNN() {
 
       // Preventing re flow overhead by using textContent rather than innerHTML
       result.innerHTML = `${seed.substring(0, seedIndex+1)}`;
-      seedIndex++; 
+      seedIndex++;
       await wait(30);
 
     } else {
@@ -233,7 +233,7 @@ function getSeed() {
 // Switch model
 async function switchModel() {
 
-  if (generating) { 
+  if (generating) {
     generating = false;
     genBtn.html('Génère !');
     await wait(50);
@@ -270,7 +270,7 @@ async function switchModel() {
                   .selectedOptions[0]
                   .innerHTML;
 
-  // Clear text input & change placeholder text 
+  // Clear text input & change placeholder text
   let inputDiv = document
                   .getElementById('text-input');
   inputDiv.value = '';
@@ -286,7 +286,7 @@ async function switchModel() {
     .getElementById('result')
     .innerHTML = 'Ça charge...';
 
-  lstms[currentModel] = ml5.charRNN('/assets/ml5/models/' + models[currentModel].src, 
+  lstms[currentModel] = ml5.charRNN('/assets/ml5/models/' + models[currentModel].src,
                                     modelReady(`« ${currentModel} »`));
 
   lstm = lstms[currentModel];
@@ -359,7 +359,7 @@ async function printToggle() {
     finis = true;
 
     // Stop generation if needed
-    if (generating) { 
+    if (generating) {
       generating = false;
       genBtn.html('Génère !');
       await wait(50);
