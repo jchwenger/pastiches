@@ -124,6 +124,10 @@ author:
 
 projects:
   projects:
+    - title: "CHATBOT"
+      pitch:  "Act and dialogue with a conversational agent-actor."
+      icon:
+      url: "/chatbot/"
     - title: "Ça artificiel"
       pitch: "L'écriture à l'épreuve de la machine"
       icon:

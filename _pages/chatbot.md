@@ -25,7 +25,7 @@ This transdisciplinary collaboration intends to shift the perception paradigm of
 
 [Project page on the website of the Manufacture](https://www.manufacture.ch/fr/4467/Chatbot-jouer-et-dialoguer-avec-un-agent-conversationnel-acteur).
 
-## Team
+### Team
 
 Nicolas Zlatoff, stage director  
 Prune Beuchat, comedian  
