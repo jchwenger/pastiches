@@ -124,6 +124,10 @@ author:
 
 projects:
   projects:
+    - title: "DIY Freud"
+      pitch: "Automated therapist on the cheap"
+      icon:
+      url: "/diy-freud/"
     - title: "CHATBOT"
       pitch:  "Act and dialogue with a conversational agent-actor."
       icon:
