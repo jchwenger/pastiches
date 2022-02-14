@@ -27,7 +27,7 @@ Recipe for a therapy framework on the cheap:
    And finally:
 6. Organise your sessions around that regular payment, which would also act as the time of your session, so that you not only do you have the financial constraint set up, but also the simulated *limited* access to your 'therapist', with only, say, one session per week, that you can look forward to, prepare for, get all angsty about, etc., while you also go about your life doing other things.[^2]
 
-My cpu-felt wishes to you all on your path to recovery 🤖.
+My CPU-felt wishes to you all on your path to recovery 🤖.
 
 [^1]: Jacques Lacan, the infamous French psychoanalyst, developed the concept of '[short session](https://www.lacanonline.com/2010/07/the-short-session/)', that advocated for a variable duration of psychoanalytic sessions. One of the ideas was, for instance, that you can reach a point of 'unknotting' during therapy, and, if you kept on, this progress could be undone. This had the cheeky consequence that Lacan could charge for a full session while, most of the time, cutting the session short before the allotted time...
-[^2]: My gratitude to my good friend [Alan Cunningham](https://twitter.com/alanmcunningham?lang=en-GB) for this last suggestion, and more broadly for the very helpful discussion of points 4 and 5.
+[^2]: My gratitude to my good friend [Alan Cunningham](https://twitter.com/alanmcunningham) for this last suggestion, and more broadly for the very helpful discussion of points 4 and 5.
