@@ -1,6 +1,7 @@
 TITLE=vegans
 POST="../_posts/2021-10-27-$TITLE.md"
 SEPARATORS=true
+NO_OUTER_SEPARATORS=true
 
 if [[ -f $POST ]]
 then
@@ -8,8 +9,6 @@ then
   rm $POST
 fi
 touch $POST
-
-s=$(cat "$TITLE".txt)
 
 echo '---'                                        >> $POST
 echo 'layout: single'                             >> $POST
@@ -21,6 +20,3 @@ echo 'unlisted: true'                             >> $POST
 echo 'pitch:'                                     >> $POST
 echo '- "Neural variations from a single prompt"' >> $POST
 echo '---'                                        >> $POST
-echo ''                                           >> $POST
-echo "$s"                                         >> $POST
-echo ''                                           >> $POST
