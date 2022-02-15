@@ -149,7 +149,7 @@ projects:
       icon: "fab fa-fw fa-tumblr"
       url: "http://p-r-e-e-x-p-l-o-s-u-r-e.tumblr.com/"
   other:
-    - title: "Google TTS reads foreign texts with an accent"
+    - title: "Google TTS reads foreign texts with an nearly unreasonably accurate accent"
       pitch: "Casual mischief with Google's Text-To-Speech system"
       url: "/google-tts/"
       icon: "fab fa-soundcloud"
