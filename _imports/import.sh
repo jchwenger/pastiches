@@ -67,7 +67,10 @@ for f in "${FILES[@]}"; do
   if [[ $f != $LAST ]]
   then
     echo ""                                                                 >> $POST
-    echo "{% include separators.html type='outer' %}"                       >> $POST
+    if [ ! "$NO_OUTER_SEPARATORS" = true ]
+    then
+      echo "{% include separators.html type='outer' %}"                     >> $POST
+    fi
     echo ""                                                                 >> $POST
   fi
 done
