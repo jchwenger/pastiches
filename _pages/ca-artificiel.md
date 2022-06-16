@@ -32,7 +32,6 @@ The texts presented here fit into three categories: <i>Logisms</i> gathers words
 
 {% include separators.html type='outer' %}
  
-Versions web:  
 [Ça artificiel, « pour commencer... »](/artificial-it-ii){:target="_blank"}  
 [Ça artificiel](/ait){:target="_blank"}  
 [Morceaux](/artificial-it-ii-lumps){:target="_blank"}  
@@ -40,40 +39,11 @@ Versions web:
 [L'écriture et son double (essai)](/writing-double){:target="_blank"}  
 {: .FR}
 
-Web versions:  
 [Artificial It, "to begin with..."](/artificial-it-ii){:target="_blank"}  
 [Artificial It](/ait){:target="_blank"}  
 [Lumps](/artificial-it-ii-lumps){:target="_blank"}  
 [Logisms](/logisms){:target="_blank"}  
 [Writing and its Double (essay)](/writing-double){:target="_blank"}  
-{: .EN}
-
-{% include separators.html type='outer' %}
-
-[Logismes](/assets/ca-artificiel/JWenger_ca_logismes.pdf){:target="_blank"}  
-[« pour commencer... », grand format](/assets/ca-artificiel/JWenger_ca_artificiel_grand.pdf){:target="_blank"}  
-[« pour commencer... », A4](/assets/ca-artificiel/JWenger_ca_artificiel.pdf){:target="_blank"}  
-[Morceaux I](/assets/ca-artificiel/JWenger_ca_morceaux_1.pdf){:target="_blank"}  
-[Morceaux II](/assets/ca-artificiel/JWenger_ca_morceaux_2.pdf){:target="_blank"}  
-[Morceaux III](/assets/ca-artificiel/JWenger_ca_morceaux_3.pdf){:target="_blank"}  
-[Morceaux IV](/assets/ca-artificiel/JWenger_ca_morceaux_4.pdf){:target="_blank"}  
-[Morceaux V](/assets/ca-artificiel/JWenger_ca_morceaux_5.pdf){:target="_blank"}  
-[Morceaux VI](/assets/ca-artificiel/JWenger_ca_morceaux_6.pdf){:target="_blank"}  
-[Morceaux VII](/assets/ca-artificiel/JWenger_ca_morceaux_7.pdf){:target="_blank"}  
-[L'écriture et son double (essai)](/assets/ca-artificiel/JWenger_printemps_2019_écriture_double.pdf){:target="_blank"}  
-{: .FR}
-
-[Logisms](/assets/ca-artificiel/JWenger_it_logisms.pdf){:target="_blank"}  
-["to begin with...", large format](/assets/ca-artificiel/JWenger_artificial_it_large.pdf){:target="_blank"}  
-["to begin with...", A4](/assets/ca-artificiel/JWenger_artificial_it.pdf){:target="_blank"}  
-[Lumps I](/assets/ca-artificiel/JWenger_it_lumps_1.pdf){:target="_blank"}  
-[Lumps II](/assets/ca-artificiel/JWenger_it_lumps_2.pdf){:target="_blank"}  
-[Lumps III](/assets/ca-artificiel/JWenger_it_lumps_3.pdf){:target="_blank"}  
-[Lumps IV](/assets/ca-artificiel/JWenger_it_lumps_4.pdf){:target="_blank"}  
-[Lumps V](/assets/ca-artificiel/JWenger_it_lumps_5.pdf){:target="_blank"}  
-[Lumps VI](/assets/ca-artificiel/JWenger_it_lumps_6.pdf){:target="_blank"}  
-[Lumps VII](/assets/ca-artificiel/JWenger_it_lumps_7.pdf){:target="_blank"}  
-[Writing and its Double (essay)](/assets/ca-artificiel/JWenger_printemps_2019_writing_double.pdf){:target="_blank"}  
 {: .EN}
 
 {% include separators.html type='outer' %}
