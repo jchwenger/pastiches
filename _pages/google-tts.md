@@ -128,7 +128,7 @@ This track is an exception: a Canadian French voice reads a French translation o
 
 ## John F. Kennedy
 
-John F. Kennedy's speech "Ich bin ein Berliner", West Berlin, 26 June 1963. German. ([link](https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/berlin-w-germany-rudolph-wilde-platz-19630626))
+John F. Kennedy's speech "Ich bin ein Berliner", West Berlin, 26 June 1963. Russian. ([link](https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/berlin-w-germany-rudolph-wilde-platz-19630626))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760529266%3Fsecret_token%3Ds-0NlOD&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
