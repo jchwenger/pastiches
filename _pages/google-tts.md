@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Google TTS reads foreign texts with an accent
+title: Google TTS reads foreign texts with an unreasonably accurate accent
 classes: wide
 date:  2020-02-13 16:02:07.089180456 +0000
 permalink: /google-tts/
@@ -136,11 +136,9 @@ John F. Kennedy's speech "Ich bin ein Berliner", West Berlin, 26 June 1963. Russ
 
 ## Elizabeth II, Queen of England
 
-The Queen of England's speech to both Houses of Parliament, 14 October 2019. Australian English, Russian. ([link](https://www.gov.uk/government/speeches/queens-speech-2019))
+The Queen of England's speech to both Houses of Parliament, 14 October 2019. Russian. ([link](https://www.gov.uk/government/speeches/queens-speech-2019))
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760527457%3Fsecret_token%3Ds-L0714&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760524868%3Fsecret_token%3Ds-iv0fS&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 > My Lords and Members of the House of Commons. My Government’s priority has always been to secure the United Kingdom’s departure from the European Union on 31 October. My Government intends to work towards a new partnership with the European Union, based on free trade and friendly cooperation. My Ministers will work to implement new regimes for fisheries, agriculture and trade, seizing the opportunities that arise from leaving the European Union. An immigration bill, ending free movement, will lay the foundation for a fair, modern and global immigration system. My Government remains committed to ensuring that resident European citizens, who have built their lives in, and contributed so much to, the United Kingdom, have the right to remain. The bill will include measures that reinforce this commitment. Steps will be taken to provide certainty, stability and new opportunities for the financial services and legal sectors.
 
@@ -198,19 +196,6 @@ Déclaration des Droits de l'Homme et du Citoyen de 1789. Arabic. ([link](https:
 
 ## Charles de Gaulle
 
-Charles de Gaulle's speech after the liberation of Paris, 25 August 1944. Canadian French. ([link](https://www.reseau-canope.fr/cnrd/ressource/texte/3948)).
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760532599%3Fsecret_token%3Ds-b5WzR&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-> Pourquoi voulez-vous que nous dissimulions l'émotion qui nous étreint tous, hommes et femmes, qui sommes ici, chez nous, dans Paris debout pour se libérer et qui a su le faire de ses mains.
-
-> Non ! nous ne dissimulerons pas cette émotion profonde et sacrée. Il y a là des minutes qui dépassent chacune de nos pauvres vies.
-
-> Paris ! Paris outragé ! Paris brisé ! Paris martyrisé ! mais Paris libéré ! libéré par lui-même, libéré par son peuple avec le concours des armées de la France, avec l'appui et le concours de la France tout entière, de la France qui se bat, de la seule France, de la vraie France, de la France éternelle.
-
-> Eh bien ! puisque l'ennemi qui tenait Paris a capitulé dans nos mains, la France rentre à Paris, chez elle. Elle y rentre sanglante, mais bien résolue. Elle y rentre, éclairée par l'immense leçon, mais plus certaine que jamais, de ses devoirs et de ses droits.
-
-{% include separators.html type='inner' %}
 
 Charles de Gaulle's speech "Je vous ai compris" at Alger, 4 June 1958. Arabic, German. ([link](https://fr.wikipedia.org/wiki/Je_vous_ai_compris))
 
@@ -227,3 +212,45 @@ Karl Marx & Friedrich Engels, The Communist Manifesto, 1848. Mandarin.
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760528057%3Fsecret_token%3Ds-IIjrN&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 > A spectre is haunting Europe — the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies. Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries? Two things result from this fact: I. Communism is already acknowledged by all European powers to be itself a power. II. It is high time that Communists should openly, in the face of the whole world, publish their views, their aims, their tendencies, and meet this nursery tale of the Spectre of Communism with a manifesto of the party itself.
+
+---
+
+Note for Arabic, Chinese and Japanese: the beautiful uncanniness of these readings recall the remarkable work of Peter Ablinger, *Deus Cantando*, replicating the harmonics of the human voice on a mechanically operated piano. When only listening to the sound, it's by and large incomprehensible. However, if listened to with subtitles, the text is unmistakably recognised!
+
+{% include video id='Wpt3lmSFW3k' provider='youtube' %}
+
+---
+
+# Bonus: accents
+
+The effect of accents, while not being technically as remarkable, can be equally scrumptious in the meaning they convey.
+
+## Elizabeth II, Queen of England
+
+The Queen of England's speech to both Houses of Parliament, 14 October 2019. Australian English. ([link](https://www.gov.uk/government/speeches/queens-speech-2019))
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760527457%3Fsecret_token%3Ds-L0714&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+> \[Same speech as above\]
+
+## Charles de Gaulle
+
+Charles de Gaulle's speech after the liberation of Paris, 25 August 1944. Canadian French. ([link](https://www.reseau-canope.fr/cnrd/ressource/texte/3948)).
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/760532599%3Fsecret_token%3Ds-b5WzR&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+> Pourquoi voulez-vous que nous dissimulions l'émotion qui nous étreint tous, hommes et femmes, qui sommes ici, chez nous, dans Paris debout pour se libérer et qui a su le faire de ses mains.
+
+> Non ! nous ne dissimulerons pas cette émotion profonde et sacrée. Il y a là des minutes qui dépassent chacune de nos pauvres vies.
+
+> Paris ! Paris outragé ! Paris brisé ! Paris martyrisé ! mais Paris libéré ! libéré par lui-même, libéré par son peuple avec le concours des armées de la France, avec l'appui et le concours de la France tout entière, de la France qui se bat, de la seule France, de la vraie France, de la France éternelle.
+
+> Eh bien ! puisque l'ennemi qui tenait Paris a capitulé dans nos mains, la France rentre à Paris, chez elle. Elle y rentre sanglante, mais bien résolue. Elle y rentre, éclairée par l'immense leçon, mais plus certaine que jamais, de ses devoirs et de ses droits.
+
+
+---
+
+# Addendum
+
+I truly hope that Google will keep adding more languages (especially from the African continent), as well as accents. So much potential for artistry!
+
