@@ -50,6 +50,7 @@ Jérémie Wenger, writer and programmer
 - [Arsenic, Rehearsals (Bartek Sozanski)]({{ site.baseurl }}{% link _pages/chatbot-gallery-arsenic-sozanski.md %}), March 2021
 - [Arsenic, Rehearsals (Clément Hongler)]({{ site.baseurl }}{% link _pages/chatbot-gallery-arsenic-hongler.md %}), March 2021
 - [Training and early stages (Clément Hongler, Jérémie Wenger)]({{ site.baseurl }}{% link _pages/chatbot-gallery-training.md %}), 2020
+- [Interface demos]({{ site.baseurl }}{% link _pages/chatbot-gallery-demos.md %})
 
 ## Documents and Press coverage
 
