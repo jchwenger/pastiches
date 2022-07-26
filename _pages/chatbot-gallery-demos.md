@@ -157,5 +157,23 @@ This led to the idea of having gifs in a similar style for the team.
 
 {% include gallery id="icons" layout="fourth" caption="*photographs and memestry: Jérémie Wenger*" %}
 
+## Three answers to [Oriza Hirata](https://en.wikipedia.org/wiki/Oriza_Hirata)
+
+> **Qu'apporte l'utilisation d'un robot dans l'espace scénique ? S'agit-il d'une forme d'étrangeté – comparé aux acteurs ? […]**  
+
+**Oriza Hirata :** L'utilisation d'un robot n'a pas beaucoup d'importance. Dans 20 ans, il sera normal de voir des robots sur scène, cela n'a donc pas de sens particulier. Aujourd'hui, s'il faut trouver un sens à cette utilisation, c'est parce que personne dans le monde entier ne l'a fait jusqu'à présent. C'est la seule raison pour laquelle j'utilise des robots sur scène. Cette raison est suffisante pour un artiste. Mais grâce à cela, je pense que les spectateurs devraient réfléchir à la question du théâtre et du comédien […]  
+Il est vrai que plus la robotique se développe, plus elle écarte les êtres humains. Mais je pense qu'il n'est plus possible d'empêcher ce développement. C'est comme nous qui ne pouvons plus vivre sans ordinateur ni téléphone portable. Dans ce cas-là, il nous faut accepter cette absurdité́ et réfléchir à comment nous pouvons vivre avec.   
+Je ne souhaite pas décrire « les gens qui sont remplacés par des machines » mais je voudrais montrer « les gens qui n'ont pas conscience d'être remplacés par des machines ».  
+(Interview d'Ozira Hirata par le Festival d'Automne, à propos de sa pièce *Les Trois Sœurs (version androïde)*, 2012)
+
+
+[Injectant cette citation avec Ozira Hirata en personnage, et sa citation en réplique, la fournée de réponses fut la suivante…]
+
+**La Manufactrice** : Je pense que ça devrait être une des choses pratiques pour la scène en ce moment. Parce qu'il y a des responsabilités de la part de l'écran et des « gens qui sont remplacés par des machines », ce n'est pas la même chose et ça ne remplacera jamais la représentation des théâtres. Bonne nuit.
+
+**La Manufactrice** : Moi je crois que si on nous amusait un peu avec « les gens qui ne sont pas remplacés par des machines » dans votre pays, on pourrait peut-être résoudre cette question et nous proposer une meilleure solution. Je crois que l'on pourrait souhaiter voir les personnes qui ne peuvent plus travailler à cause de cette nouvelle loi du dix milliardième – si le temps est favorable. Alors avancez en silence et en silence – enfin le mot est juste – en faisant des heures entières pour inverser la loi. Vous pourrez certainement les faire changer d'emploi.
+
+**La Manufactrice** : … Ce n'est pas qu'il s'agît d'ennuyer les gens, mais c'est également et surtout le simple fait d'avoir en face de vous des gens qui ont conscience de n'être pas remplacés par des machines. Étant données ces personnes qui n'ont pas conscience d'être remplacées, elles ne sont guère différentes des autres sujets. Et c'est, sur le plan humain, ce qui importe pour les spectateurs. Le travail des machines peut beaucoup à nos yeux. Par exemple, elles se reproduisent beaucoup les machines-outils. Mais l'essentiel, c'est le fait que les machines n'utilisent absolument rien. Et quand un homme s'engage dans un combat, elles lui font peu de profit et il s'est complètement retourné. Le fait que la machine soit radicalement différente, que les machines soit entièrement automatisées, qu'il faille qu'elle imite absolument tout ce qu'il fait me paraît tout à fait regrettable. Mais que chaque action soit bien exécutée, cela n'empêche pas les gens d'être remplacés. Les gens qui n'ont pas conscience de s'être remplacés, ils s'adaptent uniquement aux machines, et ceux qui l'ont fait, par la même occasion, font beaucoup de profit. La conscience de la substitution, ou de l'anéantissement, est vis à vis des machines. Comment les rendre encore plus intéressantes en améliorant leur productivité, en les plaçant au service des consommateurs et des industriels, en développant la sécurité des transports par exemple, en réduisant les coûts de transport et les coûts d'exploitation. Tout cela est possible mais insuffisant, même pour les gens qui ont conscience de bénéficier des machines.
+
 [Main page]({{ site.baseurl }}{% link _pages/chatbot.md %})
 
