@@ -10,6 +10,8 @@ then
 fi
 touch $POST
 
+s=$(cat "$TITLE".txt)
+
 echo '---'                                        >> $POST
 echo 'layout: single'                             >> $POST
 echo 'classes: wide'                              >> $POST
@@ -20,3 +22,6 @@ echo 'unlisted: true'                             >> $POST
 echo 'pitch:'                                     >> $POST
 echo '- "Neural variations from a single prompt"' >> $POST
 echo '---'                                        >> $POST
+echo ''                                           >> $POST
+echo "$s"                                         >> $POST
+echo ''                                           >> $POST
