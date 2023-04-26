@@ -1,53 +1,76 @@
 ---
-layout: splash
+layout: default
+ml5: true
+title: Pastiches & mélanges
 ---
 
-{{ content }}
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+
+    <div class="page__inner-wrap">
+      <header>
+        <h1 id="page-title" class="page__title" itemprop="headline">{{ layout.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+      </header>
+
+      <section class="page__content" itemprop="text">
+
+        <blockquote>
+          <p>
+          Génération automatique de textes grâce au deep learning.
+          </p>
+        </blockquote>
+
+        <div id="jcw-signature">
+          <p>Jérémie C. Wenger, 2019</p>
+        </div>
+
+        <div id="lstm-controls">
+          <div>
+            <span>Voix souhaitée :</span>
+          </div>
+          <div>
+            <select id="model-select"></select>
+          </div>
+          <div>
+            <span>Entre un début ici :</span>
+          </div>
+          <div>
+            <textarea id="text-input" placeholder=""></textarea>
+          </div>
+          <div>
+            Température<sup>(*)</sup> : <span id="temperature">0.8</span>
+          </div>
+          <div>
+            <input id="temp-slider" type="range" min="0.1" max="1.5" step="0.01" value="0.8" />
+          </div>
+          <div id="temp-note"><sup>(*)</sup> Paramètre contrôlant la « créativité » du réseau : plus petit, et celui-ci est plus conservateur, voire répétitif ; plus grand, et il est plus audacieux, jusqu'à en devenir chaotique. Tentez de varier cette valeur pendant la génération pour en voir les effets !</div>
+          <hr />
+        </div>
+
+        <div>
+          <div id="breaks">
+            <br /><br /><br /><br />
+          </div>
+          <p id="result">
+          <span id="original"></span><span id="prediction"></span>
+          </p>
+          <i><span id="signature"></span></i>
+        </div>
+
+        <div id="lstm-generate">
+          <button id="generate">Génère !</button>
+          <div id="lstm-buttons">
+            <button id="tabula">Tabula rasa !</button>
+            <button id="finis">Fini ?</button>
+          </div>
+        </div>
 
 
-{% if site.posts.size > 0 %}
-  <h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "" }}</h1>
-  {% for post in site.posts limit:5 %}
-    {% if post.unlisted != true %}
-      {% include archive-single.html %}
-    {% endif %}
-  {% endfor %}
-  <p align='right'><a href="{{ site.baseurl }}/texts/page2/">All texts...</a></p>
-{% endif %}
+      </section>
 
-{% include separators.html type='blank' %}
-
-<h1 class="archive__subtitle">Projects</h1>
-  {% for project in site.projects.projects  %}
-  <div class="{{ include.type | default: "list" }}__item">
-    <h2 class="archive__item-title" itemprop="headline">
-    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
-    </h2>
-    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
-  </div>
-  {% endfor %}
-
-{% include separators.html type='blank' %}
-
-<!-- <h1 class="archive__subtitle">Code</h1> -->
-<!--   {% for project in site.projects.code  %} -->
-<!--   <div class="{{ include.type | default: "list" }}__item"> -->
-<!--     <h2 class="archive__item-title" itemprop="headline"> -->
-<!--     <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a> -->
-<!--     </h2> -->
-<!--     <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p> -->
-<!--   </div> -->
-<!--   {% endfor %} -->
-
-
-{% include separators.html type='blank' %}
-
-<h1 class="archive__subtitle">Other</h1>
-  {% for project in site.projects.other  %}
-  <div class="{{ include.type | default: "list" }}__item">
-    <h2 class="archive__item-title" itemprop="headline">
-    <a href="{{ project.url }}">{{ project.title }}&nbsp;&nbsp;<i class="{{ project.icon }}" aria-hidden="true"></i></a>
-    </h2>
-    <p class="archive__item-excerpt" itemprop="description">{{ project.pitch }}</p>
-  </div>
-  {% endfor %}
+    </div>
+  </article>
+</div>
