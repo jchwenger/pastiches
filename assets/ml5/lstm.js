@@ -98,7 +98,7 @@ function setup() {
   }
 
   // Load the init model & initialize the current lstm
-  lstms[initModel] = ml5.charRNN('/assets/ml5/models/' + models[initModel].src,
+  lstms[initModel] = ml5.charRNN('/pastiches/assets/ml5/models/' + models[initModel].src,
                                  modelReady(`« ${initModel} »`));
 
   // Assign the current lstm
