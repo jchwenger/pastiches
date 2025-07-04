@@ -286,7 +286,7 @@ async function switchModel() {
     .getElementById('result')
     .innerHTML = 'Ça charge...';
 
-  lstms[currentModel] = ml5.charRNN('/assets/ml5/models/' + models[currentModel].src,
+  lstms[currentModel] = ml5.charRNN('/pastiches/assets/ml5/models/' + models[currentModel].src,
                                     modelReady(`« ${currentModel} »`));
 
   lstm = lstms[currentModel];
